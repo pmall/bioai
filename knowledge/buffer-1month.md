@@ -16,5 +16,14 @@ traced back to the document it was extracted from.
 
 ## This month
 
-<!-- One entry per current storyline or live fact, newest first. -->
-<!-- Keep the date, the fact, and its exact source URL. -->
+- **2026-02-10** — Isomorphic Labs releases the Isomorphic Labs Drug Design Engine (IsoDDE), a unified computational system that more than doubles AlphaFold 3's accuracy on protein-ligand generalization benchmarks, surpasses all DL methods on binding affinity prediction (FEP+, OpenFE, CASP16), and identifies cryptic pockets from sequence alone. https://isomorphiclabs.com/articles/the-isomorphic-labs-drug-design-engine-unlocks-a-new-frontier
+
+- **2026-05-12** — Isomorphic Labs raises $2.1B Series B led by Thrive Capital (Alphabet, GV, MGX, Temasek, CapitalG, UK Sovereign AI Fund participating). Funds to power IsoDDE, scale globally, progress drug pipeline. https://isomorphiclabs.com/articles/isomorphic-labs-announces-series-b-investment-round
+
+- **2026-07-16** — Isomorphic Labs and Google DeepMind publish joint "bioresilience" approach on AI for biological threat preparedness. https://isomorphiclabs.com/articles/our-approach-to-bioresilience
+
+- **Recursion** — First patient dosed in Phase 1 of REC-3565 (MALT1 inhibitor) for relapsed/refractory B-cell lymphomas. Pipeline now has 7+ clinical programs. BioHive-2 (NVIDIA-built) running hard, 65+ PB data from 300M+ experiments. https://www.recursion.com/
+
+- **Insilico Medicine** — 25+ programs in pipeline. TNIK inhibitor (fibrosis) lead asset. ISM001-055 (IPF) Phase 2a showed safety + dose-dependent lung function improvement (not statistically significant). U.S. Phase 2 ongoing. https://www.insilico.com/
+
+- **Industry context** — $30.6B invested across 446 rounds in AI-driven life sciences since 2020. At least 75 drugs/vaccines from AI-first biotechs in clinical trials. BCG reports 80-90% Phase 1 success rates for AI-native companies vs. 40-65% industry average. No AI-discovered drug approved yet. https://fortune.com/2025/04/03/recursion-pharmaceuticals-ai-drug-discovery/
