@@ -1,14 +1,12 @@
-/* These color values are placeholders, not a real palette — obviously so, on purpose. */
-/* Replace them before anything else. Everything past that point is a good-enough default. */
 :root {
-  --font-body: Georgia, "Iowan Old Style", serif;
-  --font-heading: -apple-system, "Helvetica Neue", sans-serif;
-  --color-bg: white;
-  --color-text: black;
-  --color-muted: gray;
-  --color-accent: blue;
-  --color-border: gray;
-  --color-card-bg: lightgray;
+  --font-body: "Source Serif 4", Georgia, "Iowan Old Style", serif;
+  --font-heading: "Inter", -apple-system, "Helvetica Neue", sans-serif;
+  --color-bg: #f7f6f3;
+  --color-text: #1a1a1a;
+  --color-muted: #6b6b6b;
+  --color-accent: #3d6b5e;
+  --color-border: #d4d0ca;
+  --color-card-bg: #edecea;
   --measure: 40rem;
   --radius: 0.5rem;
 }

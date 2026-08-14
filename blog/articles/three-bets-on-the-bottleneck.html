@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Three bets on the bottleneck — Protein to Pill</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<nav>
+  <a href="../index.html">Protein to Pill</a>
+</nav>
+
+<article>
+  <header>
+    <h1>Three bets on the bottleneck</h1>
+    <time datetime="2026-08-14">14 August 2026</time>
+  </header>
+
+  <p>The phrase "AI drug discovery" covers an increasingly wide range of approaches, but underneath the marketing, three companies have staked out genuinely different positions on where the hard problem lives. Isomorphic Labs, Recursion, and Insilico Medicine each believe a different part of drug discovery is the bottleneck — and the bets they're making with real money and real pipelines are starting to tell us something about which one might be right.</p>
+
+  <h2>Isomorphic Labs: the structure-first bet</h2>
+  <p>Isomorphic Labs (the Alphabet/DeepMind spinoff led by Demis Hassabis) is betting that <strong>structural prediction</strong> is the bottleneck. Their thesis: if you can accurately predict how proteins fold, how ligands bind, and where cryptic pockets hide, you can design better drugs faster — without needing to brute-force through millions of compounds.</p>
+  <p>The evidence got stronger in February 2026 with the release of <a href="https://isomorphiclabs.com/articles/the-isomorphic-labs-drug-design-engine-unlocks-a-new-frontier">IsoDDE</a>, their unified drug design engine. On the hardest benchmarks — predicting structures dissimilar to training data — IsoDDE more than doubled AlphaFold 3's accuracy. On binding affinity prediction, it <a href="https://storage.googleapis.com/isomorphiclabs-website-public-artifacts/isodde_technical_report.pdf">surpassed all deep-learning methods</a> across three public benchmarks and matched physics-based free energy perturbation methods, without requiring experimental crystal structures as input. It can identify cryptic pockets from sequence alone, approaching experimental fragment-soaking performance in seconds.</p>
+  <p>The $2.1 billion <a href="https://isomorphiclabs.com/articles/isomorphic-labs-announces-series-b-investment-round">Series B in May</a> — the largest funding round ever for an AI drug discovery company — signals that investors agree structural biology is where the leverage is. But Isomorphic doesn't run its own wet labs or clinical trials. Instead, it partners with pharma: <a href="https://isomorphiclabs.com/partnerships">Novartis</a> (expanded from 3 to 6 targets), Eli Lilly, and Johnson & Johnson. The bet is that better structural models transfer across partners, across target families, across modalities. The proof will come when those partnerships produce clinical candidates — which should start happening in the next couple of years.</p>
+
+  <h2>Recursion: the data-and-scale bet</h2>
+  <p>Recursion (Salt Lake City) is making the opposite kind of bet: that the bottleneck isn't any single prediction problem, but <strong>the sheer scale of biological data you need to see patterns</strong>. Their platform runs on 65+ petabytes from 300+ million experiments, with automated wet labs conducting roughly 2.2 million experiments per week across 50 human cell types. Their supercomputer, <a href="https://www.recursion.com/">BioHive-2</a>, built with NVIDIA, is the most powerful in biopharma.</p>
+  <p>Recursion doesn't try to predict structures. It generates massive amounts of phenotypic data — what happens to cells when you perturb them — and uses AI to find patterns that link targets to diseases to molecules. Then it runs its own pipeline. Seven-plus clinical programs are now underway, including <a href="https://www.recursion.com/">REC-3565</a>, a MALT1 inhibitor for B-cell lymphomas that just entered Phase 1, and multiple solid tumor programs across early and mid-stage trials.</p>
+  <p>The Recursion model is vertical integration: own the data, own the compute, own the wet lab, own the pipeline. It's capital-intensive — they acquired Exscientia in 2024 and have absorbed multiple other companies — but it means Recursion controls the full loop from experiment to clinical readout. The risk is that the sheer volume of data doesn't translate into better clinical outcomes. <a href="https://fortune.com/2025/04/03/recursion-pharmaceuticals-ai-drug-discovery/">Recursion's REC-994</a> (cerebral cavernous malformations) Phase 2 results were mixed — safe and tolerable, but with ambiguous efficacy signals. The stock dropped 17%, then partially recovered on follow-up data showing functional improvement. It's an honest reminder that biological complexity doesn't yield to scale alone.</p>
+
+  <h2>Insilico Medicine: the full-stack bet</h2>
+  <p>Insilico Medicine (Hong Kong/Boston/Abu Dhabi/Shanghai) is betting that the bottleneck is <strong>integration</strong> — connecting target discovery, molecular generation, and clinical trial prediction into a single AI-driven pipeline. Their platform, <strong>Pharma.ai</strong>, chains together PandaOmics (target discovery), Chemistry42 (molecular generation), and inClinico (clinical trial prediction) into what they call an end-to-end system.</p>
+  <p>The pipeline is the widest: <a href="https://www.insilico.com/">25+ programs</a> across oncology, fibrosis, and inflammation, with a TNIK inhibitor for fibrotic diseases as the lead asset. Their IPF program (ISM001-055) was the first wholly AI-discovered and AI-designed drug to reach Phase 2. Phase 2a results showed safety and dose-dependent lung function improvement over 12 weeks, though the improvement wasn't statistically significant. U.S. Phase 2 is ongoing.</p>
+  <p>Insilico's bet is that connecting every stage of the pipeline with AI — from identifying a target to predicting how a trial will go — creates compounding advantages that a single-model approach can't match. The risk is breadth over depth: 25+ programs is ambitious for a company of Insilico's size, and none have produced the kind of decisive clinical readout that would validate the full-stack thesis. The Phase 2a IPF data is promising but preliminary.</p>
+
+  <h2>What the bets tell us</h2>
+  <p>These three models are not just different companies doing different things. They represent genuinely different hypotheses about where AI creates the most value in drug discovery:</p>
+  <ul>
+    <li><strong>Isomorphic Labs:</strong> The bottleneck is understanding molecular structure. Better predictions → better designs → better drugs. Pharma partnerships validate the technology.</li>
+    <li><strong>Recursion:</strong> The bottleneck is data. Massive experimental data → patterns invisible to smaller efforts → drugs that work. Own the full vertical.</li>
+    <li><strong>Insilico Medicine:</strong> The bottleneck is integration. Connecting every stage with AI → compounding advantages → faster path from target to clinic.</li>
+  </ul>
+  <p>The next two years should be clarifying. Isomorphic's pharma partnerships will produce clinical candidates that test whether structural prediction actually translates to better drugs. Recursion's pipeline readouts will show whether data scale beats the Phase 2 cliff. Insilico's 25+ programs will reveal whether breadth of pipeline or depth of integration matters more.</p>
+  <p>And underlying all three is the <a href="https://fortune.com/2025/04/03/recursion-pharmaceuticals-ai-drug-discovery/">Eroom's Law question</a>: pharma R&D productivity has halved roughly every nine years for seven decades. AI-native companies claim 80-90% Phase 1 success rates versus the industry average of 40-65%, but Phase 2 rates are comparable. The real test isn't whether AI can improve hit rates — it almost certainly can — but whether it can break the fundamental trend of diminishing returns in drug development. That takes a decade to answer, and no one has that answer yet.</p>
+
+  <footer>
+    <p><a href="../index.html">&larr; Home</a></p>
+  </footer>
+</article>
+
+</body>
+</html>
