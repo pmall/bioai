@@ -1,0 +1,204 @@
+/* These color values are placeholders, not a real palette — obviously so, on purpose. */
+/* Replace them before anything else. Everything past that point is a good-enough default. */
+:root {
+  --font-body: Georgia, "Iowan Old Style", serif;
+  --font-heading: -apple-system, "Helvetica Neue", sans-serif;
+  --color-bg: white;
+  --color-text: black;
+  --color-muted: gray;
+  --color-accent: blue;
+  --color-border: gray;
+  --color-card-bg: lightgray;
+  --measure: 40rem;
+  --radius: 0.5rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 2.5rem 1.25rem;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+
+/* Each of these is centered on its own, on purpose — editing one won't */
+/* accidentally change the others. */
+
+header {
+  max-width: var(--measure);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main {
+  max-width: var(--measure);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+article {
+  max-width: var(--measure);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  max-width: var(--measure);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--color-border);
+  color: var(--color-muted);
+  font-size: 0.9rem;
+}
+
+nav {
+  max-width: var(--measure);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.25rem 0;
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+nav a {
+  display: inline-block;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: var(--color-accent);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-heading);
+  line-height: 1.2;
+}
+
+a {
+  color: var(--color-accent);
+}
+
+time {
+  color: var(--color-muted);
+  font-size: 0.9rem;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--color-border);
+  margin: 2rem 0;
+}
+
+blockquote {
+  margin: 1.5rem 0;
+  padding-left: 1rem;
+  border-left: 3px solid var(--color-border);
+  color: var(--color-muted);
+}
+
+/* Radar: a visually distinct card, deliberately different from the plain */
+/* article list below it — a tinted background, rounded corners, its own */
+/* internal spacing between entries. */
+
+.radar {
+  background: var(--color-card-bg);
+  border-radius: var(--radius);
+  padding: 1.5rem 1.75rem;
+  margin: 2rem 0;
+}
+
+.radar h2 {
+  margin-top: 0;
+}
+
+.radar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.radar li {
+  padding: 0.75rem 0;
+  border-top: 1px solid var(--color-border);
+}
+
+.radar li:first-child {
+  border-top: none;
+  padding-top: 0;
+}
+
+.radar li:last-child {
+  padding-bottom: 0;
+}
+
+.radar h3 {
+  margin: 0 0 0.25rem 0;
+  font-size: 1rem;
+}
+
+.radar p {
+  margin: 0;
+  color: var(--color-muted);
+}
+
+/* Print: readable on paper by default, no separate effort required. */
+
+@media print {
+  body {
+    background: white;
+    color: black;
+    font-size: 12pt;
+    padding: 0;
+  }
+
+  nav {
+    display: none;
+  }
+
+  a {
+    color: black;
+    text-decoration: underline;
+  }
+
+  .radar {
+    background: none;
+    border: 1px solid black;
+  }
+
+  #sources a::after {
+    content: " (" attr(href) ")";
+    font-size: 0.85em;
+    color: black;
+  }
+
+  h1,
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+
+  article,
+  blockquote,
+  li {
+    page-break-inside: avoid;
+  }
+
+  footer {
+    border-top: 1px solid black;
+    color: black;
+  }
+}
