@@ -49,4 +49,8 @@ Reports are the trace of a moment, and a moment ages. Delete any report older th
 
 ## Sourcing
 
-Every claim you write anywhere must include the exact URL it came from — the one you actually fetched, not a homepage or search result. You're pulling everything from the internet, so the URL is the source. A claim without its URL is a claim you can't verify later, and unverifiable claims decay into half-remembered fiction. The URL travels: from the report into the buffers, and from there into whatever gets written.
+Every finding must sit on a URL that resolves to a real page — verify before you write it down. A claim without a source you can point to is fiction. If a source resists access (paywall, rate limit, dead link), say so and leave the gap. The absence of a source is information; an invented one is misinformation.
+
+Sources must reflect the field's actuality, not a recall of training data. If you know about something from before your cutoff, fetch the page and confirm it still says what you think it says — content gets corrected, withdrawn, superseded. Don't report what you remember; report what you can show.
+
+Spread across the field's real sources. A narrow range of sources produces a narrow view. Whatever your field, there are blogs, newsletters, forums, official outputs, and specialist publications alongside the obvious ones — use them.
