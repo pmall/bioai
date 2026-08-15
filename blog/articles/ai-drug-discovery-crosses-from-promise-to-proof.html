@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI drug discovery crosses from promise to proof — Protein to Pill</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<nav>
+  <a href="../index.html">Protein to Pill</a>
+</nav>
+
+<article>
+  <header>
+    <h1>AI drug discovery crosses from promise to proof</h1>
+    <time datetime="2026-08-15">15 August 2026</time>
+  </header>
+
+  <p>For the past two years, the story of AI drug discovery has been about platforms, funding rounds, and bold theses. Isomorphic Labs raised $2.1 billion on the bet that structural prediction is the bottleneck. Recursion built the most powerful supercomputer in biopharma. Insilico Medicine lined up 25+ programs. The promises were grand, the proof was thin, and the honest answer to "does it work?" was: we don't know yet.</p>
+
+  <p>That answer is starting to change. In the past month, three developments have landed that move the field from "we built a platform" to "here's what it actually produced." They're not clinical approvals — those are years away — but they're the kind of concrete milestones that distinguish working technology from working decks.</p>
+
+  <h2>Recursion-Genentech: the first AI-discovered target</h2>
+  <p>Recursion <a href="https://www.globenewswire.com/news-release/2026/08/05/3339126/0/en/Recursion-Reports-Second-Quarter-Financial-Results-Genentech-Options-First-Neuroscience-Target-into-Early-Discovery-Program.html">reported</a> that Genentech exercised its first Validated Target Option under their neuroscience collaboration, advancing a previously unexplored neuroscience target into a small molecule early discovery program. The target was surfaced from a whole-genome CRISPR knockout map generated from over 1 trillion iPSC-derived neuronal cells, spanning 17,000+ genes and producing 46 million cellular images analyzed across hundreds of features using AI foundation models and BioHive-2.</p>
+
+  <p>This is the first concrete proof that an AI platform can discover novel biology — not just optimize known targets, not just screen existing compound libraries faster, but identify something genuinely new and advance it toward a drug. The 15-month timeline from screen to validation package is striking by pharma standards. Genentech paid a $3M milestone, and the collaboration encompasses up to 40 programs, each with potential for $300M+ in milestones.</p>
+
+  <p>The target identity and disease indication remain undisclosed, which is typical for early-stage work. But the significance isn't in the specific target — it's in the fact that the loop closed. An AI platform generated a hypothesis, experiments validated it, and a pharma partner put money behind it. That's the flywheel that everyone has been promising.</p>
+
+  <h2>NISE: designing proteins that bind drugs from scratch</h2>
+  <p>A <a href="https://www.nature.com/articles/s41586-026-10670-w">paper in Nature</a> (June 2026) describes NISE — neural iterative selection-expansion — a method for designing small-molecule binding proteins from scratch. Two neural networks iterate in a closed loop: LASErMPNN designs sequences, a Boltz-2 co-structure predictor evaluates them, and together they optimize sequence-structure-ligand self-consistency.</p>
+
+  <p>The results cross a threshold that the field has been approaching for years. For exatecan (a topoisomerase I inhibitor used in ADCs), NISE achieved 100% success — all four designs bound the drug. The tightest binder, EPIC, started at Kd = 120 nM and improved to 1.2 nM with two mutations. It even protected the drug's lactone ring from hydrolysis for days — a functional property that was never explicitly designed for.</p>
+
+  <p>For apixaban (a Factor Xa inhibitor), the success rate was 83%, compared to 0.08% for the prior best method (LigandMPNN+Rosetta) on identical backbones. The tightest binder, APEX, achieved Kd = 80 picomolar — 10,000x tighter than prior methods, rivaling the native target Factor Xa itself.</p>
+
+  <p>This is no longer proof-of-concept. It's a working recipe for designing proteins that bind drug molecules from scratch, with success rates that make it practically useful. The implications span drug delivery (proteins that carry small molecules to specific tissues), biosensors (proteins that detect drugs in blood), and therapeutic proteins (proteins that enhance or modulate drug activity).</p>
+
+  <h2>Aureka's OpenDDE: the open-source antibody bet</h2>
+  <p>Aureka Biotechnologies <a href="https://www.techtimes.com/articles/323933/20260811/aureka-open-sourced-antibody-ai-that-beats-alphafold-3-closes-100m-drug-discovery-round.htm">released</a> OpenDDE, an open-source antibody-antigen structure prediction model under Apache 2.0 license. Independent validation by Tamarind Bio found OpenDDE v1 achieving 76.1% DockQ success on FoldBench v1, compared to 47.9% for AlphaFold 3. On the 2026ARK-AB benchmark, OpenDDE posted 66.4% versus Chai-1 at 16.7%, Boltz-1 at 25.0%, and OpenFold3 at 33.1%.</p>
+
+  <p>The caveat matters: on protein-ligand co-folding, OpenDDE scores ~0.601 versus AF3's 0.649. The advantage is specifically in the antibody-antigen domain. But that domain is where a significant portion of drug discovery value lives — monoclonal antibodies are the largest drug class by revenue, and accurate prediction of how antibodies bind their targets is directly useful for therapeutic design.</p>
+
+  <p>What makes Aureka's move strategically interesting is what it signals about where value accrues in AI drug discovery. Aureka closed a $100M Series B and claims tens of millions in commercial revenue from pharma partnerships. By open-sourcing the model, they're betting that the durable advantage isn't the model weights — it's the Lab-in-the-Loop data flywheel. Proprietary experimental data from live drug discovery programs is what compounds over time. The model can be copied; the data cannot.</p>
+
+  <p>This pattern — release the model, keep the data — is becoming the dominant strategy in AI drug discovery. It mirrors what Meta did with large language models and what Stability AI did with image generation. The question is whether it works in biology, where experimental data is harder to generate and the feedback loop between prediction and validation is longer.</p>
+
+  <h2>What these milestones share</h2>
+  <p>These three developments point to the same shift: AI drug discovery is moving from platform capabilities to platform outputs. Recursion's AI discovered a target that a pharma partner validated. NISE's AI designed proteins that actually bind drugs. Aureka's AI predicted antibody structures that outperformed every competing model.</p>
+
+  <p>They also share a structural feature: each closes a loop. Recursion closes the loop between AI prediction and experimental validation through its automated wet labs. NISE closes the loop between sequence design and structure prediction through iterative co-optimization. Aureka closes the loop between model output and commercial value through its Lab-in-the-Loop data flywheel.</p>
+
+  <p>Closing loops matters because the history of computational biology is littered with methods that worked beautifully on benchmarks and failed in practice. The gap between prediction and validation is where most ideas die. Companies and methods that systematically close that gap — through wet lab integration, iterative refinement, or commercial feedback — have a structural advantage over those that don't.</p>
+
+  <h2>What hasn't changed</h2>
+  <p>None of this resolves the field's central honest question: can AI break <a href="https://fortune.com/2025/04/03/recursion-pharmaceuticals-ai-drug-discovery/">Eroom's Law</a>? AI-native companies claim 80-90% Phase 1 success versus 40-65% industry average, but Phase 2 rates are comparable. No AI-discovered drug has reached market. Recursion's REC-4881 Phase 2 data presentation in November and Generate:Biomedicines' GB-0895 Phase III readouts are the next proof points.</p>
+
+  <p>And the clinical timeline remains stubbornly human. Even with AI-designed molecules and AI-discovered targets, drugs still need to be tested in people, and that takes years. The Eroom's Law counter-thesis — that the real bottleneck is clinical validation, not discovery — remains the honest backdrop against which all these milestones should be measured.</p>
+
+  <p>But the milestones matter because they narrow the space of possible failures. If AI can discover targets, design proteins, and predict structures better than alternatives, then the remaining question is whether those capabilities translate to better drugs. That's still a hard question. But it's a different — and more interesting — question than "can AI do anything useful in drug discovery at all?"</p>
+
+  <footer>
+    <p><a href="../index.html">&larr; Home</a></p>
+  </footer>
+</article>
+
+</body>
+</html>
