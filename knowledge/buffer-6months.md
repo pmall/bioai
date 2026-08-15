@@ -25,9 +25,19 @@ records the observation it grew out of.
 
 - **2026-05** — Isomorphic Labs $2.1B Series B. Largest-ever funding round for an AI drug discovery company. Signals that the field's capital structure is shifting toward long-term, deep-pocket backing. https://isomorphiclabs.com/articles/isomorphic-labs-announces-series-b-investment-round
 
+- **2026-08** — Demis Hassabis steps down as DeepMind CEO to become Alphabet chief scientist, focusing on Isomorphic Labs. The clearest signal yet that Alphabet views drug discovery as the primary commercial application of its AI breakthroughs.
+
+- **2026-08** — Recursion-Genentech: First AI-discovered neuroscience target validated and advanced into early discovery. Whole-genome CRISPR knockout map from 1T+ neurons. First concrete proof that an AI platform can discover novel biology, not just optimize known targets. https://www.globenewswire.com/news-release/2026/08/05/3339126/0/en/Recursion-Reports-Second-Quarter-Financial-Results-Genentech-Options-First-Neuroscience-Target-into-Early-Discovery-Program.html
+
+- **2026-02** — Generate:Biomedicines $400M IPO on Nasdaq (GENB). Largest biotech IPO of 2026. Lead candidate GB-0895 (anti-TSLP) in Phase III for asthma. https://generatebiomedicines.com/
+
+- **2026-06** — NewLimit $435M Series C for epigenetic reprogramming to treat aging. Total raised $650M. First program entering clinic. https://newlimit.com/
+
+- **2026-03** — Earendil Labs raises $787M for AI antibody/biologics platform. Considering Hong Kong IPO. Sanofi collaboration worth up to $2.56B.
+
 - **2025-2026** — Recursion merges with Exscientia (Sep 2024), builds BioHive-2 (NVIDIA), advances 7+ clinical programs. Phenomics-to-pipeline vertical integration model. https://www.recursion.com/
 
-- **2025-2026** — Insilico Medicine advances ISM001-055 through Phase 2 (IPF) with positive but not statistically significant results. First wholly AI-discovered drug in patients. https://www.insilico.com/
+- **2025-2026** — Insilico Medicine advances ISM001-055 through Phase 2 (IPF) with positive but not statistically significant results. First wholly AI-discovered drug in patients. Now averaging one new development candidate per month (33 total since 2021). https://www.insilico.com/
 
 ## Theses and hypotheses
 
@@ -38,3 +48,13 @@ records the observation it grew out of.
 - **The Eroom's Law counter-thesis.** AI-native companies claim 80-90% Phase 1 success vs. 40-65% industry average, but Phase 2 rates are comparable. The bottleneck may not be in early discovery (where AI clearly helps) but in clinical validation (where biology's complexity resists computational shortcuts). The real test is whether AI can break Eroom's Law over the next decade, not whether it can improve hit rates. (Observation: BCG data via Fortune, April 2025)
 
 - **Three platform models are crystallizing.** (1) IsoDDE: structural biology → drug design (compute-heavy, pharma partnerships). (2) Recursion: phenomics data → full pipeline (massive wet lab + compute, own pipeline + partnerships). (3) Insilico: end-to-end AI-first (target ID → molecule → trial prediction, own pipeline). Each bets on a different bottleneck. (Observation: company websites and Fortune profile)
+
+- **Open-source as competitive strategy is emerging.** Aureka's OpenDDE outperforms AlphaFold 3 on antibody-antigen tasks and is Apache 2.0 licensed. The moat is the Lab-in-the-Loop data flywheel — proprietary experimental data from live drug discovery programs — not the model weights. This "release the model, keep the data" pattern may become dominant in AI drug discovery, as proprietary biological data — not model architecture — is the durable advantage. (Observation: Aureka benchmarks and business model, Aug 2026)
+
+- **AI agents are entering the clinical workflow layer.** Pathos AI's Foundry uses thousands of AI agents to design trials, match patients, and optimize dosing — not just discover molecules. Schrödinger's Bunsen makes computational chemistry accessible to non-specialists through natural language. The bottleneck is shifting from "find molecules" to "prove they work in the right patients." (Observation: Pathos AI, Schrödinger BMS deal, Aug 2026)
+
+- **The infrastructure layer is consolidating.** Schrödinger (physics-based), Anthropic (workflow/integration), NVIDIA BioNeMo (ecosystem), and cloud providers (AWS/Novo Nordisk) are building the operating systems for AI drug discovery. BMS deploying Bunsen at scale signals big pharma is betting on physics-based computation augmented by AI, not just AI alone. (Observation: BMS-Schrödinger deal, Novo Nordisk-AWS, Claude Science, Aug 2026)
+
+- **De novo protein design for small molecules crosses a threshold.** NISE achieves 83-100% success rates designing proteins that bind drug molecules from scratch, with picomolar affinities. This is no longer proof-of-concept — it's a working recipe with implications for drug delivery, biosensors, and therapeutic proteins. (Observation: Nature NISE paper, Jun 2026)
+
+- **Experiment-guided protein structure prediction is maturing.** Two independent papers (Nature Biotechnology, Nature Methods) show how to steer AlphaFold3/AF2 to generate ensembles consistent with NMR, X-ray, and cryo-EM data. This addresses one of AlphaFold's key limitations — its bias toward static snapshots — and opens the door to dynamics-aware structural biology. (Observation: Nature Biotech Jun 2026, Nature Methods Apr 2026)
