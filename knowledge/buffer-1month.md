@@ -40,6 +40,10 @@ traced back to the document it was extracted from.
 
 - **2026-08-14** — Insilico Medicine unveils Virtual Aging Cell (VAC) platform: multi-agent architecture for dynamic simulation of differentiation, reprogramming, and aging across six biological scales. ARDD 2026 Boston. https://www.tipranks.com/news/private-companies/insilico-medicine-unveils-multi-agent-virtual-aging-cell-platform-to-accelerate-ai-driven-drug-discovery
 
+- **2026-08-10** — Insilico Medicine ISM9077: 32nd preclinical candidate nominated for ocular diseases (dry AMD, uveitis, dry eye). AI-designed using Chemistry42. Superior efficacy vs. established therapies. Eye-drop delivery compatible. https://www.drugtargetreview.com/insilico-medicine-nominates-ai-designed-candidate-for-ocular-diseases/2136194.article
+
+- **2026-08-10** — Stanford/Arc Institute AI-designed bacteriophage genomes (Science). Evo genomic language models produce functional phages from scratch. 16 functional phages designed, overcoming bacterial resistance. First demonstration of AI engineering entire biological systems. https://www.drugtargetreview.com/ai-designs-functional-bacteriophage-genomes-to-overcome-bacterial-resistance/2136186.article
+
 - **2026-08-11** — Aureka Biotechnologies releases OpenDDE (Apache 2.0 open-source antibody AI). Independent benchmarks: 76.1% DockQ on FoldBench vs. AlphaFold 3's 47.9%. Closed $100M Series B. Moat = Lab-in-the-Loop data flywheel. https://www.techtimes.com/articles/323933/20260811/aureka-open-sourced-antibody-ai-that-beats-alphafold-3-closes-100m-drug-discovery-round.htm
 
 - **2026-08-07** — Nature Reviews Drug Discovery perspective (Bender et al.): evidence of clinically relevant AI impact "disappointingly limited." Calls for benchmarks measuring decision-making improvement, not model validation. Identifies technology push vs science pull gap. https://www.nature.com/articles/s41573-026-01496-2
