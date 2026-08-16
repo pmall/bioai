@@ -16,6 +16,24 @@ traced back to the document it was extracted from.
 
 ## This month
 
+- **2026-08-12** — InduPro: $77M Series B (Merck, Lilly, Sanofi investors). IDP-001 bispecific ADC targeting EGFR+TAPA, first patient dosed in Phase 1 for advanced NSCLC. https://www.induprotx.com/news/indupro-closes-77-million-series-b-financing-and-doses-first-patient-in-phase-1-study-of-lead-oncology-program-idp-001/
+
+- **2026-08-11** — Infinimmune: $75M Series A (Regeneron Ventures). First-in-class IL-22 antibody IFX-101 for eczema + IL-13 antibody IFX-201. Clinic entry planned 2027. https://www.fiercebiotech.com/biotech/regeneron-backs-75m-series-antibody-upstart-infinimmune
+
+- **2026-08-11** — Vaderis: $152M Series B for engasertib (AKT inhibitor) Phase 3 in HHT, rare vascular disorder with no approved therapies. https://www.fiercebiotech.com/biotech/vaderis-lands-152m-squeeze-akt-inhibitor-through-phase-3-and-regulatory-approval
+
+- **2026-08-11** — Epicrispr: $90M Series C for epigenetic FSHD medicine EPI-321. Phase 1/2 showed increased lean muscle mass. https://www.fiercebiotech.com/biotech/epicrispr-bags-90m-rewrite-treatment-rare-muscle-disease
+
+- **2026-08-06** — LifeMine Therapeutics: $188M Series E (Bezos, Gates, Google Ventures, GSK). LIFE-001 immunosuppressant for transplant rejection, Phase 2 kidney transplant study planned. https://www.fiercebiotech.com/biotech/lifemines-frozen-platform-thawed-263m-fundraise-backed-gates-and-bezos
+
+- **2026-08-05** — Recursion-Genentech: Genentech options first neuroscience target into early discovery. REC-4881 Phase 2 FAP: 43-53% polyp burden reduction. REC-1245 early clinical data: well-tolerated, no DLTs. https://ir.recursion.com/news-events/press-releases
+
+- **2026-08-06** — Germinal (Nature Biotechnology, Jun 23; Methods highlight Aug 6): Stanford/Arc epitope-targeted de novo antibody design. AlphaFold-Multimer + IgLM. 4-22% success, only 43-101 designs per target. Nanomolar affinities (140 nM best). Open-source. https://www.nature.com/articles/s41587-026-03187-0
+
+- **2026-07-29** — ProteinGuide (Nature Biotechnology): Google DeepMind/Berkeley on-the-fly conditioning for protein generative models without retraining. Works with ESM3, ProteinMPNN, MultiFlow. Validated in vivo base editor engineering. https://www.nature.com/articles/s41587-026-03207-z
+
+- **2026-07-29** — Insilico ISM6331 receives FDA Fast Track Designation for mesothelioma. First FTD in Insilico's AI pipeline. Phase I data at ESMO 2026. https://www.eurekalert.org/news-releases/1137919
+
 - **2026-08-14** — Insilico Medicine launches DDD Benchmark as a Service: real-world benchmarking for AI drug discovery models, 300+ evaluations using decontaminated validated program data. Addresses "exam passing vs real discovery" gap. https://www.labmate-online.com/news/company-laboratory-news/127/breaking-news/novel-benchmark-launched-to-test-whether-ai-models-can-truly-discover-drugs/68214
 
 - **2026-08-14** — ProteinDPO (Nature Methods): DPO aligns protein language model with experimental stability data. 80% of H5N1 HA designs improved stability, up to 32°C Tm improvement. Generalizes to large complexes and antibodies. Open-source. https://www.nature.com/articles/s41592-026-03137-3
