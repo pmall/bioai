@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Protein engineering enters an alignment era — Protein to Pill</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<nav>
+  <a href="../index.html">Protein to Pill</a>
+</nav>
+
+<article>
+  <header>
+    <h1>Protein engineering enters an alignment era</h1>
+    <time datetime="2026-08-17">17 August 2026</time>
+  </header>
+
+  <p>For years, protein design meant one thing: predict the structure, then engineer the sequence to match. AlphaFold made structure prediction almost routine. But three papers published in the past few months suggest the field is moving past that paradigm entirely — toward proteins designed by their behavior, steered by alignment techniques borrowed from language models, and represented in ways that make size irrelevant.</p>
+
+  <h2>Designing by motion, not shape</h2>
+  <p><a href="https://news.mit.edu/2026/mit-engineers-design-proteins-by-motion-not-just-shape-0326">VibeGen</a>, from MIT's Buehler lab (published in <em>Matter</em>, March 2026), takes a radical premise: what if you design a protein not by what it looks like, but by how it moves? The model uses a diffusion architecture with two cooperating agents — a designer that proposes sequences and a predictor that evaluates whether they produce the target vibrational profile. The input isn't a static structure. It's a spectrum of motions: vibration, flexing, shape-shifting.</p>
+
+  <p>The striking finding is <strong>functional degeneracy</strong> — many different sequences, and many different folds, can satisfy the same motion target. This isn't a failure of the model; it's a property of proteins themselves. Evolution doesn't converge on a single sequence for a given function. VibeGen makes that degeneracy explicit and exploitable, opening a design space that structure-based methods can't reach.</p>
+
+  <p>The practical implications are still early. Buehler's lab has explored applications in biomaterials and self-healing materials, not therapeutics. But the conceptual shift matters: if you can specify what a protein <em>does</em> mechanically rather than what it <em>looks like</em> structurally, you bypass one of the hardest bottlenecks in protein design — the gap between a desired function and the structure that achieves it.</p>
+
+  <h2>Alignment comes to proteins</h2>
+  <p><a href="https://www.nature.com/articles/s41592-026-03137-3">ProteinDPO</a>, published in <em>Nature Methods</em> (August 2026), applies <strong>direct preference optimization</strong> — the alignment technique behind modern language models — to protein language models. The idea is straightforward: instead of training a model to predict what a protein <em>should</em> look like, you train it on what experimental data says actually <em>works</em>.</p>
+
+  <p>The results are concrete. When applied to H5N1 hemagglutinin designs, 80% of ProteinDPO-guided sequences showed improved thermal stability, with improvements up to 32°C in melting temperature. That's not a marginal gain — it's the difference between a protein that falls apart at room temperature and one that's stable enough to be a drug.</p>
+
+  <p>What makes ProteinDPO significant beyond the specific result is that it generalizes. The authors validated it on large protein complexes and antibodies, not just single-domain proteins. This suggests alignment is a general-purpose tool for protein engineering, not a trick that works on one class of targets. If language model alignment can steer protein design toward experimentally validated outcomes, it changes how we think about the protein design pipeline: not as structure prediction followed by optimization, but as preference learning from the full corpus of biological experiments.</p>
+
+  <h2>Size stops mattering</h2>
+  <p><a href="https://www.nature.com/articles/s41586-026-10842-8">Raygun</a>, published in <em>Nature</em> (July 2026), addresses a different bottleneck: protein size. Most generative models produce fixed-length outputs, but biological proteins vary enormously in length. Raygun introduces a <strong>length-agnostic probabilistic encoding</strong> that lets models generate proteins of any size while preserving the relationships between residues.</p>
+
+  <p>The validation is elegant. Raygun miniaturized six fluorescent proteins by 10-25%+ and retained fluorescence in all six. It also expanded proteins, not just compressed them. The encoding doesn't care whether you're making something shorter or longer — the representation is flexible in both directions.</p>
+
+  <p>Combined with ProteinDPO's alignment approach, Raygun suggests a design pipeline where you can specify both what a protein should <em>do</em> (through preference learning) and how <em>big</em> it should be (through length-agnostic encoding). That combination — function and size as independent design parameters — is something the field hasn't had before.</p>
+
+  <h2>What this changes</h2>
+  <p>These three papers don't represent incremental improvements to existing protein design. They represent a shift in what "design" means:</p>
+
+  <ul>
+    <li><strong>From structure to dynamics.</strong> VibeGen shows that specifying motion can be more powerful than specifying shape, because many structures can produce the same function. This expands the design space rather than constraining it.</li>
+    <li><strong>From prediction to preference.</strong> ProteinDPO applies alignment techniques to protein engineering, using experimental data as the preference signal. This makes protein design a learning problem, not just a structure prediction problem.</li>
+    <li><strong>From fixed to flexible.</strong> Raygun makes protein size a design parameter rather than a constraint, enabling both miniaturization and expansion of existing proteins.</li>
+  </ul>
+
+  <p>Together, they point toward a future where protein design is less like architecture — drawing a blueprint and building to match — and more like steering a generative process toward desired outcomes while letting the model figure out the details.</p>
+
+  <h2>What hasn't changed</h2>
+  <p>None of this solves the validation bottleneck. Proteins designed by dynamics, steered by alignment, and generated at arbitrary sizes still need to be tested in living systems. The gap between a computationally elegant design and a therapeutic protein that works in a patient remains wide.</p>
+
+  <p>And the field's broader credibility question persists. With <a href="https://www.nature.com/articles/s41573-026-01496-2">evidence of clinically relevant AI impact still "disappointingly limited"</a> and zero FDA approvals despite billions invested, these advances in design methodology need to eventually produce drugs that work. The alignment paradigm from language models is powerful, but biological systems don't reward the same things that make a chatbot helpful.</p>
+
+  <p>Still, the direction is clear. Protein engineering is no longer about predicting structures and optimizing sequences around them. It's about specifying behavior, learning from experimental preference, and letting generative models explore a design space that's far larger than static structure prediction ever opened up. That's a genuinely different field than the one that existed a year ago.</p>
+
+  <footer>
+    <p><a href="../index.html">&larr; Home</a></p>
+  </footer>
+</article>
+
+</body>
+</html>
