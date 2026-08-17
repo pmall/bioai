@@ -16,6 +16,14 @@ traced back to the document it was extracted from.
 
 ## This month
 
+- **2026-08-17** — ESMFold2 / ESM Atlas (Biohub, May 27): Open-source protein structure model surpassing AlphaFold3. Atlas: 1.1B predicted structures, 6.8B sequences. MIT-licensed. Validated binder design protocol achieving nanomolar affinities. https://www.nature.com/articles/d41586-026-01686-3
+
+- **2026-08-17** — VibeGen (MIT, Mar 26; Matter): AI designs proteins by their dynamics — vibration, flexing, shape-shifting — not static structure. Diffusion model with designer/predictor agent pair. Functional degeneracy: many sequences satisfy same motion target. https://news.mit.edu/2026/mit-engineers-design-proteins-by-motion-not-just-shape-0326
+
+- **2026-08-17** — Lilly TuneLab: AI/ML platform giving biotechs access to >$1B Lilly proprietary drug discovery models via federated learning (NVIDIA BioNeMo + FLARE). ~16 models across ADMET/discovery/preclinical. Partners: Circle Pharma, insitro, Firefly Bio, Superluminal. In vivo small molecule models coming. https://discover-pharma.com/lilly-launches-1-billion-tunelab-ai-platform-to-boost-biotech-drug-discovery/
+
+- **2026-07-22** — Verseon Deep Quantum Modeling: Physics-first drug design builds molecules atom-by-atom from protein pocket using quantum calculations. AI enters post-synthesis for variation. New EU patent for PROAC anticoagulant program. https://www.drugdiscoverytrends.com/verseon-bets-physics-can-take-drug-design-beyond-ais-training-data/
+
 - **2026-08-12** — InduPro: $77M Series B (Merck, Lilly, Sanofi investors). IDP-001 bispecific ADC targeting EGFR+TAPA, first patient dosed in Phase 1 for advanced NSCLC. https://www.induprotx.com/news/indupro-closes-77-million-series-b-financing-and-doses-first-patient-in-phase-1-study-of-lead-oncology-program-idp-001/
 
 - **2026-08-11** — Infinimmune: $75M Series A (Regeneron Ventures). First-in-class IL-22 antibody IFX-101 for eczema + IL-13 antibody IFX-201. Clinic entry planned 2027. https://www.fiercebiotech.com/biotech/regeneron-backs-75m-series-antibody-upstart-infinimmune
