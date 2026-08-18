@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Proteins that reason before they generate — Protein to Pill</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<nav>
+  <a href="../index.html">Protein to Pill</a>
+</nav>
+
+<article>
+  <header>
+    <h1>Proteins that reason before they generate</h1>
+    <time datetime="2026-08-18">18 August 2026</time>
+  </header>
+
+  <p>For most of its history, AI protein design has worked like autocomplete: you give a model a prompt — a target structure, a binding site, a function — and it generates a sequence. The model doesn't think about what it's doing. It pattern-matches from training data and outputs the most likely answer. A new class of models is changing that. They reason first, then generate — and the difference matters more than it sounds.</p>
+
+  <h2>Two experts, one design</h2>
+  <p><a href="https://arxiv.org/html/2605.02937v1">Proteo-R1</a> splits protein design into two distinct jobs. A multimodal large language model acts as an "understanding expert" — it analyzes the target, identifies which residues matter functionally, and produces hard constraints. A diffusion model acts as a "generation expert" — it takes those constraints and produces a 3D structure that satisfies them.</p>
+
+  <p>The key insight is that these are genuinely different cognitive tasks. Understanding what a protein needs to do — which residues contact a ligand, which positions are structurally essential, which regions tolerate variation — requires reasoning about biology. Generating a physical structure that satisfies those requirements requires reasoning about geometry. Previous approaches tried to do both in a single pass. Proteo-R1 separates them, and the separation improves performance.</p>
+
+  <p>On multi-CDR antibody redesign — one of the hardest problems in protein engineering, where you need to redesign multiple binding loops simultaneously while preserving the antibody scaffold — Proteo-R1 outperforms both dyMEAN and MFDesign. The modular interface between reasoning and generation also makes the output interpretable: you can see what the reasoning expert decided and why, rather than treating the whole process as a black box.</p>
+
+  <h2>The agent in the loop</h2>
+  <p><a href="https://arxiv.org/html/2606.02386">AgentPLM</a> takes the agentic idea further. It's a protein language model with what the authors call Reasoning-Augmented Decoding — the model doesn't just generate one token at a time, it interleaves generation with tool calls. As it builds a protein sequence, it periodically stops to evaluate what it's produced using external tools: ESMFold to check whether the sequence folds correctly, FoldX to estimate stability, AutoDock Vina to score binding affinity. If the evaluation is bad, it corrects course. If it's good, it continues.</p>
+
+  <p>This is a direct parallel to the agentic workflow shift happening across AI more broadly — the move from single-pass generation to systems that plan, execute, evaluate, and revise. But in protein design, the stakes are different. A language model that hallucinates a fact can be corrected. A protein model that generates an unstable sequence wastes weeks of wet lab work. Online error correction — catching mistakes before they leave the model — is worth far more in biology than in text.</p>
+
+  <p>The results reflect this. AgentPLM achieves a 2.79x improvement in antibody top-10% hit rate compared to non-agentic baselines. More interestingly, the authors find mechanistic evidence that the model performs error correction without backtracking — it doesn't generate a bad sequence and then fix it, it adjusts its generation trajectory in real time based on evaluation feedback. That's a subtle but important distinction: it means the reasoning is integrated into the generation process, not bolted on as a post-processing step.</p>
+
+  <h2>Reasoning from ontology</h2>
+  <p><a href="https://link.springer.com/article/10.1038/s41467-026-69855-6">ORI</a> (Ontology Reinforcement Iteration), published in <em>Nature Communications</em> earlier this year, takes a different approach to the same underlying idea: protein design should involve reasoning, not just generation. Instead of a language model, ORI uses a structured ontology — a formal representation of protein knowledge — to condition the generation process. And instead of static evaluation, it uses reinforcement learning from experimental feedback.</p>
+
+  <p>The loop works like this: the ontology-conditioned decoder generates a protein variant, the variant is tested experimentally, and the results update the model through RL. Each cycle improves the next generation. The authors demonstrate this on lysozyme, achieving 100-fold higher activity than the starting variant — exceeding T4 lysozyme, one of the most well-studied enzymes in protein engineering. They also produce a chitinase stable at 85°C and a dual-function enzyme with both lysozyme and chitinase activities that outperforms the natural enzyme Hevamine A.</p>
+
+  <p>What makes ORI distinct from the other agentic approaches is the role of the ontology. Rather than learning preferences purely from data (like ProteinDPO) or evaluating structure in real time (like AgentPLM), ORI reasons from explicit biological knowledge. The ontology encodes what's known about protein function, structure, and engineering in a format the model can reason over. This makes the design process more transparent — you can trace which ontological reasoning led to which design decision — and more generalizable, because the ontology transfers across protein families.</p>
+
+  <h2>Why reasoning matters more than generation</h2>
+  <p>These three approaches — Proteo-R1's dual experts, AgentPLM's tool-augmented decoding, ORI's ontology-conditioned RL — look different on the surface. But they share a structural claim: <strong>the bottleneck in protein design isn't generating sequences, it's deciding what to generate.</strong></p>
+
+  <p>That's a meaningful shift. Most protein design research has focused on improving generative models — better architectures, larger training sets, more sophisticated sampling. These methods suggest that the gains from reasoning about design decisions before generating may be larger than the gains from better generation alone. AgentPLM's 2.79x improvement in hit rate comes not from a better protein language model, but from wrapping an existing model in an agentic reasoning framework.</p>
+
+  <p>This mirrors what happened in language models. The jump from GPT-3 to ChatGPT wasn't primarily a generation improvement — it was an alignment and reasoning improvement. The base model got better at understanding what users wanted and structuring its responses accordingly. Protein design may be following the same trajectory: the base generative models are good enough, and the leverage is now in how you steer them.</p>
+
+  <h2>What this changes in practice</h2>
+  <p>The practical implications are concrete. In antibody design, the difference between a 10% hit rate and a 27% hit rate is the difference between testing 100 candidates to find 10 viable ones and testing 37 to find the same 10. That's weeks of wet lab work and hundreds of thousands of dollars saved per design cycle. For enzymes, the difference between generating a stable variant and generating one with 100-fold improved activity is the difference between a marginal improvement and a commercially useful product.</p>
+
+  <p>But the deeper implication is about what kind of problem protein design actually is. If the bottleneck is reasoning — understanding what the protein needs to do, evaluating whether a design satisfies those requirements, and correcting course when it doesn't — then the right investments are in better reasoning frameworks, not just bigger generative models. That's a different research agenda than the one the field has been pursuing.</p>
+
+  <h2>What hasn't changed</h2>
+  <p>Reasoning before generating doesn't solve the validation problem. A model that reasons carefully about which protein to design still can't predict how that protein will behave in a living system. ORI's experimental feedback loop is the closest to closing this gap, but it requires physical testing at every iteration — you can't skip the wet lab by thinking harder.</p>
+
+  <p>And the field's credibility question remains. With zero FDA approvals and <a href="https://www.nature.com/articles/s41573-026-01496-2">evidence of clinically relevant AI impact still "disappointingly limited,"</a> better reasoning in protein design needs to eventually produce better drugs. The agentic paradigm may accelerate the design-to-validation loop, but the validation itself still takes years.</p>
+
+  <p>Still, the direction is significant. Protein design is moving from a generation problem to a reasoning problem. The models are starting to think before they write. In a field where the difference between a working protein and a wasted experiment is often a single design decision, that shift may matter more than any improvement in the generative architecture itself.</p>
+
+  <footer>
+    <p><a href="../index.html">&larr; Home</a></p>
+  </footer>
+</article>
+
+</body>
+</html>
