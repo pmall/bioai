@@ -16,6 +16,16 @@ traced back to the document it was extracted from.
 
 ## This month
 
+- **2026-08-18** — Chai Discovery raises $400M Series C (Jul 14). Valuation ~$1.3B. Chai-2 achieves ~20% zero-shot antibody hit rates (100x improvement). Chai-3 reduces failure rate by half. Collaborations with Novartis (Jul 13), Pfizer (Jun 4), Eli Lilly (Jan 9 + TuneLab Jun 18), argenx (Jul 15). First time Lilly TuneLab brought in outside models. https://www.chaidiscovery.com/news
+
+- **2026-08-18** — Insilico Medicine forecasts profit in H1 2026 (Jul 8). First AI drug discovery company to project profitability. Shares +7%. Rentosertib Phase III initiated (Jul 7). Takeda collaboration (Jul 2). SK Biopharmaceuticals deal up to $2.5B (Jun 22). https://www.marketscreener.com/news/insilico-medicine-launches-pandaclaw-empowering-biologists-with-agentic-ai-for-therapeutic-discover-ce7e5edcd189f523
+
+- **2026-08-18** — Recursion-Exscientia merger officially completed (Aug 16). Combined entity: >10 clinical/preclinical programs, ~10 advanced discovery. Merck KGaA collaboration (CDK7, LSD1, MALT1). Pipeline restructured: REC-7735 (PIK3CA-H1047R), REC-102 (hypophosphatasia). First neuroscience phenomap optioned by Roche/Genentech ($30M). https://ppinewsagency.com/recursion-and-exscientia-two-leaders-in-the-ai-drug-discovery-space-have-officially-combined-to-advance-the-industrialization-of-drug-discovery/
+
+- **2026-08-18** — Boston University antibody language model (Aug 13). CDR-preferential masking improves binding affinity prediction by 27%. 1.6M paired antibody chains. Published in Communications AI & Computing. https://phys.org/news/2026-08-ai-biology-antibodies-drug-discovery.html
+
+- **2026-08-18** — 117 AI-enabled therapeutic assets across 63 companies entered human trials as of Jul 2026. 51.3% completed Phase 1, 6.8% completed Phase 2. Market: $2.9B (2026) → $13.8B (2033), 24.8% CAGR. https://intuitionlabs.ai/articles/ai-discovered-drugs-clinical-trials-2026
+
 - **2026-08-17** — AlphaFold team dissolved at DeepMind (Scientific American, Aug 7; AI Weekly, Jul 29). Nobel laureate John Jumper left for Anthropic (Jun 2026). Co-authors Adler and Pritzel followed. Other veterans moved to Isomorphic Labs. Dedicated AlphaFold team no longer exists. Hassabis now focused on Alphabet chief scientist + Isomorphic CEO. https://www.scientificamerican.com/article/why-google-deepmind-broke-up-the-alphafold-team/
 
 - **2026-08-17** — Korean pharma-AI partnerships reach 160, ~450 AI drug pipelines (Seoul Economic Daily). SK Biopharm cut early research 60% using SK Telecom AI. Pharos iBio advanced PHI-101 (AML) to global Phase 2. https://en.sedaily.com/technology/2026/08/17/korean-drugmakers-turn-to-ai-reaching-160-partnerships
