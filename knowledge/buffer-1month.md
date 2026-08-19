@@ -16,6 +16,8 @@ traced back to the document it was extracted from.
 
 ## This month
 
+- **2026-08-19** — Anthropic Claude designs protein binders autonomously (Aug 18). Claude Mythos/Opus designed minibinders against 15 targets, succeeded on 14. Hit rates 22-35% vs 10-15% typical. Wet lab validated by Adaptyv Bio and Twist Bioscience. High-affinity binders (KD <10 nM) against multiple targets. Also matched contract lab's NMR/LCMS analysis (23 min vs days). General-purpose AI models now performing protein design end-to-end with minimal human input. https://www.anthropic.com/research/Claude-accelerates-protein-design
+
 - **2026-08-19** — Novo Nordisk + AWS AI co-innovation hub (Aug 10). AWS becomes preferred cloud provider. London hub embeds AWS engineers with Novo R&D. Uses Amazon Bio Discovery, Bedrock, AgentCore. Follows OpenAI partnership (Apr 2026) and GPT-Rosalind collaboration. Signals pharma building full computing stack — simulation (NVIDIA), models (OpenAI), cloud (AWS). https://www.fiercebiotech.com/biotech/novo-nordisk-and-aws-sign-ai-drug-discovery-pact-launch-london-innovation-hub
 
 - **2026-08-19** — DaltonTx launches Dalton platform (Aug 18). UK startup, former AZ/Exscientia scientists. Full drug discovery platform from data to molecular design. Key differentiator: data privacy (project data not used to train other models). First clients: Sygnature Discovery, Bonito Biosciences. Enablement model, not pipeline. https://pharmaphorum.com/news/meet-dalton-new-ai-powered-drug-discovery-platform
