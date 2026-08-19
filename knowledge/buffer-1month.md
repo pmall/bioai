@@ -16,6 +16,14 @@ traced back to the document it was extracted from.
 
 ## This month
 
+- **2026-08-19** — Novo Nordisk + AWS AI co-innovation hub (Aug 10). AWS becomes preferred cloud provider. London hub embeds AWS engineers with Novo R&D. Uses Amazon Bio Discovery, Bedrock, AgentCore. Follows OpenAI partnership (Apr 2026) and GPT-Rosalind collaboration. Signals pharma building full computing stack — simulation (NVIDIA), models (OpenAI), cloud (AWS). https://www.fiercebiotech.com/biotech/novo-nordisk-and-aws-sign-ai-drug-discovery-pact-launch-london-innovation-hub
+
+- **2026-08-19** — DaltonTx launches Dalton platform (Aug 18). UK startup, former AZ/Exscientia scientists. Full drug discovery platform from data to molecular design. Key differentiator: data privacy (project data not used to train other models). First clients: Sygnature Discovery, Bonito Biosciences. Enablement model, not pipeline. https://pharmaphorum.com/news/meet-dalton-new-ai-powered-drug-discovery-platform
+
+- **2026-08-19** — >200 AI-designed drugs in clinical development (Aug 2026). Phase I success rates 80-90%, double historical average. 25 companies delivering clinical candidates. But only 6.8% completed Phase 2. First fully AI-designed drug (rentosertib) posted positive Phase IIa. https://biomednexus.com/ai-drug-discovery-companies-clinical-candidates-2026/
+
+- **2026-08-19** — Proximity therapeutics as AI frontier: Proxima (formerly VantAI) raised $80M seed (Jan 2026). Molecular glues and PROTACs using NeoLink structural data + Neo-1 AI model. Collaborations with J&J, BMS, Blueprint Medicines. First partnered program expected in clinic 2026. https://www.businesswire.com/news/home/20260113074220/en/Proxima-Raises-%2480-Million-Led-by-DCVC-to-Power-the-Next-Generation-of-Proximity-Based-Medicines
+
 - **2026-08-18** — Chai Discovery raises $400M Series C (Jul 14). Valuation ~$1.3B. Chai-2 achieves ~20% zero-shot antibody hit rates (100x improvement). Chai-3 reduces failure rate by half. Collaborations with Novartis (Jul 13), Pfizer (Jun 4), Eli Lilly (Jan 9 + TuneLab Jun 18), argenx (Jul 15). First time Lilly TuneLab brought in outside models. https://www.chaidiscovery.com/news
 
 - **2026-08-18** — Insilico Medicine forecasts profit in H1 2026 (Jul 8). First AI drug discovery company to project profitability. Shares +7%. Rentosertib Phase III initiated (Jul 7). Takeda collaboration (Jul 2). SK Biopharmaceuticals deal up to $2.5B (Jun 22). https://www.marketscreener.com/news/insilico-medicine-launches-pandaclaw-empowering-biologists-with-agentic-ai-for-therapeutic-discover-ce7e5edcd189f523
