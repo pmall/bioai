@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Protein engineering becomes infrastructure — Protein to Pill</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<nav>
+  <a href="../index.html">Protein to Pill</a>
+</nav>
+
+<article>
+  <header>
+    <h1>Protein engineering becomes infrastructure</h1>
+    <time datetime="2026-08-20">20 August 2026</time>
+  </header>
+
+  <p>There's a pattern forming across the past few months of AI drug discovery: protein engineering is shifting from a thing companies demonstrate to a thing companies use. The distinction matters. Proof-of-concept generates papers. Infrastructure generates drugs. A cluster of developments this month suggests the field has crossed that line.</p>
+
+  <h2>AbCellera: from sequences to functions</h2>
+  <p>AbCellera's <a href="https://marketchameleon.com/articles/b/2026/8/19/abcellera-biologics-integrated-ai-drug-discovery-function-based-models">argument</a> is that the industry's AI models for antibody discovery need to shift from sequence-based to function-based. This isn't an academic distinction. Sequence-based models learn patterns in protein sequences — which amino acids tend to co-occur, which motifs predict binding. Function-based models learn what proteins actually do: how they fold, how they move, how they interact with targets in the messy context of a living cell.</p>
+
+  <p>AbCellera's integrated computational and lab platform exemplifies this pivot. Predictions are validated and refined through real experimental data in a closed loop, and the model improves not because someone curated a larger training set, but because the platform generates its own feedback. The company is also advancing internal programs — ABCL575 and ABCL635 — alongside its partnership work, which means the closed-loop approach is being tested against therapeutic targets, not just benchmarks.</p>
+
+  <p>The shift from sequence-based to function-based models is becoming the dominant paradigm in antibody discovery because it addresses the field's central failure mode: computational predictions that look good on paper but fail in the lab. A model that predicts which antibody sequence will bind a target is useful. A model that predicts whether that antibody will actually neutralize the target in a patient — accounting for folding, stability, immunogenicity, and pharmacokinetics — is transformative.</p>
+
+  <h2>Cradle-Lundbeck: AI protein engineering at scale</h2>
+  <p>Lundbeck <a href="https://www.cradle.bio/blog/lundbeck">partnered</a> with Cradle to deploy AI-powered protein engineering for discovering and optimizing therapeutics targeting brain disorders. This is Lundbeck's first end-to-end AI-guided protein engineering workflow, where experimental results are continuously fed back into the model. The initial focus is two antibody programs targeting CNS diseases — among the hardest therapeutic areas, where the blood-brain barrier makes protein engineering especially consequential.</p>
+
+  <p>The numbers are striking: Lundbeck estimates AI-driven initiatives already contribute over 12,000 hours saved per week through efficiency gains. That's not a projection or a hope — it's an operational reality. The company also partnered with Denmark's Gefion AI supercomputer, signaling that it's building computational infrastructure, not just buying point solutions.</p>
+
+  <p>Lundbeck isn't a tech company experimenting with AI. It's a mid-size pharmaceutical company that has decided protein engineering with AI is now core infrastructure — the kind of investment you make when you're confident the technology works, not when you're testing whether it might.</p>
+
+  <h2>VirTues: the spatial foundation model</h2>
+  <p>A <a href="https://www.nature.com/articles/s41586-026-10884-y">Nature paper</a> this month introduced VirTues, a general-purpose foundation model for spatial proteomics that learns marker-aware, multi-scale representations directly from multiplex imaging data. From a single pretrained backbone, it supports cell segmentation and typing, niche annotation, spatial biomarker discovery, and patient stratification — including zero-shot annotation across heterogeneous panels and datasets.</p>
+
+  <p>In triple-negative breast cancer, VirTues-derived biomarkers predict anti-PD-L1 chemo-immunotherapy response and stratify disease-free survival in an independent cohort, outperforming current clinical stratification. The model is open-source.</p>
+
+  <p>VirTues is to spatial proteomics what AlphaFold was to structure prediction: a general-purpose model that works across datasets and enables zero-shot transfer. But where AlphaFold predicted static structures, VirTues interprets the spatial organization of proteins in tissues — the context that determines whether a biomarker is actually meaningful. For protein engineering, this matters because it provides the tissue-level context that sequence-based models lack. A designed antibody is only as good as its target's spatial accessibility, and VirTues provides that layer.</p>
+
+  <h2>What these moves share</h2>
+  <p>AbCellera, Cradle-Lundbeck, and VirTues aren't competitors. They're complementary layers of a stack that's maturing into infrastructure. AbCellera is building the function-based models that predict what proteins actually do. Cradle-Lundbeck is deploying those models in real therapeutic programs. VirTues provides the spatial context that makes those predictions meaningful in tissues.</p>
+
+  <p>Together, they signal that protein engineering is crossing the threshold from proof-of-concept to standard tool. When a mid-size pharma like Lundbeck saves 12,000 hours a week through AI protein engineering, when AbCellera shifts its core thesis from sequence-based to function-based models, and when a Nature paper publishes a foundation model for spatial proteomics — these aren't isolated announcements. They're the infrastructure layer forming.</p>
+
+  <h2>The validation backdrop</h2>
+  <p>This infrastructure buildout is happening against a field that's increasingly honest about its limitations. A <a href="https://www.nature.com/articles/s41573-026-01496-2">Nature Reviews Drug Discovery perspective</a> argues that evidence of clinically relevant AI impact remains "disappointingly limited." Over 200 AI-designed drugs are in clinical development, but only 6.8% have completed Phase 2. The Phase I success rates are double the historical average — but that's not the metric that matters.</p>
+
+  <p>The infrastructure layer addresses this honestly. Function-based models are designed to improve hit rates in the lab, not just on benchmarks. Closed-loop platforms generate their own validation data. And spatial foundation models provide the tissue context that determines whether a designed protein will actually work in a patient. The gap between computational prediction and clinical outcome is where infrastructure matters most — and that's exactly what's being built.</p>
+
+  <p>Protein engineering is no longer a research project. It's becoming the operating system for biologics development. The question is no longer whether AI can design proteins. It's whether the infrastructure layer is mature enough to produce medicines.</p>
+
+  <footer>
+    <p><a href="../index.html">&larr; Home</a></p>
+  </footer>
+</article>
+
+</body>
+</html>
