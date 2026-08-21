@@ -38,6 +38,8 @@ traced back to the document it was extracted from.
 
 - **2026-08-19** — Cradle-Lundbeck partnership (Jun 3). AI protein engineering for CNS antibodies. 12,000+ hours/week saved. Two antibody programs. https://www.cradle.bio/blog/lundbeck
 
+- **2026-08-20** — AI-minibinder functional optimization (Nature Comms, Aug 20). University Hospital Bonn: RFdiffusion + AF2 pipeline for cancer surface targets (PD-L1, CD276, VTCN1). Best PD-L1 minibinder KD = 2 nM. Chai-1 ESM ipTM outperforms AF2 pAE for predicting binding. Critical finding: biochemical properties beyond binding interface (isoelectric point) determine CAR-T cell trafficking and function. "Quattrobinders" match commercial antibodies for flow cytometry. Demonstrates the translation gap: AI designs binders well, but functional application requires optimization beyond the interface. https://www.nature.com/articles/s41467-026-76760-5
+
 - **2026-08-19** — AbCellera: Industry shifting to function-based AI models (Aug 19). Closed-loop integrated platforms becoming dominant paradigm. https://marketchameleon.com/articles/b/2026/8/19/abcellera-biologics-integrated-ai-drug-discovery-function-based-models
 
 - **2026-08-19** — AI drug discovery funding: 95% in two companies (Aug 8). H1 2026 ~$2.64B. Isomorphic ($2.1B) + Chai ($400M) = 95%. Median ~$10M. No pure-player financing Jul 22-Aug 5. https://newmarketpitch.com/blogs/news/ai-drug-discovery-funding-deals
@@ -68,4 +70,4 @@ traced back to the document it was extracted from.
 
 - **2026-06-24** — NISE (Nature): Zero-shot drug-binding protein design. 100% success on exatecan, 83% on apixaban. Kd = 80 pM. https://www.nature.com/articles/s41586-026-10670-w
 
-- **Industry context** — Rentosertib Phase III: 320 patients, 47 centers China. Estimated primary completion Oct 2029, NDA Mar 2030. Zero FDA approvals yet despite ~$60B invested. EU AI Act high-risk provisions took effect Aug 2. >200 AI-designed drugs in clinical development. Phase I success 80-90%, Phase 2 only 6.8%. AI drug discovery H1 funding: $2.64B but 95% in two companies.
+- **Industry context** — Rentosertib Phase III: 320 patients, 47 centers China. Estimated primary completion Oct 2029, NDA Mar 2030. Zero FDA approvals yet despite ~$60B invested. EU AI Act high-risk provisions took effect Aug 2. >200 AI-designed drugs in clinical development. Phase I success 80-90%, Phase 2 only 6.8%. AI drug discovery H1 funding: $2.64B but 95% in two companies. AlphaFold 3 pipelines have now produced 4 Phase I clinical candidates (end-to-end AI-designed, under 14 months). 60% analyst probability first AI drug approved by 2027.
