@@ -16,6 +16,10 @@ traced back to the document it was extracted from.
 
 ## This month
 
+- **2026-08-20** — BMS-Chai Discovery AI antibody collaboration (Aug 20). BMS leverages Chai's molecular folding and de novo design models across portfolio. Chai now has 5 major pharma partnerships in 2026 (BMS, Pfizer, Lilly, Novartis, argenx). https://www.contractpharma.com/breaking-news/bristol-myers-squibb-chai-partner-on-ai-antibody-discovery/
+
+- **2026-08-20** — Matwings closed-loop protein AI reaches clinical clearance (Aug 20). GenSci148 Injection (nAMD/DME/RVO) cleared for clinical trials in China. Four AI–wet lab cycles, 222 variants. VEGF-A binding affinity 10-fold improvement, thermal stability +4.5°C, expression +27.6%. Venus AI stack evolved to Venus 3.0 (VenusREM). Biowings Therapeutics spun out Mar 2026 for internal programs. https://www.prnewswire.com/news-releases/matwings-demonstrates-closed-loop-protein-ai-through-four-aiwet-lab-cycles-and-222-protein-variants-302856288.html
+
 - **2026-08-20** — Anthropic Claude autonomous protein design: wet-lab validated (Aug 18-20). Mythos Preview/Opus 4.8 designed minibinders against 15 targets, succeeded on 14. Hit rates 22-35% vs. 10-15% typical. 354 binders from 1,320 designs. RBX1: Claude bound at 3.9 nM vs. contest winner 45 nM. TREM2: 80% hit rate. Budget: $50K multi-target, $10K single. Claude ran open-source tools (RFdiffusion3, PXDesign, BoltzGen, ProteinMPNN, ESMFold2) autonomously. No human control arm; binding not structurally resolved. Datasets on Hugging Face. https://www.anthropic.com/research/Claude-accelerates-protein-design
 
 - **2026-08-20** — AbCellera ABCL635 Phase 2 (Aug 10): best-in-class vasomotor symptom data. NK3R antagonist antibody, single 600 mg SC dose. 83% hot flash frequency reduction vs. 33% placebo (50% adjusted, p<0.001). Severity: 58% vs. 12%. No serious AEs, no liver/GI signals. ~2x efficacy of Veozah/Lynkuet (daily small molecules). Plans for Phase 3 in 2027. Stock +31%. First GPCR program from AbCellera's platform. https://investors.abcellera.com/news/news-releases/2026/AbCellera-Announces-Positive-Top-Line-Phase-2-Clinical-Trial-Results-for-ABCL635-Demonstrating-Significant-Reduction-in-Frequency-and-Severity-of-Vasomotor-Symptoms-and-a-Favorable-Tolerability-Profile/default.aspx
@@ -32,19 +36,19 @@ traced back to the document it was extracted from.
 
 - **2026-08-19** — Schrödinger BMS Bunsen deployment (Aug 5). BMS deploying Bunsen (agentic AI co-scientist) at scale. Physics-based workflows, not general-purpose. RetroSynth for synthesis planning. Most significant commercial validation of agentic AI for computational chemistry. https://ir.schrodinger.com/press-releases/news-details/2026/Schrdinger-Announces-Strategic-Collaboration-and-Software-Agreement-with-Bristol-Myers-Squibb-to-Deploy-AI-Co-Scientist-Bunsen-for-Agentic-Drug-Discovery/default.aspx
 
-- **2026-08-19** — Insilico ISM8969: first-in-human dosing for brain-penetrant NLRP3 inhibitor (Jun 17). Phase I in Australia for chronic neuroinflammation/Parkinson's. Designed with Chemistry42. Co-developed with Hygtia (50/50). Up to $66M in milestones. https://www.prnewswire.com/news-releases/insilico-completes-first-in-human-dosing-in-phase-i-clinical-study-of-ai-driven-nlrp3-inhibitor-ism8969-achieving-first-clinical-milestone-in-collaboration-with-hygtia-therapeutics-302802955.html
-
-- **2026-08-19** — Novo Nordisk + AWS AI co-innovation hub (Aug 10). AWS preferred cloud. London hub embeds AWS engineers. Full computing stack: NVIDIA simulation, OpenAI models, AWS cloud. https://www.fiercebiotech.com/biotech/novo-nordisk-and-aws-sign-ai-drug-discovery-pact-launch-london-innovation-hub
-
-- **2026-08-19** — Cradle-Lundbeck partnership (Jun 3). AI protein engineering for CNS antibodies. 12,000+ hours/week saved. Two antibody programs. https://www.cradle.bio/blog/lundbeck
-
 - **2026-08-20** — AI-minibinder functional optimization (Nature Comms, Aug 20). University Hospital Bonn: RFdiffusion + AF2 pipeline for cancer surface targets (PD-L1, CD276, VTCN1). Best PD-L1 minibinder KD = 2 nM. Chai-1 ESM ipTM outperforms AF2 pAE for predicting binding. Critical finding: biochemical properties beyond binding interface (isoelectric point) determine CAR-T cell trafficking and function. "Quattrobinders" match commercial antibodies for flow cytometry. Demonstrates the translation gap: AI designs binders well, but functional application requires optimization beyond the interface. https://www.nature.com/articles/s41467-026-76760-5
+
+- **2026-08-19** — Causaly-Syneos Health: agentic AI for clinical research (Aug 18). Causaly's biomedical knowledge graph deployed across Syneos scientific functions. ~50% reduction in insight derivation time for study strategy. Part of Syneos broader AI ecosystem with Databricks and Microsoft (280+ agents). https://www.prnewswire.com/news-releases/causaly-and-syneos-health-partner-to-raise-the-scientific-intensity-of-clinical-research-302853752.html
+
+- **2026-08-19** — Nucleai-Gilead ADC collaboration (Aug 18). AI-powered tissue intelligence for pathology image analysis across Gilead's ADC clinical programs. Integrates computational pathology, spatial biology, clinical outcomes. https://www.ddw-online.com/nucleai-and-gilead-sciences-enter-oncology-adc-collaboration-43497-202608/
 
 - **2026-08-19** — AbCellera: Industry shifting to function-based AI models (Aug 19). Closed-loop integrated platforms becoming dominant paradigm. https://marketchameleon.com/articles/b/2026/8/19/abcellera-biologics-integrated-ai-drug-discovery-function-based-models
 
 - **2026-08-19** — AI drug discovery funding: 95% in two companies (Aug 8). H1 2026 ~$2.64B. Isomorphic ($2.1B) + Chai ($400M) = 95%. Median ~$10M. No pure-player financing Jul 22-Aug 5. https://newmarketpitch.com/blogs/news/ai-drug-discovery-funding-deals
 
-- **2026-08-19** — Chai Discovery $400M Series C (Jul 14). ~$1.3B valuation. Chai-2 ~20% zero-shot antibody hit rates. Novartis, Pfizer, Lilly, argenx partnerships. https://www.chaidiscovery.com/news
+- **2026-08-19** — DeepCyte DeeTox Atlas: first single-cell metabolomic toxicity atlas (Aug 19). ~100 compounds, 300K cells, ~500 metabolites/cell. Foundation model predicts toxicity mechanisms for unseen compounds. Pilots with 3 top-20 pharma. https://www.prnewswire.com/news-releases/deepcyte-launches-worlds-first-single-cell-mechanistic-toxicity-atlas-as-enterprise-pharma-pilots-advance-302854632.html
+
+- **2026-08-19** — Chai Discovery $400M Series C (Jul 14). ~$1.3B valuation. Chai-2 ~20% zero-shot antibody hit rates. Now 5 major pharma partnerships: Novartis, Pfizer, Lilly, argenx, BMS. https://www.chaidiscovery.com/news
 
 - **2026-08-19** — Insilico forecasts profit H1 2026 (Jul 8). First AI drug company to project profitability. 33+ preclinical candidates, 13 IND clearances. https://www.marketscreener.com/news/insilico-medicine-launches-pandaclaw-empowering-biologists-with-agentic-ai-for-therapeutic-discover-ce7e5edcd189f523
 
