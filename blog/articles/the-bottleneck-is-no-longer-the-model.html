@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The bottleneck is no longer the model — Protein to Pill</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<nav>
+  <a href="../index.html">Protein to Pill</a>
+</nav>
+
+<article>
+  <header>
+    <h1>The bottleneck is no longer the model</h1>
+    <time datetime="2026-08-21">21 August 2026</time>
+  </header>
+
+  <p>A general-purpose language model just matched or beat specialized protein design tools across 15 targets. A hybrid AI-physics docking method showed 100x improvement over pure ML on novel biology. And a Nature Communications paper demonstrated that even strong binders can fail as therapeutics when biochemical properties beyond the binding interface are wrong. These three results, published within the same week, point to the same conclusion: the bottleneck in AI protein design has shifted from computation to experiment.</p>
+
+  <h2>Claude runs the whole stack</h2>
+  <p>Anthropic reported that <a href="https://www.anthropic.com/research/Claude-accelerates-protein-design">Claude Mythos and Opus 4.8</a> designed minibinders against 15 protein targets, with wet-lab validation by Adaptyv Bio and Twist Bioscience. The results: 354 binders from 1,320 designs, an overall hit rate of 26.8%, and single-target mode reaching 35.1%. Claude succeeded on 14 of 15 targets. Against RBX1, its top design bound at 3.9 nM — roughly 10x tighter than the contest winner's 45 nM. Against TREM2, the hit rate hit 80%. TNFα, where other groups had achieved zero binders, yielded 12.</p>
+
+  <p>What makes this significant isn't just the numbers. It's that Claude did it autonomously. The model installed and ran open-source tools — RFdiffusion3, PXDesign, BoltzGen, ProteinMPNN, ESMFold2 — choosing epitopes, designing candidates, and ranking outputs with minimal human input. The budget was $50K for the multi-target campaign and $10K per single target. No human-expert control arm was included, and binding was not structurally resolved, so the results come with real caveats. But the core demonstration is clear: a general reasoning model can orchestrate an end-to-end protein design pipeline at twice the industry's typical hit rate.</p>
+
+  <p>If general-purpose models become competitive with specialized pipelines, the competitive landscape shifts. The advantage moves from "who has the best protein model" to "who has the best data and experimental validation infrastructure." That's a different kind of race — and one where the companies with integrated wet-lab platforms have a structural edge.</p>
+
+  <h2>Physics holds where deep learning collapses</h2>
+  <p>Deep Origin <a href="https://www.hpcwire.com/aiwire/2026/08/19/deep-origin-claims-breakthrough-in-ai-drug-discovery-platform/">published wet-lab validation</a> of its DODock virtual screening framework on novel targets. The headline result: a 31% hit rate against CD73, a cancer immunotherapy enzyme — roughly 100x improvement over pure ML approaches. On novel targets where co-folding models drop below 25% pose accuracy, DODock maintained 50-89% by combining a diffusion model for pose proposals with a physics-based energy function for refinement.</p>
+
+  <p>This confirms the <a href="https://www.nature.com/articles/s41573-026-01496-2">generalization gap thesis</a> that has been building all year. AlphaFold 3 was transformative for known structural families, but drug discovery lives in unexplored biological space. Co-folding models that predict protein-ligand complexes jointly collapse when the target is genuinely novel — which is exactly the situation drug designers face most often. Deep Origin's hybrid approach, using ML for speed and physics for accuracy on unfamiliar terrain, suggests the near-term winning architecture isn't pure deep learning. It's ML proposals refined by physical principles.</p>
+
+  <p>The implication is practical. If you're screening against a well-characterized target family, end-to-end deep learning works. If you're hunting in genuinely new biology — which is where the unmet medical needs live — you need the physics fallback. The field's next frontier isn't better predictions on familiar systems. It's reliable predictions on novel ones.</p>
+
+  <h2>Binding is necessary but not sufficient</h2>
+  <p>A <a href="https://www.nature.com/articles/s41467-026-76760-5">Nature Communications paper</a> from University Hospital Bonn tackled a problem the protein design field has been skating past: even when AI-minibinders bind their targets tightly, they can fail as therapeutics. The team built a pipeline using RFdiffusion, AF2, and ProteinMPNN against cancer cell-surface proteins PD-L1, CD276, and VTCN1. The best PD-L1 minibinder achieved a KD of 2 nM — strong binding by any measure.</p>
+
+  <p>But when these binders were incorporated into chimeric antigen receptors for T-cell therapy, some showed poor cell-surface trafficking despite strong binding. The problem wasn't the binding interface. It was biochemical properties of the rest of the protein — particularly isoelectric point, which determines how the CAR construct expresses on the cell surface. A genetic algorithm-based diversification strategy that preserved the binding interface while varying non-binding surfaces identified an isoelectric point window that improved CAR expression.</p>
+
+  <p>This is the biochemical optimization gap. The protein design field has focused intensely on the binding interface — can the AI design a protein that sticks to the target? — but a designed protein that binds perfectly but can't reach the target in a living system is useless. The Bonn team also created "quattrobinders" — tetravalent fluorescent reagents from AI-designed minibinders that perform on par with commercial antibodies for flow cytometry — demonstrating that the optimization challenge is solvable, but requires attention beyond the binding interface.</p>
+
+  <h2>The wet-lab bottleneck</h2>
+  <p>These three results converge on one bottleneck: experimental validation and functional optimization. Claude can design 1,320 candidates across 15 targets for $50K. Deep Origin can screen 80 billion compounds and maintain accuracy on novel biology. But someone still has to synthesize those designs, test them in the lab, and optimize the ones that work for actual therapeutic use. That's slow, expensive, and hard to automate.</p>
+
+  <p>Vivodyne is <a href="https://techcrunch.com/2026/08/19/ai-isnt-close-to-curing-cancer-this-startup-says-it-knows-what-it-will-take/">attacking this directly</a>. The company opened 12 robotic HIVE labs near San Francisco with capacity for 3.1 million controlled human tissue trials per year — claimed to be twice the volume of all US clinical trials combined. The labs grow 20+ types of human organ tissue with autonomous dosing and monitoring. Early results show 94% predictive accuracy for liver toxicity, 96% for airway, and 100% concordance on bone marrow against 20 chemotherapy drugs. Eight of the world's largest pharma companies are paying for early access.</p>
+
+  <p>Vivodyne's vision is to generate causal biological data — tissue exposed to stimuli over time, not static snapshots — to train what the company calls a "world model of human biology." This addresses a core limitation of current AI models: they learn from correlational data, not cause-and-effect dynamics. If the bottleneck is shifting from computation to experiment, then the companies that own the fastest, most representative experimental infrastructure will have the advantage.</p>
+
+  <h2>What this means for the field</h2>
+  <p>The protein design community has spent three years improving models: better structure prediction, better binding affinity prediction, better generation. Those improvements are real and ongoing. But the limiting factor for getting a drug to a patient was never going to be the model. It was always going to be the translation from computational design to functional therapeutic — synthesis, screening, optimization, clinical validation.</p>
+
+  <p>Three things follow. First, companies with integrated computational and experimental platforms — AbCellera, Recursion, Vivodyne — are better positioned than pure-software plays. Second, the competitive moat is shifting from model weights to proprietary experimental data. Open-source protein models are catching up to proprietary ones (ESMFold2 surpasses AlphaFold3, Aureka's OpenDDE outperforms it on antibody-antigen tasks), which means the data advantage matters more than the model advantage. Third, the "biochemical optimization gap" between binding design and functional application is the next bottleneck after the generalization gap — and solving it requires the kind of iterative, experiment-in-the-loop workflows that few companies have built.</p>
+
+  <p>The bottleneck is no longer the model. It's everything that happens after the model outputs a design.</p>
+
+  <footer>
+    <p><a href="../index.html">&larr; Home</a></p>
+  </footer>
+</article>
+
+</body>
+</html>
