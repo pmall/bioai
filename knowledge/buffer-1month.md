@@ -16,6 +16,10 @@ traced back to the document it was extracted from.
 
 ## This month
 
+- **2026-08-22** — IntuitionLabs/ASCO rigorous pipeline count (Aug 9): 117 AI-enabled therapeutic assets across 63 companies in interventional human trials. 60 (51%) completed Phase 1, only 8 (6.8%) completed Phase 2. First standardized classification vs. company self-reporting. Confirms rentosertib as field's most advanced (Phase III registered Jul 7). Isomorphic Labs still no disclosed clinical candidate, timeline pushed to end of 2026. https://intuitionlabs.ai/articles/ai-discovered-drugs-clinical-trials-2026
+
+- **2026-08-19** — Twist Bioscience confirmed as Anthropic's wet-lab partner for Claude protein design validation (Aug 19). Twist synthesized and tested designs from the 15-target campaign, providing independent commercial validation. First public confirmation of which lab executed the physical protein synthesis. https://www.tipranks.com/news/company-announcements/twist-bioscience-tapped-to-validate-anthropic-ai-proteins
+
 - **2026-08-21** — BioMed Nexus profiles 25 AI drug discovery companies with clinical evidence (Aug 21). >200 AI-designed drugs in clinical development. Phase I success 80-90% (vs ~52% historical). 15-20 AI-originated drugs expected to enter pivotal trials in 2026. 60% analyst probability first AI drug approved by 2027. Tier 1: Insilico (rentosertib), Recursion+Exscientia, Schrödinger (zasocitinib Phase III), Relay, AbCellera, BenevolentAI. January 2026 platform deals (Lilly+Chai, GSK+Noetik, Pfizer+Boltz) signal pharma treating AI as core R&D infrastructure. https://biomednexus.com/ai-drug-discovery-companies-clinical-candidates-2026/
 
 - **2026-08-20** — BMS-Chai Discovery AI antibody collaboration (Aug 20). BMS leverages Chai's molecular folding and de novo design models across portfolio. Chai now has 5 major pharma partnerships in 2026 (BMS, Pfizer, Lilly, Novartis, argenx). https://www.contractpharma.com/breaking-news/bristol-myers-squibb-chai-partner-on-ai-antibody-discovery/
