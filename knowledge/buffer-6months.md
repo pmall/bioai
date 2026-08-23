@@ -61,6 +61,8 @@ records the observation it grew out of.
 
 - **2026-08** — Recursion-Genentech: First AI-discovered neuroscience target validated and advanced into early discovery. First concrete proof that an AI platform can discover novel biology. https://www.globenewswire.com/news-release/2026/08/05/3339126/0/en/Recursion-Reports-Second-Quarter-Financial-Results-Genentech-Options-First-Neuroscience-Target-into-Early-Discovery-Program.html
 
+- **2026-06** — Alnylam-Inceptive $2B AI-RNA collaboration (Jun 3 2026). Alnylam Pharmaceuticals partnered with Inceptive Nucleics (led by Jakob Uszkoreit, co-author of "Attention Is All You Need") in a deal valued up to $2B with $30M upfront. Three-year collaboration applying Inceptive's generative AI foundation models to RNAi therapeutic discovery, pairing Alnylam's 20+ years proprietary RNAi data with transformer-architecture models for siRNA design. First deal applying transformer AI to siRNA design at this scale. Signals AI expanding beyond small molecules and antibodies into nucleic acid therapeutics. https://investors.alnylam.com/press-release?id=29941
+
 - **2026-02** — Generate:Biomedicines $400M IPO on Nasdaq (GENB). Largest biotech IPO of 2026. Lead candidate GB-0895 (anti-TSLP) in Phase III for asthma. https://generatebiomedicines.com/
 
 - **2026-06** — NewLimit $435M Series C for epigenetic reprogramming to treat aging. Total raised $650M. First program entering clinic. https://newlimit.com/
