@@ -16,6 +16,8 @@ traced back to the document it was extracted from.
 
 ## This month
 
+- **2026-08-25** — Cytiva CTO on AI in bioprocessing (Aug 25): Generative AI extending from drug discovery into bioprocessing/manufacturing. AI predicting manufacturability (expression, purification, formulation). Tahoe Therapeutics ($30M) building AI cell models. Federated learning proposed for "low n" problem in bioprocessing. Vision of fully in-silico process development and digital twins for biomanufacturing. Signals the AI drug discovery value chain expanding beyond design into production. https://pharmaphorum.com/rd/impact-generative-ai-protein-design-drug-discovery-and-beyond
+
 - **2026-08-25** — Sanofi SWEL (Aug 19-20): Scientific Workflow Experience Labs — context-aware scientific operating system on AWS. Connects data, workflows, models, and AI agents across drug discovery lifecycle. Built on 20+ PB SIPS data. Aspires to 50% fewer wet-lab molecules, 10x faster workflow deployment, 2-3x more in silico projects. SWEL Copilot on Bedrock AgentCore. Already identified biologically active compounds. 50+ workflows deployed. https://aws.amazon.com/blogs/industries/enterprise-lab-in-the-loop-on-aws-how-sanofi-is-compressing-drug-discovery-from-years-to-weeks/
 
 - **2026-08-25** — Aizen Therapeutics oral peptide deal (Aug 15): Multi-program collaboration with unnamed San Diego public biotech. DaX foundation model for oral peptide design using non-canonical amino acids. Several million upfront + $100M milestones per target. Caltech spinout. ncAA space at 10x scale of traditional methods. Immunology and neurology focus. https://www.prnewswire.com/news-releases/aizen-enters-into-collaboration-with-san-diego-biopharma-to-advance-oral-biologics-302848775.html
