@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The shared layer — Protein to Pill</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<nav>
+  <a href="../index.html">Protein to Pill</a>
+</nav>
+
+<article>
+  <header>
+    <h1>The shared layer</h1>
+    <time datetime="2026-08-25">25 August 2026</time>
+  </header>
+
+  <p>Something shifted in AI drug discovery this week, and it wasn't a new model or a breakthrough result. It was the business model. Four of the world's largest pharmaceutical companies — Lilly, Novartis, argenx, and now BMS — have licensed the same antibody-design models from Chai Discovery. Non-exclusively. At the same time, Sanofi launched a context-aware scientific operating system on AWS, and Pathos AI used its agent platform to evaluate and license an external asset rather than discover one internally. The pattern is clear: AI drug discovery is transitioning from proprietary advantage to shared infrastructure.</p>
+
+  <h2>Same models, four pharmas</h2>
+  <p>BMS <a href="https://www.contractpharma.com/breaking-news/bristol-myers-squibb-chai-partner-on-ai-antibody-discovery/">licensed Chai Discovery's antibody-design models</a> this month, becoming the fourth large pharma to do so. The deal structure is the important detail: Chai has licensed the same models — not bespoke variants, the same weights — to Lilly, Novartis, argenx, and BMS, all non-exclusively. Discovery AI is being priced as shared infrastructure, not proprietary advantage.</p>
+
+  <p>This is a different commercial logic than the one the field started with. The early thesis was that the best AI model would be a moat — that proprietary algorithms would give one company an edge over competitors. Chai's model flips this: the value is in the data and experimental validation that refine the models over time, not in the model weights themselves. If everyone has access to the same design engine, the differentiator becomes what you do with it.</p>
+
+  <h2>The enterprise operating system</h2>
+  <p>Sanofi's <a href="https://aws.amazon.com/blogs/industries/enterprise-lab-in-the-loop-on-aws-how-sanofi-is-compressing-drug-discovery-from-years-to-weeks/">Scientific Workflow Experience Labs</a> — SWEL — represents the same shift at a different scale. Rather than deploying AI as a point tool for specific tasks, Sanofi built a context-aware operating system that connects data, workflows, models, and agents across the entire drug discovery lifecycle. The system is built on 20+ petabytes of Sanofi's SIPS scientific data, and its Copilot agent runs on Bedrock AgentCore.</p>
+
+  <p>The key feature is shared memory: SWEL agents carry forward experimental and organizational history across projects. This addresses a limitation that has plagued AI drug discovery from the start — agents that operate without awareness of prior experiments, failed approaches, or parallel work. Sanofi's aspiration is concrete: 50% fewer molecules requiring wet-lab validation, 10x faster workflow deployment, and 2-3x more in silico projects. The platform has already contributed to identifying biologically active compounds and has scaled to 50+ scientific workflows.</p>
+
+  <h2>AI as external asset evaluator</h2>
+  <p>Pathos AI's <a href="https://www.pathos.com/pathos-ai-enters-global-licensing-agreement-with-alphamab-oncology-on-jskn016-a-first-in-class-trop2-her3-bispecific-adc">$125 million license of JSKN016</a> from Alphamab tells a different version of the same story. The asset — a first-in-class TROP2/HER3 bispecific antibody-drug conjugate — was identified and prioritized through Foundry, Pathos's platform using thousands of AI agents in parallel against 200+ petabytes of multimodal data and Tempus's 8 million+ patient records.</p>
+
+  <p>This is the fourth clinical-stage program advanced through Foundry, and it extends the AI drug discovery value proposition beyond "design molecules" to "identify and evaluate external opportunities." The AI isn't discovering the molecule — Alphamab designed it. The AI is screening, prioritizing, and de-risking the decision to license it. That's a different kind of infrastructure: not a design tool, but a decision-making layer applied to the broader drug development portfolio.</p>
+
+  <h2>Open-source as default</h2>
+  <p>Chugai Pharmaceutical's <a href="https://www.prnewswire.com/news-releases/phylo-and-chugai-partner-to-advance-ai-agents-in-drug-discovery-302841836.html">partnership with Phylo</a> to deploy Biomni Lab follows a familiar pattern. Biomni Lab — which integrates 300+ databases, software systems, and analytical tools — traces its roots to open-source releases. Chugai was among its earliest users before becoming a formal partner. The platform covers single-cell analysis, human genetics, disease biology, and target evaluation.</p>
+
+  <p>Chugai is the second Japanese drugmaker to adopt the platform, after Ono Pharmaceutical. The progression from open-source user to formal partnership is itself a signal: the infrastructure layer is consolidating around platforms that started open and became enterprise-grade through adoption, not exclusion.</p>
+
+  <h2>The undruggable frontier</h2>
+  <p>Not everything this week was about infrastructure. Sravathi AI and <a href="https://pharma.economictimes.indiatimes.com/news/pharma-industry/sravathi-ai-mayo-clinic-develop-new-molecule-against-undruggable-cancer-target/133362018">Mayo Clinic published in Cell Reports</a> on an AI-designed molecule targeting the PDZ-domain of GIPC1 — a protein contributing to pancreatic and other cancers that was previously considered undruggable. The platform screened roughly 40,000 compounds using generative AI, predictive modelling, and physics-based chemistry. The candidate slowed tumour progression, improved survival, and enhanced gemcitabine efficacy in animal models.</p>
+
+  <p>Sravathi now has 9 experimental candidates, 6 in advanced stages. The work matters because it demonstrates AI attacking a different kind of bottleneck — not the speed of discovery, but the reach of what can be targeted. Undruggable proteins represent a vast territory of biology that traditional methods have failed to access. Whether AI can consistently expand that territory remains an open question, but each confirmed example shifts the boundary.</p>
+
+  <h2>What the shift means</h2>
+  <p>The common thread across these developments is the transition from AI as a proprietary weapon to AI as shared infrastructure. Chai licenses the same models to competing pharmas. Sanofi builds an operating system, not a molecule engine. Pathos uses AI to evaluate other people's molecules. Chugai adopts open-source tools and formalizes them into enterprise partnerships.</p>
+
+  <p>This is how infrastructure layers actually form. The internet became transformative not when one company had the best network, but when the network became shared. Cloud computing reshaped enterprise IT not when Amazon had the best servers, but when the servers became available to everyone. If AI drug discovery follows the same pattern, the competitive advantage will shift from "who has the best model" to "who has the best data, the best experimental validation, and the best integration into scientific workflows."</p>
+
+  <p>The Nature Reviews Drug Discovery perspective earlier this month argued that AI's impact on drug discovery has been "disappointingly limited." That assessment may be accurate for the current moment. But the infrastructure being built this month — shared, interoperable, enterprise-grade — is what the next phase of the field will be built on. The question is no longer whether AI can design molecules. It's whether the shared layer produces better decisions across the board.</p>
+
+  <footer>
+    <p><a href="../index.html">&larr; Home</a></p>
+  </footer>
+</article>
+
+</body>
+</html>
