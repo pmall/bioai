@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The first blinded test — Protein to Pill</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<nav>
+  <a href="../index.html">Protein to Pill</a>
+</nav>
+
+<article>
+  <header>
+    <h1>The first blinded test</h1>
+    <time datetime="2026-08-27">27 August 2026</time>
+  </header>
+
+  <p>The AI antibody design field just had its CASP moment. <a href="https://www.prnewswire.com/news-releases/nature-biotechnology--aureka-wins-the-global-blinded-ai-antibody-benchmark-ai-design-surpasses-the-best-experimental-result-302860936.html">AIntibody</a>, published in Nature Biotechnology, is the first blinded, independently wet-lab-validated competition for AI antibody design. The results are in, and they settle a question the field has been avoiding: can AI design antibodies better than humans, when nobody gets to choose their own benchmark?</p>
+
+  <p>The answer, for the first time, is provably yes.</p>
+
+  <h2>What blinded actually means</h2>
+  <p>Every previous AI antibody design benchmark has had the same problem: the companies running the benchmarks designed the datasets, chose the metrics, and reported the results. This is like a student grading their own exam. It doesn't mean the results were wrong — it means they were unfalsifiable. Nobody could distinguish genuine capability from favorable experimental design.</p>
+
+  <p><a href="https://www.prnewswire.com/news-releases/nature-biotechnology--aureka-wins-the-global-blinded-ai-antibody-benchmark-ai-design-surpasses-the-best-experimental-result-302860936.html">AIntibody</a> eliminates that problem. The target (SARS-CoV-2 RBD) was chosen independently. The designs were submitted blind. The validation was done by an independent wet lab. The results were published in Nature Biotechnology. This is the CASP model applied to antibody design — a prospective, blinded competition where the field's claims are tested against reality, not against each other's datasets.</p>
+
+  <h2>What the results show</h2>
+  <p><strong>Aureka Biotechnologies</strong> won Challenge 1 (in-silico affinity maturation) with its <strong>AuraIDE</strong> platform. The winning antibody reached <strong>94.7 pM affinity</strong> — a 2,000-fold improvement over the parental sequence. Aureka took three of the top five placements. Six of their antibodies fell below 10 nM while meeting developability criteria.</p>
+
+  <p>These are not synthetic benchmarks. They are experimentally measured binding affinities on real proteins, validated by an independent lab. The 2,000-fold improvement is not a computational projection — it is what happened when the designed antibodies were synthesized and tested.</p>
+
+  <h2>Why this matters beyond antibody design</h2>
+  <p>The significance of AIntibody is not just that AI-designed good antibodies. It is that the field now has an objective standard for evaluating claims. Before AIntibody, every company could produce its own benchmark showing its own models performing well. After AIntibody, there is a reference point that no company controls.</p>
+
+  <p>This is exactly what <a href="https://www.nature.com/articles/s41573-026-01496-2">Bender et al.</a> called for in Nature Reviews Drug Discovery two weeks ago: benchmarks that measure real-world capability, not model validation. AIntibody is the first concrete answer to that call in any subfield of AI drug discovery.</p>
+
+  <h2>The validation divide</h2>
+  <p>The same week AIntibody published, a <a href="https://news.northeastern.edu/2026/08/26/ai-drug-discovery-study/">Northeastern capstone study</a> tested open-source AI frameworks — GPT Researcher, Agent Laboratory, and others — on drug discovery tasks. All models failed to reproduce human algorithms. The reports they produced were rife with errors. The conclusion: AI is useful for repetitive tasks and statistical support, but requires constant human oversight in complex cases.</p>
+
+  <p>These two results are not contradictory. They are complementary. The Northeastern study shows that generic AI tools, applied without domain-specific validation, produce unreliable results. AIntibody shows that domain-specific AI tools, validated against independent experimental benchmarks, can outperform human experts. The difference is not intelligence — it is infrastructure. AIntibody's winning designs came from a system (AuraIDE) built specifically for antibody maturation, trained on proprietary experimental data, and validated through a blinded competition. The Northeastern study used general-purpose tools applied to complex biological problems without that infrastructure.</p>
+
+  <h2>The competitive landscape shifts</h2>
+  <p>Aureka's AIntibody win comes on top of <a href="https://www.techtimes.com/articles/323933/20260811/aureka-open-sourced-antibody-ai-that-beats-alphafold-3-closes-100m-drug-discovery-round.htm">OpenDDE</a>, their open-source antibody-antigen docking model that scores 76.1% DockQ on FoldBench versus AlphaFold 3's 47.9%. The pattern is now clear: Aureka releases the model (Apache 2.0), keeps the experimental data, and wins blinded competitions with the infrastructure that data enables. The moat is not in the weights — it is in the lab-in-the-loop data flywheel that produces the training data the weights learn from.</p>
+
+  <p>This is the same pattern playing out across the field. <a href="https://www.chaidiscovery.com/news">Chai Discovery</a> now has five major pharma partnerships (Novartis, Pfizer, Lilly, argenx, BMS) licensing the same antibody-design models non-exclusively. <a href="https://www.nature.com/articles/d41586-026-01686-3">ESMFold2</a> surpassed AlphaFold 3 on complex prediction and is MIT-licensed. <a href="https://boltz.bio/boltz2">Boltz-2</a> approaches FEP accuracy at 1,000x speed and is used by all top 20 pharma. The models are becoming shared infrastructure. The differentiator is the data and the experimental validation — which is exactly what AIntibody just proved.</p>
+
+  <h2>What comes next</h2>
+  <p>AIntibody established the paradigm. The question now is whether it scales. One blinded benchmark on one target does not validate a field. But it does establish a standard. If AIntibody becomes a recurring competition — CASP ran for decades before protein structure prediction became reliable — the field will have something it has never had: a way to distinguish genuine progress from marketing.</p>
+
+  <p>The antibody design bottleneck is collapsing. Germinal achieves nanomolar de novo affinities with dozens of experiments. Chai-2 hits 20% zero-shot rates. Claude designs binders at twice industry average hit rates. AIntibody now adds the missing piece: proof that these numbers are real, validated by someone who didn't generate them. The question is no longer "can AI design antibodies?" It is "which platform produces clinical candidates?" AIntibody doesn't answer that question. But it makes the question answerable.</p>
+
+  <footer>
+    <p><a href="../index.html">&larr; Home</a></p>
+  </footer>
+</article>
+
+</body>
+</html>
