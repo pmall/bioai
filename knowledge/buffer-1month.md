@@ -16,9 +16,17 @@ traced back to the document it was extracted from.
 
 ## This month
 
+- **2026-08-28** — BioNTech halts Phase 2 of autogene cevumeran (personalized mRNA cancer vaccine) in resected colorectal cancer for futility. Monotherapy without checkpoint inhibitor failed. Shares -8%. Roche combo trial in pancreatic cancer continues. Signals personalized mRNA neoantigen therapy requires combination with checkpoint inhibitors. https://www.biospace.com/drug-development/biontech-halts-mid-stage-trial-of-personalized-mrna-vaccine-in-colorectal-cancer
+
+- **2026-08-28** — AstraZeneca/Ionis Wainua (eplontersen) Phase 3 CARDIO-TTRansform full data: HR 1.14 vs. standard of care (14% higher CV mortality/events). Monotherapy showed 29% improvement. TTR knockdown ~10% less than Alnylam's Amvuttra. Stifel: "hard to see a path toward approval." Oral stabilizers remain preferred first-line. https://www.biospace.com/drug-development/worse-than-expected-wainua-data-muddies-water-for-ttr-silencers
+
 - **2026-08-28** — Genentech licenses DualityBio's DUPAC novel-payload ADC platform: $45M upfront, >$1B milestones. DUPAC payloads designed to work in tumors resistant to topoisomerase inhibitor-based ADCs (Enhertu, Trodelvy class). DualityBio handles discovery through Phase Ia; Genentech takes over. DualityBio's 7th major pharma partnership. Signals ADC resistance is now a distinct therapeutic category, and Chinese biotech platforms supply the novel payload innovation. https://www.fiercebiotech.com/biotech/genentech-doubles-down-adc-resistant-cancers-1b-dualitybio-pact
 
 - **2026-08-24** — Roche licenses Hanmi Pharm's HM17321 non-incretin UCN2 analog: $190M upfront, up to $2.3B total. Activates CRF2 receptors in muscle to reduce fat mass and preserve lean body mass — addresses the lean mass loss side effect of GLP-1 therapies. Phase 1 enrolling. Roche now has three obesity strategies (Carmot, Zealand petrelintide, Hanmi). Signals obesity market pivoting from "maximum weight loss" to "quality weight loss." https://www.fiercebiotech.com/biotech/roche-pens-25b-pact-hanmis-clinical-stage-obesity-drug-targeting-less-used-mechanism
+
+- **2026-08-28** — Samsung Biologics acquires PolyPeptide (Swiss peptide CDMO) for ~$1.8B equity value. Korea's largest-ever biopharma deal. Peptide API capacity for GLP-1 supply chain. https://www.biobucks.co/biotech-ma-tracker-2026
+
+- **2026-08-12** — InduPro raises $75M Series B, doses first patient in Phase 1 of IDP-001 (bispecific ADC: EGFR + novel TAPA antigen). Backed by Merck MRL Ventures, Sanofi, Lilly. https://www.biospace.com/press-releases/indupro-announces-75-million-series-b-financing-and-dosing-of-first-patient-in-phase-1-clinical-trial-of-idp-001
 
 - **2026-08-28** — FDA approves Lilly's Mounjaro (tirzepatide) for CV risk reduction in T2D adults. First dual GIP/GLP-1 with CV benefit. SURPASS-CVOT (13,299 patients). Matches Novo's Ozempic CV approval. ~40M Americans with T2D, ~1/3 undetected CV disease. Signals GLP-1/GIP class validated for cardiovascular benefit. https://investor.lilly.com/news-releases/news-release-details/fda-approves-lillys-mounjaro-tirzepatide-reduce-cardiovascular
 
