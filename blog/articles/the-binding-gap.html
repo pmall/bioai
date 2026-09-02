@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Folding is solved. Binding isn't. — Protein to Pill</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<nav>
+  <a href="../index.html">Protein to Pill</a>
+</nav>
+
+<article>
+  <header>
+    <h1>Folding is solved. Binding isn't.</h1>
+    <time datetime="2026-09-02">2 September 2026</time>
+  </header>
+
+  <p>Protein design has a success problem that looks like a success. AI models now generate sequences that fold correctly at rates above 85%. But the number that matters — whether those folded proteins actually bind their targets — sits below 10%. The Stanford HAI AI Index 2026 measured this across the field and found a gap that changes how you read every protein design headline.</p>
+
+  <h2>The numbers behind the claim</h2>
+  <p>The Stanford analysis compiled protein design outcomes across multiple platforms and methods. Overall expression success — the designed protein is produced and folds — reached <a href="https://hai.stanford.edu/assets/files/ai_index_report_2026_chapter_6_medicine.pdf">85.87%</a>. Functional binding — the protein does what it was designed to do — hit only 9.65%. The best-performing method, BoltzGen, reached 28.57% binding success. The rest performed worse.</p>
+
+  <p>This is not a failure of any single platform. It is the state of the art. The gap between folding and binding is the gap between a protein that exists and a protein that works. And it is the gap that determines whether AI-designed proteins become drugs or remain interesting molecules in a paper.</p>
+
+  <h2>Ainnocence: removing the structural requirement</h2>
+  <p><a href="https://www.biospace.com/press-releases/ainnocence-reports-91-4-program-success-rate-across-58-antibody-affinity-maturation-campaigns-opens-28-program-biologics-pipeline-to-licensing">Ainnocence reported 91.4% program success</a> across 58 antibody affinity maturation campaigns using SentinusAI, a sequence-only foundation model. No structure input. No multiple sequence alignment. No 3D modeling. Just amino acid sequences. The computational cost was 10,000-fold lower than structure-based approaches.</p>
+
+  <p>Twenty-eight programs are now available for licensing. On novel targets with no structural information, 53% of de novo campaigns yielded validated hits. The company is running over 100 concurrent programs, with one to two weeks of compute per round and 20 to 50 samples per round for wet-lab validation.</p>
+
+  <p>Ainnocence's result is significant because it attacks the structural data bottleneck directly. If you do not need a protein structure to design a binder, the number of addressable targets expands dramatically. But the binding success rate on novel targets — 53% — still means nearly half of attempts fail. Sequence-only design removes a bottleneck without solving the underlying problem.</p>
+
+  <h2>The first blinded benchmark</h2>
+  <p><a href="https://www.prnewswire.com/news-releases/nature-biotechnology--aureka-wins-the-global-blinded-ai-antibody-benchmark-ai-design-surpasses-the-best-experimental-result-302860936.html">AIntibody, published in Nature Biotechnology</a>, is the first blinded, independently wet-lab-validated AI antibody design competition. Aureka Biotechnologies won with AuraIDE — the winning antibody reached 94.7 picomolar affinity, a 2,000-fold improvement over the parental sequence. Three of the top five placements went to Aureka. Six antibodies scored below 10 nanomolar while meeting developability criteria.</p>
+
+  <p>The significance is not the headline number. It is the format. AIntibody is a CASP-like benchmark for antibody design — a competition where no company controls the evaluation, where results are verified by independent wet labs, and where the metrics matter for clinical translation, not just computational scores. The field now has an objective standard that no single platform can optimize around.</p>
+
+  <h2>Chai moves to full-length monoclonals</h2>
+  <p><a href="https://pharmaphorum.com/news/chai-raises-130m-ai-drug-discovery-platform">Chai Discovery raised $130 million</a> in a Series B at roughly $1.3 billion valuation, bringing total funding to over $225 million. The advance is not financial. Chai-2 has moved from minibinders — small antibody fragments — to full-length monoclonal antibodies while maintaining hit rates above 20% in zero-shot design. The models have been applied to six GPCRs and a peptide-MHC complex, targets that prior computational methods struggled with, claiming 100-fold improvement over prior approaches.</p>
+
+  <p>Five major pharmaceutical companies — Novartis, Pfizer, Eli Lilly, argenx, and BMS — have now licensed the same antibody-design models non-exclusively. The pricing model treats these as shared infrastructure, not proprietary advantage. The question has shifted from whether Chai's models work to which platform produces clinical candidates first.</p>
+
+  <h2>The gap is the bottleneck</h2>
+  <p>These four threads — Stanford's 9.65% binding rate, Ainnocence's sequence-only validation, AIntibody's blinded standard, and Chai's move to full-length antibodies — describe the same structural problem. Protein folding is largely solved. Protein binding is not. The models can generate sequences that adopt the right shape. They cannot yet reliably ensure those sequences interact with the right target in the right way at the right affinity.</p>
+
+  <p>The implications are practical. A design pipeline that succeeds at folding but fails at binding still requires wet-lab screening to identify which candidates actually work. The computational step reduces the search space but does not eliminate the experimental bottleneck. This is why Vivodyne's HIVE labs — 12 robotic facilities generating 3.1 million tissue trials per year — and Northwestern's DREAM Cloud Lab — 300,000 proteins and 30 million data points over four years — matter as much as any new model. The binding gap is closed by experimental data, not better algorithms.</p>
+
+  <p>Ainnocence's 53% de novo hit rate on novel targets is the closest anyone has come to crossing this threshold at production scale. It is still a coin flip. The field needs that number above 80% before computational binding design becomes the default rather than the exception.</p>
+
+  <footer>
+    <p><a href="../index.html">&larr; Home</a></p>
+  </footer>
+</article>
+
+</body>
+</html>
