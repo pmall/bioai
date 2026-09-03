@@ -16,6 +16,18 @@ traced back to the document it was extracted from.
 
 ## This month
 
+- **2026-09-03** — China NMPA approves Mprosevir, first AI-assisted Class 1 innovative drug. DEL+AI screening of 49B compounds. 3.5 years from discovery to clinical trial completion. First small-molecule drug approved globally based on DEL technology. Signals China regulatory speed for AI-assisted drugs. https://www.globaltimes.cn/page/202609/1369691.shtml
+
+- **2026-09-02** — Insilico Medicine releases MMAI Gym specialist models: small LMs (2.6B/24B) achieving SOTA on 70+ drug discovery benchmarks (ADMET, GPCR, kinase, retrosynthesis). Signals right-sized specialist models competing with dedicated computational methods. https://www.news-medical.net/news/20260902/Insilico-Medicine-releases-frontier-AI-models-for-drug-discovery.aspx
+
+- **2026-09-02** — Owkin licenses K Pro AI Scientist + multimodal data to Boehringer Ingelheim for oncology/immunology discovery. Agentic AI platforms licensed as pharma infrastructure, not point tools. https://www.biospace.com/press-releases/owkin-to-license-k-pro-ai-scientist-and-multimodal-oncology-and-immunology-data-to-boehringer-ingelheim
+
+- **2026-09-02** — Ono Pharma + Aitia: causal AI-based digital twins for neurological disease target discovery. Signals causal AI (vs. correlation) entering pharma for neuro. https://www.ono-pharma.com/en/news/20260902.html
+
+- **2026-09-01** — AdaptiveFlow (Nature Biotechnology): open-source ultra-large virtual screening platform, 1000x cost reduction, 69B molecules, linear scaling to 5.6M CPUs. Signals democratization of billion-compound screens. https://www.newswise.com/articles/ai-informed-adaptiveflow-redefines-large-scale-cloud-computing-for-drug-discovery
+
+- **2026-09-01** — MotifAE (Nature Communications): unsupervised framework to discover functional sequence patterns from protein language models via sparse autoencoders. Signals pLM interpretability advancing for protein engineering. https://www.nature.com/articles/s41467-026-77333-2
+
 - **2026-09-02** — Helmholtz Munich/TUM publish in Nature: Synthetic Transfer Vehicles (STVs) — new class of RNA transporters built from AI-designed proteins with non-natural geometries. STV-C8 outperforms virus-like particles and lipid nanoparticles in cell culture. IV delivery in mice produces lung expression without toxicity; in pig muscle, CRISPR/Cas9 cargo removes dystrophin gene. Plans spin-off. Signals AI-designed proteins enabling new delivery modalities — non-natural geometries outperforming nature-evolved structures. https://www.nature.com/articles/s41586-026-10952-3
 
 - **2026-09-01** — BiteNetI (Communications Biology): physics-based AI maps ion binding sites across proteins using smartphone camera image-recognition tech. Trained on 12,000 complexes / 35,000+ ions. Free web app. Next step: one general model for all binding site types. Signals AI expanding from structure prediction to functional annotation of ion-protein interactions. https://dx.doi.org/10.1038/s42003-026-10659-1
