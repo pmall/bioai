@@ -16,6 +16,14 @@ traced back to the document it was extracted from.
 
 ## This month
 
+- **2026-09-02** — Helmholtz Munich/TUM publish in Nature: Synthetic Transfer Vehicles (STVs) — new class of RNA transporters built from AI-designed proteins with non-natural geometries. STV-C8 outperforms virus-like particles and lipid nanoparticles in cell culture. IV delivery in mice produces lung expression without toxicity; in pig muscle, CRISPR/Cas9 cargo removes dystrophin gene. Plans spin-off. Signals AI-designed proteins enabling new delivery modalities — non-natural geometries outperforming nature-evolved structures. https://www.nature.com/articles/s41586-026-10952-3
+
+- **2026-09-01** — BiteNetI (Communications Biology): physics-based AI maps ion binding sites across proteins using smartphone camera image-recognition tech. Trained on 12,000 complexes / 35,000+ ions. Free web app. Next step: one general model for all binding site types. Signals AI expanding from structure prediction to functional annotation of ion-protein interactions. https://dx.doi.org/10.1038/s42003-026-10659-1
+
+- **2026-09-01** — New method enhances AlphaFold3 conformational sampling by introducing bias into diffusion model to capture previously missed structural states. Addresses AF3's static snapshot limitation. Signals field moving toward dynamics-aware structural biology.
+
+- **2026-08-30** — Rentosertib Phase III (NCT07687459) estimated start date passed; trial remains NOT_YET_RECRUITING. Field's most advanced AI-discovered drug has not begun enrollment. Signals operational delays or aspirational timeline.
+
 - **2026-08-28** — BioXcel Therapeutics (BTAI) files Chapter 11 bankruptcy, signs $57.5M stalking-horse asset sale to Teva for IGALMI/BXCL501 (dexmedetomidine sublingual film for acute agitation). Up to $125M with milestones. Missed Oaktree $107M refinancing deadline Aug 21. Cash $13.8M as of Jun 30, funding through August only. BTAI shares -74.8%. PDUFA date Nov 14, 2026 for at-home use sNDA still pending. BioXcel used AI "drug re-innovation" — ML to find new indications for existing drugs. Failure signal for AI drug repurposing model, contrasting with AI drug discovery (de novo) model's traction. https://www.fiercebiotech.com/biotech/teva-saddles-stalking-horse-bidder-bankrupt-bioxcels-neuroscience-portfolio
 
 - **2026-08-27** — Generate Biomedicines (GENB) accidentally leaks Phase 1 data for GB-0895 (anti-TSLP for COPD/asthma) after three ERS Congress posters prematurely published on conference website. Data showed "rapid and sustained reductions" across four disease biomarkers. Stock dropped on uncontrolled disclosure. Lead asset GB-0895 in Phase 3 for severe asthma (biannual dosing, targeting 55% exacerbation reduction). $457M cash runway into H1 2028. Signals execution risk in clinical data disclosure. https://www.biospace.com/drug-development/generate-bio-drops-as-data-accidentally-leaked-ahead-of-european-conference
