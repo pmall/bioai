@@ -16,6 +16,18 @@ traced back to the document it was extracted from.
 
 ## This month
 
+- **2026-09-06** — AI BioDesign launches: Allen Institute + UW + Fred Hutch $95M open-science initiative for design-build-measure-learn protein engineering loop. 62 participants, 5+ years, no clinical candidates — pure infrastructure for closing the computation-biology loop. Signals "Lab-in-the-Loop" receiving major institutional investment as open science. https://newsroom.uw.edu/news-releases/ai-biodesign-project-aims-to-adapt-natures-design-rules/
+
+- **2026-09-06** — Norstella at AI4 2026: Pharma's AI problem is no longer model access but converting models into trusted decision systems. Norstella Atlas agentic platform for pharma-specific workflows. McKinsey: every leader experimented with genAI, only 5% say it became competitive differentiator. Signals the "last mile" problem — demos failing to integrate into billion-dollar decisions. https://cij.world/pharmas-ai-spending-is-rising-but-the-real-breakthrough-may-be-better-decisions/
+
+- **2026-09-01** — Function-aware masking for antibody language models (MLCB 2026 Oral): Aligns mask placement with functional priors during pretraining. 14% gain on structure tasks, 5.9x on CDR tasks. Parameter-free functional inductive bias mechanism. Signals pretraining corruption strategy matters as much as data for antibody models. https://arxiv.org/abs/2609.00518
+
+- **2026-07/09** — AAMFM (Shanghai Jiao Tong): ESM3 + epitope-level antigen adapter + Cal-DPO alignment for antigen-specific antibody design. 30k preference pairs scored by AF3 structural prior. SOTA on full antibody and CDR-H3 design. One checkpoint serves any antigen. Signals protein design alignment era (DPO/RLHF) extending to antigen-specific antibody engineering. https://arxiv.org/abs/2607.20057
+
+- **2026-09-04** — Science Advances: AI pipeline converts antibodies to functional intrabodies (AlphaFold2 + ProteinMPNN). 73% success vs. 5-10% standard approach. Tripled histone modification intrabody count. Signals AI solving "last mile" — making designed proteins work inside living cells. https://www.science.org/doi/10.1126/sciadv.adx8352
+
+- **2026-08-05** — Biolojic Design multibodies: AI-designed "two-in-one" IgG antibodies binding two targets with single Fv. 7/7 success across campaigns. 9 months idea-to-IND. Two in IND-enabling studies, first-in-human 2026. BD200 (TROP2/Nectin-4 MDC) deep responses in ADC-refractory models. Standard IgG retains manufacturability. Signals new antibody format where AI enables previously intractable dual-specificity. https://www.biorxiv.org/content/10.64898/2026.08.03.742397v1
+
 - **2026-09-05** — Ono Pharma + Aitia: Causal AI digital twins for neurological drug targets. Aitia's REFS technology builds Gemini Digital Twins of neurological diseases using causal AI (not correlation-based), identifying targets from patient clinical info + omics data. Ono holds exclusive worldwide option. Signals causal AI entering target discovery for neurology. https://www.ono-pharma.com/en/news/20260902.html
 
 - **2026-09-05** — Castor Catalyst: 99.16% data extraction accuracy in clinical trials. Top-10 BioPharma study: 14,290 data points from 285 source files, 158 participants. Reviewer acceptance 99.16%, override 0.78%. Reduced chart review from 39 to 6 minutes. GxP compliant, meets ICH E6(R3). Uses Google Gemini. Signals AI clinical data extraction crossing the accuracy threshold for regulated research. https://www.castoredc.com/news/castor-catalyst-data-extraction-milestone/
