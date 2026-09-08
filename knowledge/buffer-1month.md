@@ -16,6 +16,14 @@ traced back to the document it was extracted from.
 
 ## This month
 
+- **2026-09-08** — BioSpace opinion (Kaiser/Avicenna): Foundation models change drug discovery only under conditions — irreproducible literature + cause-effect shifts (magic methyl helps one series, hurts another). 1→226 foundation models Q4 2021→Q2 2025 (BCG). Rejects "100 years in 10 years" (would need 470+ approvals/yr). Fruitful uses: biological network target ID + clinical data mining for patient selection (Yatiri Bio, Bruker/Noetik). Continues Bender et al. self-critique. https://www.biospace.com/drug-development/opinion-ai-will-only-revolutionize-drug-discovery-and-development-if-we-play-to-its-strengths
+
+- **2026-09-08** — Moonwalk $70M Series B (Alpha Wave, YK, Lilly): Adipose-targeted siRNA MW101 for obesity, AI platform (genetics+epigenomics+omics). Preclinical weight/fat loss with muscle preservation, no appetite suppression. First-in-human late 2027. Signals non-incretin quality-weight-loss wave + AI-designed siRNA. https://www.biospace.com/business/moonwalk-pulls-in-70m-to-take-fat-targeting-rnai-obesity-candidate-to-clinic
+
+- **2026-09-08** — BrainChild Bio $116M Series A: B7-H3 CAR-T BCB-276 pivotal Phase 2 ILLUMINATE (NCT07680439) in DIPG (~300 US kids/yr, 11-mo survival), CSF locoregional delivery + BCB-214 triple-targeting for glioblastoma. Ex vivo CAR-T still fundable in CNS/rare-pediatric despite autoimmune pauses + in vivo pivots. https://www.biospace.com/press-releases/brainchild-bio-closes-116-million-series-a-financing
+
+- **2026-09-08** — Healthcare AI funding Jul 9–Sep 1: $205.1M across 12 cos. Life-sciences AI $89.3M (MindRank $52M, Faro $37.3M); provider ops $81.3M; diagnostics/imaging $30.5M. Clinical-development AI remains top funding category. https://newmarketpitch.com/blogs/news/healthcare-ai-funding-news
+
 - **2026-09-07** — Rentosertib proteomic aging clocks (Nature Biotechnology): Six independently developed proteomic aging clocks from Harvard, Oxford, PKU, Insilico unanimously show rentosertib reversed biological age in 42 IPF patients. Peak effect ~3-4 years reversal at Week 4 (30 mg BID), up to 6 years in one clock. Anti-aging effects partially independent of lung function improvement. First dual-purpose AI drug trial integrating geroscience endpoints. First consensus across diverse clock methodologies. Signals AI drug discovery entering longevity therapeutics with clinical-grade biomarker validation. https://insilico.com/news/rnt0709261-rentosertib-proteomic-aging-clocks
 
 - **2026-09-01** — Novartis/BMS autoimmune CAR-T safety pauses: Novartis suspended 8 autoimmune/neurology trials of rap-cel after 3 patient deaths from IEC-HS. BMS paused zola-cel autoimmune trials (transient inflammatory events, no deaths). Same day Roche paid $75M upfront for Simcere's preclinical B cell trispecific (SIM0660, up to $1.53B milestones). Analysts hypothesize rapid manufacturing platforms may produce cells that expand more aggressively. Signals autoimmune CAR-T safety profile more complex than oncology, industry losing patience with ex vivo cell therapy outside oncology. https://www.biospace.com/drug-development/novartis-pauses-car-t-studies-due-to-3-deaths-bms-follows-suit-after-safety-events
@@ -25,8 +33,6 @@ traced back to the document it was extracted from.
 - **2026-09-06** — AI-designed enzymes for PFAS degradation: Deep-learning protein folding algorithms used to design novel enzymes that break down forever chemicals. No naturally occurring enzyme degrades synthetic PFAS; AI reverse-engineers protein structures for carbon-fluorine bond cleavage. EPA views as only viable solution for contaminated reservoirs. Signals AI protein design expanding beyond therapeutics into environmental remediation. https://metapress.com/ai-protein-folding-algorithms-design-enzymes-to-destroy-chemicals-2026/
 
 - **2026-09-01** — Convergen $15M Seed+ (MPCi-led): TrimTAC platform leveraging TRIM21 to selectively degrade pathological multimeric protein aggregates. Total raised $25M. Targets neurodegenerative and autoimmune diseases. Addresses key TPD limitation: traditional degraders can't selectively clear multimeric aggregates. https://www.prnewswire.com/news-releases/convergen-secures-15-million-seed-financing-to-advance-therapeutics-for-protein-aggregation-diseases-302864404.html
-
-- **2026-09-01** — Alumis LUMUS Phase 2b: envudeucitinib missed primary BICLA endpoint in overall lupus population (408 patients). Robust responses in interferon signature high subgroup. Plans Phase 3 focused on that biomarker-stratified population. Signals precision medicine approach becoming necessary for autoimmune disease trials. https://biomednexus.com/novartis-and-bms-paused-autoimmune-car-t-trials-after-patient-deaths-as-roche-paid-75m-upfront-for-simceres-b-cell-trispecific-september-2-2026/
 
 - **2026-09-06** — AI BioDesign launches: Allen Institute + UW + Fred Hutch $95M open-science initiative for design-build-measure-learn protein engineering loop. 62 participants, 5+ years, no clinical candidates — pure infrastructure for closing the computation-biology loop. Signals "Lab-in-the-Loop" receiving major institutional investment as open science. https://newsroom.uw.edu/news-releases/ai-biodesign-project-aims-to-adapt-natures-design-rules/
 
@@ -64,8 +70,6 @@ traced back to the document it was extracted from.
 
 - **2026-09-04** — Insilico Medicine included in HKEX Tech 100 Index (effective Sep 14). H1 2026: $106.3M revenue, $35.5M profit, 9 PCCs in 9 months. Rentosertib Phase III still NOT_YET_RECRUITING. https://www.biospace.com/press-releases/insilico-medicine-included-in-the-hkex-tech-100-index-drawing-attention-to-opportunities-in-ai-value-chain
 
-- **2026-09-04** — FDA approves Ionis' antisense drug as first targeted therapy for Alexander disease. https://www.biospace.com/fda/fda-approves-ionis-antisense-drug-as-first-targeted-therapy-for-alexander-disease
-
 - **2026-09-03** — HUTCHMED licenses HMPL-A830 to GSK for $1.3B. First-in-class KRAS-EGFR ATTC. Preclinical, entering trials H2 2026. Signals new conjugate category for KRAS. https://www.hutch-med.com/hutchmed-gsk-licensing-agreement-kras-egfr-attc/
 
 - **2026-09-03** — China NMPA approves Mprosevir, first AI-assisted Class 1 innovative drug. DEL+AI screening of 49B compounds. 3.5 years discovery to completion. First DEL-based drug approved globally. https://www.globaltimes.cn/page/202609/1369691.shtml
@@ -73,8 +77,6 @@ traced back to the document it was extracted from.
 - **2026-09-03** — Insilico Medicine releases MMAI Gym specialist models (2.6B/24B) achieving SOTA on 70+ drug discovery benchmarks. Signals right-sized specialist models competing with dedicated methods. https://www.news-medical.net/news/20260902/Insilico-Medicine-releases-frontier-AI-models-for-drug-discovery.aspx
 
 - **2026-09-03** — Owkin licenses K Pro AI Scientist to Boehringer Ingelheim for oncology/immunology. Agentic AI platforms licensed as pharma infrastructure. https://www.biospace.com/press-releases/owkin-to-license-k-pro-ai-scientist-and-multimodal-oncology-and-immunology-data-to-boehringer-ingelheim
-
-- **2026-09-03** — Novartis remibrutinib positive Phase 3 in relapsing MS. No liver signals — key differentiator vs Roche/Sanofi competitors. Plans filing 2027. https://www.biospace.com/drug-development/novartis-rhapsido-cuts-ms-progression-in-phase-3-trial-teeing-up-roche-battle
 
 - **2026-09-01** — AdaptiveFlow (Nature Biotechnology): open-source ultra-large virtual screening, 1000x cost reduction, 69B molecules. Signals democratization of billion-compound screens. https://www.newswise.com/articles/ai-informed-adaptiveflow-redefines-large-scale-cloud-computing-for-drug-discovery
 
