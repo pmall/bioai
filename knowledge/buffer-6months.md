@@ -207,7 +207,15 @@ records the observation it grew out of.
 
 - **2026-09-08** — Forus $150M Series C at $3B (BCV-led, >$300M total): AI agents closing the prescription-to-treatment gap (1/3 of complex prescriptions never reach first dose). Live 50 states/85% ZIPs, 9/15 top biopharmas. AI value accruing in the commercialization/access layer, not just discovery. https://forus.com/stories/forus-series-c
 
+- **2026-09-09** — AlphaGenome Atlas (DeepMind + Stowers, preprint): 1-petabyte searchable resource predicting molecular effects of 9B+ possible single-letter variants across hundreds of cell types, with AVI score and genome-wide regulatory motif map. Early uses: Broad rare-disease non-coding prioritization, Exeter 54k UK Biobank associations. Variant-effect prediction becomes queryable infrastructure for target ID — the genomics counterpart to the AlphaFold database transition. https://www.news-medical.net/news/20260909/AlphaGenome-Atlas-maps-billions-of-genetic-changes-with-AI.aspx
+
+- **2026-09-08** — Cloverleaf Bio $33M seed (4BIO, AbbVie/Lilly/BI ventures): engineered tRNA oncology payloads + antibody-tRNA conjugates vs RNA-modifying enzymes; active in ADC-resistant lines. Extends AI-adjacent RNA therapeutics (after Alnylam-Inceptive $2B) into tRNA payloads as a new conjugate class alongside ADCs. https://ventures.yale.edu/news/yale-spinout-cloverleaf-bio-raises-33m-seed-financing-advance-novel-rna-based-cancer
+
+- **2026-09-09** — OutSee Innovate UK agentic-validation pilot: agentic AI triage of Nomaly genomics target outputs. Agentic pattern (K Pro, Bunsen, Foundry) reaches small-biotech target validation — the bottleneck step between target ID and pipeline. https://www.news-medical.net/news/20260909/OutSee-awarded-Innovate-UK-grant-for-agentic-AI-pilot-study-to-enhance-drug-target-validation.aspx
+
 ## Theses and hypotheses
+
+- **Variant-effect search is becoming the target-ID front end.** AlphaGenome Atlas (Sep 2026) makes 9B+ variant predictions queryable without code, with early rare-disease and biobank wins. Hypothesis: as scoring commoditizes, the bottleneck moves from "which variant matters" to "which predicted mechanism deserves wet-lab prosecution" — favoring groups with fast experimental triage (agentic validation like OutSee, HIVE/DREAM wet-lab capacity). (Observation: AlphaGenome Atlas Sep 2026; OutSee Sep 2026; Vivodyne/DREAM 2026)
 
 - **The clinical-development and access layers are where AI capital now scales.** Formation Bio's "boring middle" thesis (Ehlers, Sep 2026) — AI-discovered molecules created an excess of clinical-stage assets stuck in enrollment/site-selection/amendments — reframes the bottleneck from molecule-finding to development execution. Forus ($150M at $3B) attacks the post-approval gap with AI agents; IQVIA/Castor/CluePoints/Weave/Faro/Medidata virtual twins attack trial design and operations. If discovery is commoditized by open models, development throughput and launch access decide how much science becomes medicine. (Observation: Formation Bio Sep 2026; Forus Sep 2026; IQVIA/Castor/CluePoints Sep 2026; Medidata Sep 2026)
 

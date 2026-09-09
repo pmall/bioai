@@ -16,6 +16,12 @@ traced back to the document it was extracted from.
 
 ## This month
 
+- **2026-09-09** — AlphaGenome Atlas (DeepMind + Stowers): 1-petabyte searchable predictions for 9B+ possible variants across hundreds of cell types, AVI score (AlphaGenome+AlphaMissense+conservation), motif dictionary. Broad prioritized overlooked non-coding rare-disease variant; Exeter found new rare-noncoding associations in 54k UK Biobank. Variant-effect prediction as infrastructure for target ID. https://www.news-medical.net/news/20260909/AlphaGenome-Atlas-maps-billions-of-genetic-changes-with-AI.aspx
+
+- **2026-09-09** — OutSee Innovate UK grant (£50k + Empirical match): agentic AI pilot to auto-triage Nomaly genomics engine target outputs, removing manual validation bottleneck (neurology/rare/metabolic, ALS Longitude project). Agentic AI entering target validation at small-biotech scale. https://www.news-medical.net/news/20260909/OutSee-awarded-Innovate-UK-grant-for-agentic-AI-pilot-study-to-enhance-drug-target-validation.aspx
+
+- **2026-09-08** — Cloverleaf Bio $33M seed (4BIO, AbbVie/Lilly/BI ventures): engineered inhibitory tRNA cancer payloads vs RNA-modifying enzymes; CLB-001 active in chemo/ADC-resistant lines, beat SOC in HCC/lung models, clean tox; HCC to clinic + antibody-tRNA conjugate for CRC. New oncology payload class. https://ventures.yale.edu/news/yale-spinout-cloverleaf-bio-raises-33m-seed-financing-advance-novel-rna-based-cancer
+
 - **2026-09-09** — JapanFold (ai& + Tenstorrent): sovereign open-source drug discovery inside Japan on Galaxy superclusters. Boltz-2/OpenFold3/ESMFold-2/OpenDDE/Protenix-v2/RoseTTAFold3/OpenBind-0/Nesso-1 + BoltzGen/RFdiffusion3/PXDesign + ESMC/SaProt. 1:1 GPU parity, free workbench/API/agent skill. Extends sovereign AI pattern (SK Biopharm, K-Fold) to open-source non-NVIDIA compute. https://www.design-reuse.com/news/202531086-ai-and-tenstorrent-launch-japanfold-bringing-open-source-sovereign-drug-discovery-to-japan
 
 - **2026-09-09** — Forus $150M Series C at $3B (BCV-led, >$300M total, 3x in 4 months): AI agents for prescription-to-treatment gap (insurance/fulfillment). Live 50 states, 85% ZIPs, 9/15 top biopharmas. Thesis: commercialization layer, not discovery, is binding constraint. https://forus.com/stories/forus-series-c
@@ -68,13 +74,7 @@ traced back to the document it was extracted from.
 
 - **2026-09-04** — CluePoints launches three AI-based clinical data review tools (IQD, MSR, IMC) built inside a top 10 pharma partner's live portfolio. IMC targets 99% MedDRA accuracy, ~50% coding effort reduction. Signals AI expanding from drug discovery into clinical trial operations. https://www.clinicaltrialvanguard.com/news/cluepoints-launches-ai-tools-for-clinical-data-review-with-top-10-pharma-partner/
 
-- **2026-09-04** — Superluminal Medicines raises $60M oversubscribed Series B for AI-designed MC4R agonist in rare genetic obesity. GPCR target (MC4R). BVF Partners, NVIDIA, Eli Lilly backing. Total raised $213M. Signals AI drug discovery expanding into GPCR space for rare metabolic diseases. https://www.prnewswire.com/news-releases/superluminal-medicines-announces-oversubscribed-60-million-series-b-financing-to-advance-lead-program-in-rare-genetic-forms-of-obesity-into-the-clinic-302868367.html
-
-- **2026-09-04** — LifeMine Therapeutics: $188M from Bezos + Gates for fungal genome mining with AI. Signals family office / billionaire capital flowing into AI-driven natural product discovery. https://businesselitesafrica.com/bezos-gates-lifemine-therapeutics-funding/
-
-- **2026-09-04** — AIPher: RMB 100M (~$14M) angel round for AI drug discovery engine (China). DrugCLIP foundation model + PharmAgents engine. Most advanced pipeline in pre-PCC stage. Signals continued Chinese AI-native drug discovery company formation. https://www.vcbeathealth.com/article/62192
-
-- **2026-09-04** — Transfyr: $25M seed for "physical AI" lab observability. Sensors + multimodal models turning experimental work into machine-readable records. Led by General Catalyst, Lux Capital. In-house wet lab at The Engine, Cambridge. Involved in NSF's $380M programmable cloud labs initiative. Signals "observability layer for science" emerging as new infrastructure. https://www.synbiobeta.com/read/transfyr-launches-physical-ai-platform-for-science-with-25m-seed-funding
+- **2026-09-04** — Superluminal Medicines raises $60M oversubscribed Series B for AI-designed MC4R agonist in rare genetic obesity. https://www.prnewswire.com/news-releases/superluminal-medicines-announces-oversubscribed-60-million-series-b-financing-to-advance-lead-program-in-rare-genetic-forms-of-obesity-into-the-clinic-302868367.html
 
 - **2026-09-04** — Insilico Medicine included in HKEX Tech 100 Index (effective Sep 14). H1 2026: $106.3M revenue, $35.5M profit, 9 PCCs in 9 months. Rentosertib Phase III still NOT_YET_RECRUITING. https://www.biospace.com/press-releases/insilico-medicine-included-in-the-hkex-tech-100-index-drawing-attention-to-opportunities-in-ai-value-chain
 
