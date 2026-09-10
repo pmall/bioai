@@ -16,6 +16,12 @@ traced back to the document it was extracted from.
 
 ## This month
 
+- **2026-09-10** — Encoded $275M Series F (GV + undisclosed, ARCH/Farallon/RTW/SoftBank): ETX101 SCN1A Dravet gene regulator to pivotal + expansion to 18y; 79–89% seizure reduction at 52 wks + cognitive gains; ETX301 neuroma IND 2027 + GMP scale-up. https://www.biospace.com/business/encoded-raises-275m-series-f-for-dravet-syndrome-gene-therapy
+
+- **2026-09-03** — Boehringer licenses Owkin K Pro agentic AI Scientist (oncology/immunology) after MOSAIC pilot; third deployment after AZ + Sanofi. Takeda licenses Weave Bio across 14 projects — 97% IND first-draft time cut. https://pharmaphorum.com/news/boehringer-signs-ai-drug-discovery-deal-owkin
+
+- **2026-09-10** — AICell antibiotic-AI arc: halicin → abaucin → explainable GNN (MRSA/VRE) → generative AMP (48-day) → gut-AMP mining (83% hit) → AMPSphere (863k peptides, 79/100 active); complements Pasteur phenotypic MOA reader. https://aicell.io/post/newsletter-2026-09-10
+
 - **2026-09-10** — Rentosertib first patient dosed in GENESIS-IPF-3 Phase III (NCT07687459): 320 pts, 47 centers China, 52 wks QD, primary annual FVC decline. Peking Union + Shanghai Pulmonary day one; PI Xu: 3–4 yrs to approval if favorable; 9 PCCs in 9 months of 2026. https://www.prnewswire.com/news-releases/insilico-medicine-doses-first-patient-in-genesis-ipf-3-the-worlds-first-phase-iii-trial-of-a-generative-ai-driven-innovative-drug-302873749.html
 
 - **2026-09-10** — Rentosertib Phase III burden of proof: Phase IIa was 71 pts / 12 wks (60 mg QD +98.4 mL vs placebo −20.3 mL, secondary endpoint) vs 52-wk FVC-decline primary now. Faces nerandomilast (Oct 2025) + generic nintedanib (Apr 2026). H1 $106.3M rev, $35.5M profit, $584.8M cash + $305M converts Sep 3. https://business-news-today.com/insilico-medicines-ai-drug-enters-phase-iii-dosing-can-rentosertib-clear-the-real-test/
@@ -45,11 +51,3 @@ traced back to the document it was extracted from.
 - **2026-09-09** — Medidata predictive trial design: Phase I→approval 6.7%, virtual twins + RWD controls (33% control-arm cut neuro). https://pharmaphorum.com/digital/ai-clinical-trials-building-better-trials-they-start
 
 - **2026-09-08** — BioSpace opinion (Kaiser/Avicenna): foundation models only under conditions; Frucht: network target ID + patient selection. https://www.biospace.com/drug-development/opinion-ai-will-only-revolutionize-drug-discovery-and-development-if-we-play-to-its-strengths
-
-- **2026-09-08** — Moonwalk $70M Series B (Alpha Wave, Lilly): adipose siRNA MW101 obesity, muscle preservation, FIH late 2027. https://www.biospace.com/business/moonwalk-pulls-in-70m-to-take-fat-targeting-rnai-obesity-candidate-to-clinic
-
-- **2026-09-08** — BrainChild $116M Series A: B7-H3 CAR-T BCB-276 pivotal DIPG; ex vivo still fundable CNS/rare-pediatric. https://www.biospace.com/press-releases/brainchild-bio-closes-116-million-series-a-financing
-
-- **2026-09-07** — Rentosertib six-clock age reversal (Nature Biotech): ~3–4 yr reversal Wk4, up to 6 yrs one clock, partly independent of FVC. https://insilico.com/news/rnt0709261-rentosertib-proteomic-aging-clocks
-
-- **2026-09-01** — Novartis/BMS autoimmune CAR-T pauses (3 deaths IEC-HS / inflammatory events); Roche $75M Simcere trispecific same day. https://www.biospace.com/drug-development/novartis-pauses-car-t-studies-due-to-3-deaths-bms-follows-suit-after-safety-events

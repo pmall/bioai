@@ -225,7 +225,15 @@ records the observation it grew out of.
 
 - **2026-09-09** — Navion $10.8M seed (Angelini Lumira): AI subtype-selective sodium-channel blockers for epilepsy/neuropathic pain; ex-Cavion/Jazz team. AI ion-channel precision bet as genetic-medicine counterpart (Encoded $275M F same week) chases same neuro patients. https://briefglance.com/articles/navions-108m-seed-betting-ai-can-tame-epilepsy-and-chronic-pain
 
+- **2026-09-03** — Owkin K Pro third pharma deployment (Boehringer after AZ + Sanofi): agentic AI Scientist reasoning over multimodal patient data in plain language moves from pilot to R&D rollout; Takeda-Weave Bio regulatory automation in same week. Signals agentic biology layer reaching production deployment across multiple top-20 pharmas. https://pharmaphorum.com/news/boehringer-signs-ai-drug-discovery-deal-owkin
+
+- **2026-09-10** — Encoded $275M Series F for ETX101 SCN1A Dravet gene regulator to pivotal (79–89% seizure reduction + cognitive gains): late-stage genetic-medicine capital returns alongside Navion precision ion-channel seed — neuro epilepsy as parallel AI/small-molecule vs gene-regulation bets. https://www.biospace.com/business/encoded-raises-275m-series-f-for-dravet-syndrome-gene-therapy
+
+- **2026-09-10** — Antiverse $9.3M Series A + CFTR extracellular program; Latent-Y lab-validated autonomous antibody agent (6/9 targets, single-digit nM, 56x speedup); Amazon Bio Discovery GA (40+ foundation models + Ginkgo/Twist CRO loop, 100k antibodies in weeks at MSK). Undruggable-target antibodies + autonomous design + lab-in-the-loop infrastructure converging. https://www.biospace.com/press-releases/antiverse-raises-9-3m-series-a-to-develop-antibodies-for-undruggable-disease-targets-and-announces-research-agreement-with-the-cystic-fibrosis-foundation / https://www.latentlabs.com/press-release/latent-y / https://pharmaphorum.com/news/amazon-launches-its-ai-drug-discovery-platform
+
 ## Theses and hypotheses
+
+- **Agentic biology is crossing from demo to deployment — and the moat is data access, not the agent.** Owkin K Pro now rolled out at three top pharmas on multimodal patient data, Latent-Y runs full antibody campaigns from text, Bunsen/Foundry run chemistry/trial workflows. Hypothesis: winners are those with privileged data loops (MOSAIC spatial, PandaOmics, Bio Discovery CRO feedback), not best LLM wrapper. (Observation: Owkin Sep 2026; Latent-Y Mar 2026; Bunsen/Foundry Aug 2026; Amazon Bio Discovery Apr 2026)
 
 - **Variant-effect search is becoming the target-ID front end.** AlphaGenome Atlas (Sep 2026) makes 9B+ variant predictions queryable without code, with early rare-disease and biobank wins. Hypothesis: as scoring commoditizes, the bottleneck moves from "which variant matters" to "which predicted mechanism deserves wet-lab prosecution" — favoring groups with fast experimental triage (agentic validation like OutSee, HIVE/DREAM wet-lab capacity). (Observation: AlphaGenome Atlas Sep 2026; OutSee Sep 2026; Vivodyne/DREAM 2026)
 
