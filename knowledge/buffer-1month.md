@@ -36,18 +36,20 @@ traced back to the document it was extracted from.
 
 - **2026-09-10** — Rentosertib Phase III burden of proof: Phase IIa was 71 pts / 12 wks (60 mg QD +98.4 mL vs placebo −20.3 mL, secondary endpoint) vs 52-wk FVC-decline primary now. Faces nerandomilast (Oct 2025) + generic nintedanib (Apr 2026). H1 $106.3M rev, $35.5M profit, $584.8M cash + $305M converts Sep 3. https://business-news-today.com/insilico-medicines-ai-drug-enters-phase-iii-dosing-can-rentosertib-clear-the-real-test/
 
-- **2026-09-09** — Merck KGaA buys PostEra oral fertility programs (mid-double-digit €M): FSHR agonist for IVF + LH-CGR agonist, oral vs injections; AI solved selectivity + half-life. First-in-class, PMOS candidate to clinic early next year. https://cen.acs.org/pharmaceuticals/drug-development/merck-kgaa-buys-postera-fertility-ivf-small-molecules-ai/104/web/2026/09
-
-- **2026-09-09** — De novo binders as CARs (Nature Biomed Eng, Chow et al.): 1,758 minibinders vs BCMA/CD19/CD22; failure modes tonic signalling / epitope occlusion (all CD19 → CD81 patch) / off-target. Charge filter (r=0.65 tonic), B5.I0 beat C11D5.3 + cilta-cel VHH at 1:10 E:T. https://www.nature.com/articles/s41551-026-01790-9
-
-- **2026-09-09** — Open Discovery Challenge (Hugging Face): 108 people, 9,886 virtual molecules in 14 days via ChatGPT/Claude/Gemini + computational ranking; no synthesis. CACHE blinded benchmark: AI still doesn't always beat physics on novel targets. https://en.sedaily.com/technology/2026/09/09/ai-opens-drug-discovery-to-anyone-sifting-billions-of
-
 - **2026-09-10** — Pasteur AI reads bacterial morphology to call antibiotic MOA near-perfect, detects sub-inhibitory effects, flags unprecedented MOAs; validated on Klebsiella pneumoniae. https://www.the1news.com/public/index.php/article/pasteur-ai-when-artificial-intelligence-learns-to-read-bacteria-to-fight-anti
 
+- **2026-09-10** — UPenn de la Fuente lab: OpenAI Codex + ChatGPT as antibiotic-discovery infrastructure — Codex writes bioinformatics pipelines filtering billions of sequences, ChatGPT reasons/ranks; living + extinct genomes (Neanderthal/mammoth encrypted peptides); prior preclinical candidates. https://www.aichatdaily.com/ai-models/c-sar-de-la-fuente-s-lab-uses
+
+- **2026-09-10** — MutexaGPT (Nature Comp Sci, open at enzyhtp.app.vanderbilt.edu): plain-English intuition → high-throughput MD + smart libraries; halide methyltransferase 40% hit / 4x enrichment, L39H V11F 542→2870 Å3, up to 50x on bulkier substrates; amylase cold-adaptation 3.7x at 0°C. https://www.nature.com/articles/s43588-026-01049-y
+
+- **2026-09-11** — CLSS (Haifa/Tel Aviv/ELSI Tokyo, PNAS): contrastive sequence-structure joint embedding reproduces ECOD/CATH untrained; fragments place with full proteins; for DB search / engineering / evolution. https://www.news-medical.net/news/20260911/New-AI-model-maps-billions-of-years-of-protein-evolution.aspx
+
+- **2026-09-09** — Ridge Bio ~$38M seed total (Dimension/Sutter Hill/Overlap): ML + cell-free million-fold data for NativeLink conjugation enzymes + ProTrigger cleavable linkers; AXC-ADCs several-fold lower toxicity + better efficacy same Ab/payload; bispecific/peptide/degrader/radio. https://www.biospace.com/press-releases/ridge-biotechnologies-expands-investor-base-as-demand-accelerates-for-ai-designed-bioconjugate-therapeutics
+
+- **2026-09-10** — AINN-P1 update (167M mLSTM sequence-only): ProteinGym stability 0.625 leads ProSST/xTrimoPGLM-100B; leave-program-out VHH 0.810 vs 0.660 ESM2-650M, matches finetuned ESM2. https://www.biospace.com/press-releases/ainn-p1-small-model-big-intelligence
+
+- **2026-09-10** — Explority AI open hub: 5,846 rare diseases with burden/SoC/gaps/literature/orphan designations, 1M+ papers, continuous update + LLM PoS forecaster; 54% FDA approvals orphan 2025. https://www.einpresswire.com/article/941205338/explority-ai-launches-open-drug-discovery-intelligence-hub-covering-5-846-rare-diseases
+
+- **2026-09-11** — ICMR-NIV Pune Nipah ML repurposing (Mol Divers): 211 cmpds, RF 95%/86%, 9,021 screened, Glide/OPLS4 + MD vs G + RdRp; 8 hits (PGG/echinacoside/parishin A; neohesperidin/naringin/diosmin/orientin/amikacin); computational only, needs BSL-4. https://yourai.pro/machine-learning-accelerates-drug-repurposing-against-nipah-virus-with/
+
 - **2026-09-09** — Navion $10.8M seed (Angelini Lumira): NaViGATion AI for subtype-selective sodium-channel blockers, epilepsy + neuropathic pain; ex-Cavion/Jazz team. https://briefglance.com/articles/navions-108m-seed-betting-ai-can-tame-epilepsy-and-chronic-pain
-
-- **2026-09-09** — AlphaGenome Atlas (DeepMind + Stowers): 1-petabyte predictions for 9B+ variants, AVI score, motif dictionary; Broad rare-disease + Exeter 54k UKB hits. https://www.news-medical.net/news/20260909/AlphaGenome-Atlas-maps-billions-of-genetic-changes-with-AI.aspx
-
-- **2026-09-08** — Cloverleaf Bio $33M seed (4BIO, AbbVie/Lilly/BI): inhibitory tRNA cancer payloads, CLB-001 beat SOC in HCC/lung models; antibody-tRNA conjugates for CRC. https://ventures.yale.edu/news/yale-spinout-cloverleaf-bio-raises-33m-seed-financing-advance-novel-rna-based-cancer
-
-- **2026-09-08** — BioSpace opinion (Kaiser/Avicenna): foundation models only under conditions; Frucht: network target ID + patient selection. https://www.biospace.com/drug-development/opinion-ai-will-only-revolutionize-drug-discovery-and-development-if-we-play-to-its-strengths
