@@ -16,6 +16,16 @@ traced back to the document it was extracted from.
 
 ## This month
 
+- **2026-09-10** — Biohaven BHV-7000/opakalim partial clinical hold: FDA pauses new enrollment in RISE 2/RISE 3 focal epilepsy (>600 randomized) over rodent metabolite; dosed continue; RISE 3 done June, topline H2 2026; RISE 2 delayed. Days after SK Biopharma $795M Kv7 license; −13% premarket. https://www.biospace.com/fda/biohaven-takes-another-hit-as-fda-pauses-enrollment-in-pivotal-trials-for-embattled-epilepsy-drug
+
+- **2026-09-10** — Takeda R&D chief Plump to retire Jun 2027 after 12y; successor search; after 4,500-cut reorg, modality cut to small molecule/biologics/ADC, new CEO Kim, Nabla $1B AI antibody bet. Same week as Weave Bio regulatory-AI rollout — continuity test for AI execution. https://www.biospace.com/business/takedas-long-term-r-d-head-announces-exit-after-major-pipeline-reorganization
+
+- **2026-09-09** — Caspian $50M spinout (Kura, BVF, Lilly): oral menin inhibitor KO-7246 to expand beta-cell number/function, T1D/T2D disease-modifying claim; IND-enabling. https://www.biospace.com/business/caspian-launches-with-50m-lilly-support-to-advance-disease-modifying-diabetes-bet
+
+- **2026-09-09** — Solstice $225M Series A (RA/Canaan/Forbion) for Harbour BioMed next-gen CTLA-4 porustobart: short half-life, neoadjuvant colon + Keytruda Ph2 IND cleared, enroll Q4 2026; $105M signing + $1.1B milestones ex-China. https://www.biospace.com/business/solstice-rises-with-225m-to-develop-next-gen-ctla-4-drug-from-china
+
+- **2026-09-08** — BrainChild $116M Series A: ex vivo B7-H3 CAR-T BCB-276 to CSF for DIPG, pivotal ILLUMINATE Ph2 (75 pts, data 2028); counterpoint to in vivo pivot — ex vivo fundable in CNS locoregional/rare-pediatric. https://www.biospace.com/business/brainchild-bio-targets-deadly-brain-cancer-in-children-with-116m-series-a
+
 - **2026-09-10** — Encoded $275M Series F (GV + undisclosed, ARCH/Farallon/RTW/SoftBank): ETX101 SCN1A Dravet gene regulator to pivotal + expansion to 18y; 79–89% seizure reduction at 52 wks + cognitive gains; ETX301 neuroma IND 2027 + GMP scale-up. https://www.biospace.com/business/encoded-raises-275m-series-f-for-dravet-syndrome-gene-therapy
 
 - **2026-09-03** — Boehringer licenses Owkin K Pro agentic AI Scientist (oncology/immunology) after MOSAIC pilot; third deployment after AZ + Sanofi. Takeda licenses Weave Bio across 14 projects — 97% IND first-draft time cut. https://pharmaphorum.com/news/boehringer-signs-ai-drug-discovery-deal-owkin
@@ -38,16 +48,6 @@ traced back to the document it was extracted from.
 
 - **2026-09-09** — AlphaGenome Atlas (DeepMind + Stowers): 1-petabyte predictions for 9B+ variants, AVI score, motif dictionary; Broad rare-disease + Exeter 54k UKB hits. https://www.news-medical.net/news/20260909/AlphaGenome-Atlas-maps-billions-of-genetic-changes-with-AI.aspx
 
-- **2026-09-09** — OutSee Innovate UK grant (£50k + match): agentic AI triage of Nomaly genomics target outputs (ALS Longitude). https://www.news-medical.net/news/20260909/OutSee-awarded-Innovate-UK-grant-for-agentic-AI-pilot-study-to-enhance-drug-target-validation.aspx
-
 - **2026-09-08** — Cloverleaf Bio $33M seed (4BIO, AbbVie/Lilly/BI): inhibitory tRNA cancer payloads, CLB-001 beat SOC in HCC/lung models; antibody-tRNA conjugates for CRC. https://ventures.yale.edu/news/yale-spinout-cloverleaf-bio-raises-33m-seed-financing-advance-novel-rna-based-cancer
-
-- **2026-09-09** — JapanFold (ai& + Tenstorrent): sovereign open-source stack on Galaxy clusters, free workbench/API/agent skill. https://www.design-reuse.com/news/202531086-ai-and-tenstorrent-launch-japanfold-bringing-open-source-sovereign-drug-discovery-to-japan
-
-- **2026-09-09** — Forus $150M Series C at $3B: AI agents for prescription-to-treatment gap, live 50 states, 9/15 top biopharmas. https://forus.com/stories/forus-series-c
-
-- **2026-09-09** — Formation Bio "boring middle" (Ehlers): excess clinical-stage molecules stuck in enrollment/amendments; AI value in execution. https://www.labroots.com/trending/health-sciences-and-medical-research/30993/formation-bio-s-plan-ai-drug-discovery-2
-
-- **2026-09-09** — Medidata predictive trial design: Phase I→approval 6.7%, virtual twins + RWD controls (33% control-arm cut neuro). https://pharmaphorum.com/digital/ai-clinical-trials-building-better-trials-they-start
 
 - **2026-09-08** — BioSpace opinion (Kaiser/Avicenna): foundation models only under conditions; Frucht: network target ID + patient selection. https://www.biospace.com/drug-development/opinion-ai-will-only-revolutionize-drug-discovery-and-development-if-we-play-to-its-strengths
