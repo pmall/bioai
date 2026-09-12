@@ -24,8 +24,6 @@ traced back to the document it was extracted from.
 
 - **2026-09-09** — Solstice $225M Series A (RA/Canaan/Forbion) for Harbour BioMed next-gen CTLA-4 porustobart: short half-life, neoadjuvant colon + Keytruda Ph2 IND cleared, enroll Q4 2026; $105M signing + $1.1B milestones ex-China. https://www.biospace.com/business/solstice-rises-with-225m-to-develop-next-gen-ctla-4-drug-from-china
 
-- **2026-09-08** — BrainChild $116M Series A: ex vivo B7-H3 CAR-T BCB-276 to CSF for DIPG, pivotal ILLUMINATE Ph2 (75 pts, data 2028); counterpoint to in vivo pivot — ex vivo fundable in CNS locoregional/rare-pediatric. https://www.biospace.com/business/brainchild-bio-targets-deadly-brain-cancer-in-children-with-116m-series-a
-
 - **2026-09-10** — Encoded $275M Series F (GV + undisclosed, ARCH/Farallon/RTW/SoftBank): ETX101 SCN1A Dravet gene regulator to pivotal + expansion to 18y; 79–89% seizure reduction at 52 wks + cognitive gains; ETX301 neuroma IND 2027 + GMP scale-up. https://www.biospace.com/business/encoded-raises-275m-series-f-for-dravet-syndrome-gene-therapy
 
 - **2026-09-11** — Novartis triple late-stage stumble, −13%: del-desiran Ph3 miss (myotonic dystrophy, $12B Avidity bet), pelacarsen Lp(a)-lowering without CV benefit, rap-cel CAR-T pause (3 deaths); drags Amgen/Lilly Lp(a) peers. https://www.biospace.com/business/novartis-drags-peers-down-with-trip-asset-stumble
@@ -46,12 +44,16 @@ traced back to the document it was extracted from.
 
 - **2026-09-11** — CLSS (Haifa/Tel Aviv/ELSI Tokyo, PNAS): contrastive sequence-structure joint embedding reproduces ECOD/CATH untrained; fragments place with full proteins; for DB search / engineering / evolution. https://www.news-medical.net/news/20260911/New-AI-model-maps-billions-of-years-of-protein-evolution.aspx
 
-- **2026-09-09** — Revvity to acquire Human Cell Design (EndoC-βH5 beta-cell model + NatLine platform) for GLP-1/GPCR metabolic screening; explicit "wet-lab validation for AI-enhanced science" framing. https://www.biospace.com/press-releases/revvity-to-acquire-human-cell-design-to-advance-human-relevant-cell-models-for-metabolic-disease-drug-discovery
-
-- **2026-09-06** — ADARx revives IPO plan: 3 clinical-stage siRNAs (agazisiran Ph2 complement, onvuzosiran Ph3 HAE, ADX-626 Ph1 FXI) + obesity/Alzheimer's into clinic 2027; $427M cash after $335M AbbVie options deal. https://www.fiercebiotech.com/biotech/abbvie-backed-adarx-plans-ipo-fund-array-clinical-stage-sirna-therapies
-
 - **2026-09-11** — FDA: Mikhail/Davis/Koplow permanent (continuity signal); first-ever Deputy Commissioner for Technology and AI (Seehafer); follows Elsa + agentic rollout. https://www.biospace.com/fda/mikhail-davis-embody-the-fdas-stabilization-seehafer-signals-ai-revolution-is-coming
 
-- **2026-09-11** — Emerj/CDD × Novartis: unified data foundation as AI-scale prerequisite — silo/ownership fix, metadata as merge-gate, foundation-first sequencing, split risk vs scientific governance. https://emerj.com/how-to-build-the-unified-data-foundation-drug-discovery-ai-depends-on
-
 - **2026-09-08** — Arm CEO Haas: AI could crack cancer/drug discovery but chip shortage is the limiter; Generate CTO: GPUs + proprietary bio-data + experimentation all required; BMS live on NVIDIA system. https://finance.yahoo.com/technology/ai/articles/ai-could-eventually-crack-cancer-143646678.html
+
+- **2026-09-11** — Novartis M&A governance fallout: Artisan demands board shake-up + acquisition committee + pay reform; del-desiran HARBOR miss after $12B Avidity, pelacarsen CV miss (no future development), $2.9B MorphoSys $800M impairment; offset remibrutinib MS win. Patent cliff 2029-31 (Cosentyx/Kisqali/Kesimpta ~38% sales). Guggenheim cuts del-desiran $1.76B→$960M, del-brax →$600M. https://www.biospace.com/business/novartis-board-faces-investor-scrutiny-after-m-a-misfires-and-r-d-flops
+
+- **2026-09-11** — Samsung Biologics $262M EU pharma manufacturing deal thru 2033 (Songdo): Campus I full, Plant 5 ramping, 785 kL + 60 kL Rockville, +720 kL by 2032, $2.2B rights for expansion + $1.8B PolyPeptide GLP-1 peptide buy; market still undersupplied to 2030. https://www.biospace.com/drug-delivery/samsung-biologics-inks-262m-manufacturing-deal-with-european-pharma-company
+
+- **2026-09-02** — Helmholtz/TUM Synthetic Transfer Vehicles (Nature): generative-AI scaffold + natural blocks, 100+ variants, STV-C8 beats LNPs at lower RNA dose; mouse IV lung expression no tox, pig CRISPR dystrophin edit; spin-out planned. AI design moves into delivery. https://www.helmholtz-munich.de/en/isf/all-news/ai-designed-proteins-enable-a-new-generation-of-rna-transporters
+
+- **2026-09-01** — AdaptiveFlow (Nat Biotech, open-source): 1,000x cheaper ultra-large screening, 5.6M vCPUs linear, 69B dock-ready library, validated PARP1 + FSP1 at pharma-grade affinity. https://www.eurekalert.org/news-releases/1142330
+
+- **2026-09-11** — Pharma Journal Eroom synthesis: rentosertib Ph2a clearest AI-to-randomized case; AI Ph1 80-90% / Ph2 ~40% small-n, zero approvals; FDA 2025 credibility framework + EMA/NICE/MHRA traceability push; 35-45% task-specific clinical productivity gains. https://pharma-journal.com/ai-in-drug-discovery-accelerates-timelines
