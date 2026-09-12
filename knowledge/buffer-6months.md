@@ -239,7 +239,17 @@ records the observation it grew out of.
 
 - **2026-09-08** — BrainChild $116M Series A for ex vivo CSF-delivered B7-H3 CAR-T in DIPG (pivotal ILLUMINATE): ex vivo still fundable in CNS locoregional/rare-pediatric even as ArsenalBio/TScan pivot to in vivo for solid tumors — delivery route + unmet need segment the cell-therapy thesis. https://www.biospace.com/business/brainchild-bio-targets-deadly-brain-cancer-in-children-with-116m-series-a
 
+- **2026-09-11** — FDA creates first Deputy Commissioner for Technology and AI (Seehafer); Mikhail/Davis/Koplow made permanent. Regulatory AI remit now explicit (Elsa Jun 2025, agentic Dec 2025) as frontier-model safety debate sharpens — QMIN digital-twin infrastructure meets AI-safety politics. https://www.biospace.com/fda/mikhail-davis-embody-the-fdas-stabilization-seehafer-signals-ai-revolution-is-coming
+
+- **2026-09-11** — "Selective recovery" capital week: Frazier +$1.1B public fund (~$2.8B total) plus BrainChild $116M / Moonwalk $70M / Solstice $225M / Encoded $275M / Luma $410M Fund I — commitments concentrated in later-stage de-risked assets with near-term catalysts, starving early-stage despite headline totals. Extends H1 concentration thesis (Isomorphic+Chai = 95%). https://www.biospace.com/business/frazier-adds-1-1b-to-small-and-mid-sized-biotech-fund
+
+- **2026-09-11** — Novartis triple late-stage failure (−13%): del-desiran Ph3 miss puts $12B Avidity AOC bet under pressure; pelacarsen clouds Lp(a) hypothesis (Amgen/Lilly readthrough); rap-cel pause deepens autoimmune CAR-T safety reckoning toward trispecific/in vivo rotation. https://www.biospace.com/business/novartis-drags-peers-down-with-trip-asset-stumble
+
+- **2026-09-09** — Revvity to acquire Human Cell Design: EndoC-βH5 beta-cell models + NatLine platform for GLP-1/GPCR metabolic screening, framed explicitly as wet-lab validation layer for AI science. Tools M&A extends Vivodyne/HIVE causal-data thesis into metabolic disease. https://www.biospace.com/press-releases/revvity-to-acquire-human-cell-design-to-advance-human-relevant-cell-models-for-metabolic-disease-drug-discovery
+
 ## Theses and hypotheses
+
+- **Compute is becoming the rate limiter, not the accelerant.** Arm CEO (Sep 2026) names chip supply as the constraint on AI cancer/drug-discovery ambitions; Generate CTO counters that GPUs alone are insufficient without proprietary bio-data + experimentation. SK Biopharm 128×B200, Novo+AWS, BioHive-2, JapanFold/Tenstorrent all race to secure sovereign or proprietary compute. Hypothesis: the next moat dispute is fabs + bio-data + wet-lab capacity jointly, and supply-constrained HBM/compute delays smaller players most. (Observation: Arm/Benzinga Sep 8 2026; Generate/BMS NVIDIA Sep 2026; SK Biopharm, Novo-AWS, JapanFold Sep 2026)
 
 - **Agentic biology is crossing from demo to deployment — and the moat is data access, not the agent.** Owkin K Pro now rolled out at three top pharmas on multimodal patient data, Latent-Y runs full antibody campaigns from text, Bunsen/Foundry run chemistry/trial workflows. Hypothesis: winners are those with privileged data loops (MOSAIC spatial, PandaOmics, Bio Discovery CRO feedback), not best LLM wrapper. (Observation: Owkin Sep 2026; Latent-Y Mar 2026; Bunsen/Foundry Aug 2026; Amazon Bio Discovery Apr 2026)
 

@@ -28,7 +28,9 @@ traced back to the document it was extracted from.
 
 - **2026-09-10** — Encoded $275M Series F (GV + undisclosed, ARCH/Farallon/RTW/SoftBank): ETX101 SCN1A Dravet gene regulator to pivotal + expansion to 18y; 79–89% seizure reduction at 52 wks + cognitive gains; ETX301 neuroma IND 2027 + GMP scale-up. https://www.biospace.com/business/encoded-raises-275m-series-f-for-dravet-syndrome-gene-therapy
 
-- **2026-09-03** — Boehringer licenses Owkin K Pro agentic AI Scientist (oncology/immunology) after MOSAIC pilot; third deployment after AZ + Sanofi. Takeda licenses Weave Bio across 14 projects — 97% IND first-draft time cut. https://pharmaphorum.com/news/boehringer-signs-ai-drug-discovery-deal-owkin
+- **2026-09-11** — Novartis triple late-stage stumble, −13%: del-desiran Ph3 miss (myotonic dystrophy, $12B Avidity bet), pelacarsen Lp(a)-lowering without CV benefit, rap-cel CAR-T pause (3 deaths); drags Amgen/Lilly Lp(a) peers. https://www.biospace.com/business/novartis-drags-peers-down-with-trip-asset-stumble
+
+- **2026-09-11** — Frazier +$1.1B public small/mid-cap fund (now ~$2.8B); same week BrainChild $116M, Moonwalk $70M, Solstice $225M, Encoded $275M, Luma $410M Fund I — "selective recovery" into de-risked late-stage assets. https://www.biospace.com/business/frazier-adds-1-1b-to-small-and-mid-sized-biotech-fund
 
 - **2026-09-10** — AICell antibiotic-AI arc: halicin → abaucin → explainable GNN (MRSA/VRE) → generative AMP (48-day) → gut-AMP mining (83% hit) → AMPSphere (863k peptides, 79/100 active); complements Pasteur phenotypic MOA reader. https://aicell.io/post/newsletter-2026-09-10
 
@@ -44,12 +46,12 @@ traced back to the document it was extracted from.
 
 - **2026-09-11** — CLSS (Haifa/Tel Aviv/ELSI Tokyo, PNAS): contrastive sequence-structure joint embedding reproduces ECOD/CATH untrained; fragments place with full proteins; for DB search / engineering / evolution. https://www.news-medical.net/news/20260911/New-AI-model-maps-billions-of-years-of-protein-evolution.aspx
 
-- **2026-09-09** — Ridge Bio ~$38M seed total (Dimension/Sutter Hill/Overlap): ML + cell-free million-fold data for NativeLink conjugation enzymes + ProTrigger cleavable linkers; AXC-ADCs several-fold lower toxicity + better efficacy same Ab/payload; bispecific/peptide/degrader/radio. https://www.biospace.com/press-releases/ridge-biotechnologies-expands-investor-base-as-demand-accelerates-for-ai-designed-bioconjugate-therapeutics
+- **2026-09-09** — Revvity to acquire Human Cell Design (EndoC-βH5 beta-cell model + NatLine platform) for GLP-1/GPCR metabolic screening; explicit "wet-lab validation for AI-enhanced science" framing. https://www.biospace.com/press-releases/revvity-to-acquire-human-cell-design-to-advance-human-relevant-cell-models-for-metabolic-disease-drug-discovery
 
-- **2026-09-10** — AINN-P1 update (167M mLSTM sequence-only): ProteinGym stability 0.625 leads ProSST/xTrimoPGLM-100B; leave-program-out VHH 0.810 vs 0.660 ESM2-650M, matches finetuned ESM2. https://www.biospace.com/press-releases/ainn-p1-small-model-big-intelligence
+- **2026-09-06** — ADARx revives IPO plan: 3 clinical-stage siRNAs (agazisiran Ph2 complement, onvuzosiran Ph3 HAE, ADX-626 Ph1 FXI) + obesity/Alzheimer's into clinic 2027; $427M cash after $335M AbbVie options deal. https://www.fiercebiotech.com/biotech/abbvie-backed-adarx-plans-ipo-fund-array-clinical-stage-sirna-therapies
 
-- **2026-09-10** — Explority AI open hub: 5,846 rare diseases with burden/SoC/gaps/literature/orphan designations, 1M+ papers, continuous update + LLM PoS forecaster; 54% FDA approvals orphan 2025. https://www.einpresswire.com/article/941205338/explority-ai-launches-open-drug-discovery-intelligence-hub-covering-5-846-rare-diseases
+- **2026-09-11** — FDA: Mikhail/Davis/Koplow permanent (continuity signal); first-ever Deputy Commissioner for Technology and AI (Seehafer); follows Elsa + agentic rollout. https://www.biospace.com/fda/mikhail-davis-embody-the-fdas-stabilization-seehafer-signals-ai-revolution-is-coming
 
-- **2026-09-11** — ICMR-NIV Pune Nipah ML repurposing (Mol Divers): 211 cmpds, RF 95%/86%, 9,021 screened, Glide/OPLS4 + MD vs G + RdRp; 8 hits (PGG/echinacoside/parishin A; neohesperidin/naringin/diosmin/orientin/amikacin); computational only, needs BSL-4. https://yourai.pro/machine-learning-accelerates-drug-repurposing-against-nipah-virus-with/
+- **2026-09-11** — Emerj/CDD × Novartis: unified data foundation as AI-scale prerequisite — silo/ownership fix, metadata as merge-gate, foundation-first sequencing, split risk vs scientific governance. https://emerj.com/how-to-build-the-unified-data-foundation-drug-discovery-ai-depends-on
 
-- **2026-09-09** — Navion $10.8M seed (Angelini Lumira): NaViGATion AI for subtype-selective sodium-channel blockers, epilepsy + neuropathic pain; ex-Cavion/Jazz team. https://briefglance.com/articles/navions-108m-seed-betting-ai-can-tame-epilepsy-and-chronic-pain
+- **2026-09-08** — Arm CEO Haas: AI could crack cancer/drug discovery but chip shortage is the limiter; Generate CTO: GPUs + proprietary bio-data + experimentation all required; BMS live on NVIDIA system. https://finance.yahoo.com/technology/ai/articles/ai-could-eventually-crack-cancer-143646678.html
