@@ -16,9 +16,9 @@ traced back to the document it was extracted from.
 
 ## This month
 
-- **2026-09-10** — Biohaven BHV-7000/opakalim partial clinical hold: FDA pauses new enrollment in RISE 2/RISE 3 focal epilepsy (>600 randomized) over rodent metabolite; dosed continue; RISE 3 done June, topline H2 2026; RISE 2 delayed. Days after SK Biopharma $795M Kv7 license; −13% premarket. https://www.biospace.com/fda/biohaven-takes-another-hit-as-fda-pauses-enrollment-in-pivotal-trials-for-embattled-epilepsy-drug
+- **2026-09-13** — Novartis $12B Avidity thesis test: del-desiran HARBOR vHOT miss; 2 remaining AOC shots (del-zota FDA priority DMD-exon44, del-brax FSHD) must carry deal; −10.9% (~$32B) reprices growth-to-2030 + pelacarsen overhang; Dyne −18% readthrough but constructs differ. https://pharmadevicenews.com/novartis-paid-12bn-for-avidity-biosciences-what-does-del-desirans-phase-3-failure-do-to-the-deal-thesis/
 
-- **2026-09-10** — Takeda R&D chief Plump to retire Jun 2027 after 12y; successor search; after 4,500-cut reorg, modality cut to small molecule/biologics/ADC, new CEO Kim, Nabla $1B AI antibody bet. Same week as Weave Bio regulatory-AI rollout — continuity test for AI execution. https://www.biospace.com/business/takedas-long-term-r-d-head-announces-exit-after-major-pipeline-reorganization
+- **2026-09-13** — SimpleDesign clarified (Lu et al., Apple, TMLR): single-stage sequence+structure codesign, Mixture-of-Transformer, 2M+ pairs; no wet-lab/code yet — big-tech biology entry, not validated design win. https://arxiv.org/abs/2609.03377
 
 - **2026-09-09** — Caspian $50M spinout (Kura, BVF, Lilly): oral menin inhibitor KO-7246 to expand beta-cell number/function, T1D/T2D disease-modifying claim; IND-enabling. https://www.biospace.com/business/caspian-launches-with-50m-lilly-support-to-advance-disease-modifying-diabetes-bet
 
