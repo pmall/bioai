@@ -30,7 +30,9 @@ traced back to the document it was extracted from.
 
 - **2026-09-11** — Frazier +$1.1B public small/mid-cap fund (now ~$2.8B); same week BrainChild $116M, Moonwalk $70M, Solstice $225M, Encoded $275M, Luma $410M Fund I — "selective recovery" into de-risked late-stage assets. https://www.biospace.com/business/frazier-adds-1-1b-to-small-and-mid-sized-biotech-fund
 
-- **2026-09-10** — AICell antibiotic-AI arc: halicin → abaucin → explainable GNN (MRSA/VRE) → generative AMP (48-day) → gut-AMP mining (83% hit) → AMPSphere (863k peptides, 79/100 active); complements Pasteur phenotypic MOA reader. https://aicell.io/post/newsletter-2026-09-10
+- **2026-09-11** — Novartis M&A governance fallout: Artisan demands board shake-up + acquisition committee + pay reform; $12B Avidity del-desiran miss, pelacarsen no-future, $2.9B MorphoSys $800M impairment; offset remibrutinib MS win; cliff 2029-31 ~38% sales. https://www.biospace.com/business/novartis-board-faces-investor-scrutiny-after-m-a-misfires-and-r-d-flops
+
+- **2026-09-11** — Samsung Biologics $262M EU deal thru 2033: Campus I full, 785 kL Songdo + 60 kL Rockville, +720 kL by 2032; mid-70%→low-80% util to 2030, still undersupplied; capacity scarce as design commoditizes. https://www.biospace.com/drug-delivery/samsung-biologics-inks-262m-manufacturing-deal-with-european-pharma-company
 
 - **2026-09-10** — Rentosertib first patient dosed in GENESIS-IPF-3 Phase III (NCT07687459): 320 pts, 47 centers China, 52 wks QD, primary annual FVC decline. Peking Union + Shanghai Pulmonary day one; PI Xu: 3–4 yrs to approval if favorable; 9 PCCs in 9 months of 2026. https://www.prnewswire.com/news-releases/insilico-medicine-doses-first-patient-in-genesis-ipf-3-the-worlds-first-phase-iii-trial-of-a-generative-ai-driven-innovative-drug-302873749.html
 
@@ -46,14 +48,14 @@ traced back to the document it was extracted from.
 
 - **2026-09-11** — FDA: Mikhail/Davis/Koplow permanent (continuity signal); first-ever Deputy Commissioner for Technology and AI (Seehafer); follows Elsa + agentic rollout. https://www.biospace.com/fda/mikhail-davis-embody-the-fdas-stabilization-seehafer-signals-ai-revolution-is-coming
 
-- **2026-09-08** — Arm CEO Haas: AI could crack cancer/drug discovery but chip shortage is the limiter; Generate CTO: GPUs + proprietary bio-data + experimentation all required; BMS live on NVIDIA system. https://finance.yahoo.com/technology/ai/articles/ai-could-eventually-crack-cancer-143646678.html
+- **2026-09-12** — SNG neurosymbolic lead discovery (Machine Learning): ILP symbolic constraints + LLM SMILES generator, JAK2/DRD2 SOTA-par, DBH from 5 inhibitors to clinical-level affinity; Molecule-GPT2 beats GPT-4o/Claude on sparse target; $10 API, open code. https://scienmag.com/ai-that-learns-the-rules-symbolic-neural-generators-design-new-drug-candidates/
 
-- **2026-09-11** — Novartis M&A governance fallout: Artisan demands board shake-up + acquisition committee + pay reform; del-desiran HARBOR miss after $12B Avidity, pelacarsen CV miss (no future development), $2.9B MorphoSys $800M impairment; offset remibrutinib MS win. Patent cliff 2029-31 (Cosentyx/Kisqali/Kesimpta ~38% sales). Guggenheim cuts del-desiran $1.76B→$960M, del-brax →$600M. https://www.biospace.com/business/novartis-board-faces-investor-scrutiny-after-m-a-misfires-and-r-d-flops
+- **2026-09-11/12** — Apple SimpleDesign joint sequence-structure generator (via 9to5Mac): streamlined coupled design to fix mismatch; no params/benchmarks/wet-lab/code disclosed; big-tech biology entry signal. https://developmentstoday.com/ai-robotics/apple-simpledesign-ai-protein-design
 
-- **2026-09-11** — Samsung Biologics $262M EU pharma manufacturing deal thru 2033 (Songdo): Campus I full, Plant 5 ramping, 785 kL + 60 kL Rockville, +720 kL by 2032, $2.2B rights for expansion + $1.8B PolyPeptide GLP-1 peptide buy; market still undersupplied to 2030. https://www.biospace.com/drug-delivery/samsung-biologics-inks-262m-manufacturing-deal-with-european-pharma-company
+- **2026-09-12** — Glioblastoma LXRβ AI screen: QSAR+D-MPNN+DTI over 1.2M natural products → 5,6-epoxyergosterol selective glioma kill, His435/Trp443 stable MD; no animal PK/BBB yet. https://scienmag.com/ai-scours-1-2-million-natural-products-to-find-fungal-compound-that-starves-glioblastoma-of-cholesterol/
 
-- **2026-09-02** — Helmholtz/TUM Synthetic Transfer Vehicles (Nature): generative-AI scaffold + natural blocks, 100+ variants, STV-C8 beats LNPs at lower RNA dose; mouse IV lung expression no tox, pig CRISPR dystrophin edit; spin-out planned. AI design moves into delivery. https://www.helmholtz-munich.de/en/isf/all-news/ai-designed-proteins-enable-a-new-generation-of-rna-transporters
+- **2026-09-12** — CAR binder grammar (Nat Biomed Eng 10.1038/s41551-026-01792-7): RFdiffusion/ProteinMPNN/BindCraft + full CAR funnel (expression/signalling/kill/in vivo); affinity/epitope/stability tunable; extends Chow 1,758-binder taxes. https://scienmag.com/ai-designed-protein-binders-reveal-rules-for-building-better-car-t-cells/
 
-- **2026-09-01** — AdaptiveFlow (Nat Biotech, open-source): 1,000x cheaper ultra-large screening, 5.6M vCPUs linear, 69B dock-ready library, validated PARP1 + FSP1 at pharma-grade affinity. https://www.eurekalert.org/news-releases/1142330
+- **2026-09-12** — LLM optimizer calibration standard (Nat Mach Intell 10.1038/s42256-026-01283-z): literature priors only help self-driving labs with ensembles/conformal error bars; offline benchmarks ≠ closed-loop regret. https://scienmag.com/ai-that-knows-when-it-doesnt-know-language-models-enter-the-lab-as-uncertainty-calibrated-discovery-engines/
 
-- **2026-09-11** — Pharma Journal Eroom synthesis: rentosertib Ph2a clearest AI-to-randomized case; AI Ph1 80-90% / Ph2 ~40% small-n, zero approvals; FDA 2025 credibility framework + EMA/NICE/MHRA traceability push; 35-45% task-specific clinical productivity gains. https://pharma-journal.com/ai-in-drug-discovery-accelerates-timelines
+- **2026-09-12** — Rentosertib Phase III test framed: 71-pt/12-wk +98.4 mL secondary (n=18 top arm) → 320-pt/52-wk FVC-decline primary; 3–4 yrs to approval if holds; TNIK novelty ≠ lower bar. https://pharmadevicenews.com/can-insilico-medicines-rentosertib-slow-fvc-decline-in-phase-3-ipf-study/
