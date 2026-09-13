@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Generators that know the rules — and when they don't — Protein to Pill</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<nav>
+  <a href="../index.html">Protein to Pill</a>
+</nav>
+
+<article>
+  <header>
+    <h1>Generators that know the rules — and when they don't</h1>
+    <time datetime="2026-09-13">13 September 2026</time>
+  </header>
+
+  <p>Molecule generators are easy to build and hard to trust. Two papers this week attack the trust problem from opposite ends: one teaches the generator explicit chemical rules, the other demands calibrated uncertainty before letting a language model steer a self-driving lab. Together they describe what a trustworthy discovery loop actually requires.</p>
+
+  <h2>Learning the rule, then generating inside it</h2>
+  <p><a href="https://scienmag.com/ai-that-learns-the-rules-symbolic-neural-generators-design-new-drug-candidates/">Symbolic Neural Generation, published in Machine Learning</a>, pairs a symbolic learner with a language-model generator. The symbolic side uses restricted inductive logic programming over posets, with a Bayesian heuristic and Latin Hypercube narrowing, to learn feasibility rules from known actives. The generator — a small <strong>Molecule-GPT2</strong> model with 87 million parameters trained on 480 million ZINC compounds — is then constrained to SMILES strings that provably satisfy those rules.</p>
+
+  <p>On <strong>JAK2</strong> and <strong>DRD2</strong> the system performs comparably to state-of-the-art generators. The telling case is <strong>dopamine beta-hydroxylase (DBH)</strong>, a data-sparse target with only five known inhibitors. There, SNG reaches clinical-candidate-level predicted affinity under GNINA scoring — and the 87M-parameter specialist beats GPT-4o and Claude 3.5 Sonnet on the same task. Total API cost was around $10. Chemists judged several outputs synthesis-viable, and because the constraint is a logic filter, it can be inspected: you can read the rule the molecule was forced to obey. Code and data are open.</p>
+
+  <p>The point is architectural. Instead of asking a large model to absorb chemistry implicitly and hoping it generalizes, SNG learns an explicit, checkable rule first and generates inside it. On sparse targets — exactly where drug discovery lives — the small constrained model beats the large fluent one.</p>
+
+  <h2>Literature priors only help with error bars</h2>
+  <p><a href="https://scienmag.com/ai-that-knows-when-it-doesnt-know-language-models-enter-the-lab-as-uncertainty-calibrated-discovery-engines/">A perspective in Nature Machine Intelligence</a> sets the calibration standard for the other half of the loop: using large language models as literature-prior surrogates inside Bayesian optimization and self-driving labs. The verdict is conditional. LLM priors help closed-loop discovery only when uncertainty is calibrated — naive fluency is not an error bar.</p>
+
+  <p>The prescription is concrete: <strong>ensembles</strong>, prompt perturbation, token-probability aggregation, and <strong>conformal prediction</strong>, treating the next-token distribution as a hypothesis distribution. The paper proposes auditing the full proposal-calibration-decision-execution loop rather than any single prediction. And it warns that offline benchmarks are weak predictors of closed-loop regret — a model that looks good on a static dataset can still steer an autonomous lab badly.</p>
+
+  <p>Read alongside SNG, the message sharpens. SNG constrains <em>what</em> gets proposed; calibration constrains <em>how much</em> the lab should believe each proposal. One without the other leaves the loop untrustworthy: valid molecules pursued in the wrong order, or well-ranked molecules that violate chemistry.</p>
+
+  <h2>The contrast: a launch with no numbers</h2>
+  <p><a href="https://developmentstoday.com/ai-robotics/apple-simpledesign-ai-protein-design">Apple's SimpleDesign</a>, reported via 9to5Mac, claims a streamlined joint sequence-and-structure protein generator that collapses the usual two-step design process into a coupled problem to avoid sequence-structure mismatch. No parameter counts, training data, benchmarks, wet-lab validation, or code and weights were disclosed.</p>
+
+  <p>Its significance is who is entering, not what was shown — big-tech biology entry alongside the full-stack pattern. Against this week's two papers it reads as the thing they argue against: generation without inspectable rules and without calibrated uncertainty. A coupled generator may well fix real mismatch problems, but until there are numbers and molecules, it sits outside the trust standard the field is converging on.</p>
+
+  <h2>What trustworthy looks like now</h2>
+  <p>The bar emerging from these two papers is higher than "it generates plausible molecules." A generator earns its place in a discovery loop when its constraints are explicit enough to inspect, its uncertainty is calibrated enough to plan experiments against, and its value is measured in closed-loop regret rather than offline scores. SNG clears the first at $10 with open code; the calibration paper defines the second and third. That is a standard worth holding every new entrant to — including the ones with the largest logos.</p>
+
+  <footer>
+    <p><a href="../index.html">&larr; Home</a></p>
+  </footer>
+</article>
+
+</body>
+</html>
