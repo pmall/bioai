@@ -16,6 +16,14 @@ traced back to the document it was extracted from.
 
 ## This month
 
+- **2026-09-14** — Proteina SPID validation-bottleneck pitch: 10k antibodies/week, 100k/mo Q1 2027, 1M/mo 2028; binding+productivity+stability on one platform, 2–3 yr → 3–6 mo claimed; 500k datapoints with SNU training AI; explicit model-commoditization thesis. https://en.edaily.co.kr/news/eda202609145031/
+
+- **2026-09-14 / 2026-09-03** — UCSF DeGrado LLM-alone binders (bioRxiv 2026.09.02.748987): Claude/ChatGPT/Gemini reasoned-design metal + PFOA binders, 6–12 designs/query, 25% hit; rationale supplied with sequences. https://www.biorxiv.org/content/10.64898/2026.09.02.748987v1
+
+- **2026-09-13** — Moonwalk $70M Series B (Alpha Wave/YK, Lilly/ARCH/Khosla) for adipose-targeted siRNA MW101, FIH late 2027, $127M total; preclinical fat-loss + lean-mass preservation, quarterly dosing hope — quality-weight-loss lane. https://business-news-today.com/moonwalk-biosciences-secures-70m-series-b-for-adipose-targeted-rnai/
+
+- **2026-09-12** — Graph AI $13.3M Series A (Insight/Bessemer) for pharmacovigilance automation: <10 min vs 3+ hrs/case claimed, aggregate reporting Sep 2026; traceability pitch; AI into safety/ops layer. https://medspark.ai/2026/09/12/graph-ai-banks-13-3m-to-automate-drug-safety-case-work/
+
 - **2026-09-13** — Novartis $12B Avidity thesis test: del-desiran HARBOR vHOT miss; 2 remaining AOC shots (del-zota FDA priority DMD-exon44, del-brax FSHD) must carry deal; −10.9% (~$32B) reprices growth-to-2030 + pelacarsen overhang; Dyne −18% readthrough but constructs differ. https://pharmadevicenews.com/novartis-paid-12bn-for-avidity-biosciences-what-does-del-desirans-phase-3-failure-do-to-the-deal-thesis/
 
 - **2026-09-13** — SimpleDesign clarified (Lu et al., Apple, TMLR): single-stage sequence+structure codesign, Mixture-of-Transformer, 2M+ pairs; no wet-lab/code yet — big-tech biology entry, not validated design win. https://arxiv.org/abs/2609.03377
@@ -38,9 +46,7 @@ traced back to the document it was extracted from.
 
 - **2026-09-10** — Rentosertib Phase III burden of proof: Phase IIa was 71 pts / 12 wks (60 mg QD +98.4 mL vs placebo −20.3 mL, secondary endpoint) vs 52-wk FVC-decline primary now. Faces nerandomilast (Oct 2025) + generic nintedanib (Apr 2026). H1 $106.3M rev, $35.5M profit, $584.8M cash + $305M converts Sep 3. https://business-news-today.com/insilico-medicines-ai-drug-enters-phase-iii-dosing-can-rentosertib-clear-the-real-test/
 
-- **2026-09-10** — Pasteur AI reads bacterial morphology to call antibiotic MOA near-perfect, detects sub-inhibitory effects, flags unprecedented MOAs; validated on Klebsiella pneumoniae. https://www.the1news.com/public/index.php/article/pasteur-ai-when-artificial-intelligence-learns-to-read-bacteria-to-fight-anti
-
-- **2026-09-10** — UPenn de la Fuente lab: OpenAI Codex + ChatGPT as antibiotic-discovery infrastructure — Codex writes bioinformatics pipelines filtering billions of sequences, ChatGPT reasons/ranks; living + extinct genomes (Neanderthal/mammoth encrypted peptides); prior preclinical candidates. https://www.aichatdaily.com/ai-models/c-sar-de-la-fuente-s-lab-uses
+- **2026-09-11** — CLSS (Haifa/Tel Aviv/ELSI Tokyo, PNAS): contrastive sequence-structure joint embedding reproduces ECOD/CATH untrained; fragments place with full proteins; for DB search / engineering / evolution. https://www.news-medical.net/news/20260911/New-AI-model-maps-billions-of-years-of-protein-evolution.aspx
 
 - **2026-09-10** — MutexaGPT (Nature Comp Sci, open at enzyhtp.app.vanderbilt.edu): plain-English intuition → high-throughput MD + smart libraries; halide methyltransferase 40% hit / 4x enrichment, L39H V11F 542→2870 Å3, up to 50x on bulkier substrates; amylase cold-adaptation 3.7x at 0°C. https://www.nature.com/articles/s43588-026-01049-y
 
@@ -51,8 +57,6 @@ traced back to the document it was extracted from.
 - **2026-09-12** — SNG neurosymbolic lead discovery (Machine Learning): ILP symbolic constraints + LLM SMILES generator, JAK2/DRD2 SOTA-par, DBH from 5 inhibitors to clinical-level affinity; Molecule-GPT2 beats GPT-4o/Claude on sparse target; $10 API, open code. https://scienmag.com/ai-that-learns-the-rules-symbolic-neural-generators-design-new-drug-candidates/
 
 - **2026-09-11/12** — Apple SimpleDesign joint sequence-structure generator (via 9to5Mac): streamlined coupled design to fix mismatch; no params/benchmarks/wet-lab/code disclosed; big-tech biology entry signal. https://developmentstoday.com/ai-robotics/apple-simpledesign-ai-protein-design
-
-- **2026-09-12** — Glioblastoma LXRβ AI screen: QSAR+D-MPNN+DTI over 1.2M natural products → 5,6-epoxyergosterol selective glioma kill, His435/Trp443 stable MD; no animal PK/BBB yet. https://scienmag.com/ai-scours-1-2-million-natural-products-to-find-fungal-compound-that-starves-glioblastoma-of-cholesterol/
 
 - **2026-09-12** — CAR binder grammar (Nat Biomed Eng 10.1038/s41551-026-01792-7): RFdiffusion/ProteinMPNN/BindCraft + full CAR funnel (expression/signalling/kill/in vivo); affinity/epitope/stability tunable; extends Chow 1,758-binder taxes. https://scienmag.com/ai-designed-protein-binders-reveal-rules-for-building-better-car-t-cells/
 
