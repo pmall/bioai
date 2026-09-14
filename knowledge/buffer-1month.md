@@ -16,6 +16,12 @@ traced back to the document it was extracted from.
 
 ## This month
 
+- **2026-09-14** — Electra $325M IPO terms: 21.7M shares $14–$16, ~$976M FD; pan-SIRP ipsoprubart in registrational Ph2/3 SURPASS sHLH (Ph1b 100% OS/ORR n=12), ELA822 SIRPγ Ph1 EU Aug 2026; prices Sep 17; late-stage antibody IPO window test. https://www.renaissancecapital.com/IPO-Center/News/121638/antibody-biotech-electra-therapeutics-sets-terms-for-325-million-ipo
+
+- **2026-09-14** — PDS Biotech $11.3M PIPE close (up to $22.3M), Nant-led, Soon-Shiong to board; milestone $11M on PDS0301 Ph3 protocol; NCI MSS mCRC signal 80% 24-mo survival n=22. https://www.streetinsider.com/Board+Changes/PDS+Biotech+closes+%2411.3M+PIPE+led+by+Nant+Capital%2C+adds+Soon-Shiong/27056825.html
+
+- **2026-08-19** — Essex intrabody repurposing (Nat Commun): charge-rule + Baker redesign, 672 antibodies → intracellular-stable fragments for Alzheimer's/Parkinson's/Huntington's/MND; free release; second intrabody win after Sep-04 73% pipeline. https://www.sciencedaily.com/releases/2026/08/260819041242.htm
+
 - **2026-09-14** — Proteina SPID validation-bottleneck pitch: 10k antibodies/week, 100k/mo Q1 2027, 1M/mo 2028; binding+productivity+stability on one platform, 2–3 yr → 3–6 mo claimed; 500k datapoints with SNU training AI; explicit model-commoditization thesis. https://en.edaily.co.kr/news/eda202609145031/
 
 - **2026-09-14 / 2026-09-03** — UCSF DeGrado LLM-alone binders (bioRxiv 2026.09.02.748987): Claude/ChatGPT/Gemini reasoned-design metal + PFOA binders, 6–12 designs/query, 25% hit; rationale supplied with sequences. https://www.biorxiv.org/content/10.64898/2026.09.02.748987v1
@@ -28,19 +34,11 @@ traced back to the document it was extracted from.
 
 - **2026-09-13** — SimpleDesign clarified (Lu et al., Apple, TMLR): single-stage sequence+structure codesign, Mixture-of-Transformer, 2M+ pairs; no wet-lab/code yet — big-tech biology entry, not validated design win. https://arxiv.org/abs/2609.03377
 
-- **2026-09-09** — Caspian $50M spinout (Kura, BVF, Lilly): oral menin inhibitor KO-7246 to expand beta-cell number/function, T1D/T2D disease-modifying claim; IND-enabling. https://www.biospace.com/business/caspian-launches-with-50m-lilly-support-to-advance-disease-modifying-diabetes-bet
-
-- **2026-09-09** — Solstice $225M Series A (RA/Canaan/Forbion) for Harbour BioMed next-gen CTLA-4 porustobart: short half-life, neoadjuvant colon + Keytruda Ph2 IND cleared, enroll Q4 2026; $105M signing + $1.1B milestones ex-China. https://www.biospace.com/business/solstice-rises-with-225m-to-develop-next-gen-ctla-4-drug-from-china
-
-- **2026-09-10** — Encoded $275M Series F (GV + undisclosed, ARCH/Farallon/RTW/SoftBank): ETX101 SCN1A Dravet gene regulator to pivotal + expansion to 18y; 79–89% seizure reduction at 52 wks + cognitive gains; ETX301 neuroma IND 2027 + GMP scale-up. https://www.biospace.com/business/encoded-raises-275m-series-f-for-dravet-syndrome-gene-therapy
-
 - **2026-09-11** — Novartis triple late-stage stumble, −13%: del-desiran Ph3 miss (myotonic dystrophy, $12B Avidity bet), pelacarsen Lp(a)-lowering without CV benefit, rap-cel CAR-T pause (3 deaths); drags Amgen/Lilly Lp(a) peers. https://www.biospace.com/business/novartis-drags-peers-down-with-trip-asset-stumble
 
 - **2026-09-11** — Frazier +$1.1B public small/mid-cap fund (now ~$2.8B); same week BrainChild $116M, Moonwalk $70M, Solstice $225M, Encoded $275M, Luma $410M Fund I — "selective recovery" into de-risked late-stage assets. https://www.biospace.com/business/frazier-adds-1-1b-to-small-and-mid-sized-biotech-fund
 
 - **2026-09-11** — Novartis M&A governance fallout: Artisan demands board shake-up + acquisition committee + pay reform; $12B Avidity del-desiran miss, pelacarsen no-future, $2.9B MorphoSys $800M impairment; offset remibrutinib MS win; cliff 2029-31 ~38% sales. https://www.biospace.com/business/novartis-board-faces-investor-scrutiny-after-m-a-misfires-and-r-d-flops
-
-- **2026-09-11** — Samsung Biologics $262M EU deal thru 2033: Campus I full, 785 kL Songdo + 60 kL Rockville, +720 kL by 2032; mid-70%→low-80% util to 2030, still undersupplied; capacity scarce as design commoditizes. https://www.biospace.com/drug-delivery/samsung-biologics-inks-262m-manufacturing-deal-with-european-pharma-company
 
 - **2026-09-10** — Rentosertib first patient dosed in GENESIS-IPF-3 Phase III (NCT07687459): 320 pts, 47 centers China, 52 wks QD, primary annual FVC decline. Peking Union + Shanghai Pulmonary day one; PI Xu: 3–4 yrs to approval if favorable; 9 PCCs in 9 months of 2026. https://www.prnewswire.com/news-releases/insilico-medicine-doses-first-patient-in-genesis-ipf-3-the-worlds-first-phase-iii-trial-of-a-generative-ai-driven-innovative-drug-302873749.html
 
@@ -48,18 +46,10 @@ traced back to the document it was extracted from.
 
 - **2026-09-11** — CLSS (Haifa/Tel Aviv/ELSI Tokyo, PNAS): contrastive sequence-structure joint embedding reproduces ECOD/CATH untrained; fragments place with full proteins; for DB search / engineering / evolution. https://www.news-medical.net/news/20260911/New-AI-model-maps-billions-of-years-of-protein-evolution.aspx
 
-- **2026-09-10** — MutexaGPT (Nature Comp Sci, open at enzyhtp.app.vanderbilt.edu): plain-English intuition → high-throughput MD + smart libraries; halide methyltransferase 40% hit / 4x enrichment, L39H V11F 542→2870 Å3, up to 50x on bulkier substrates; amylase cold-adaptation 3.7x at 0°C. https://www.nature.com/articles/s43588-026-01049-y
-
-- **2026-09-11** — CLSS (Haifa/Tel Aviv/ELSI Tokyo, PNAS): contrastive sequence-structure joint embedding reproduces ECOD/CATH untrained; fragments place with full proteins; for DB search / engineering / evolution. https://www.news-medical.net/news/20260911/New-AI-model-maps-billions-of-years-of-protein-evolution.aspx
-
 - **2026-09-11** — FDA: Mikhail/Davis/Koplow permanent (continuity signal); first-ever Deputy Commissioner for Technology and AI (Seehafer); follows Elsa + agentic rollout. https://www.biospace.com/fda/mikhail-davis-embody-the-fdas-stabilization-seehafer-signals-ai-revolution-is-coming
 
 - **2026-09-12** — SNG neurosymbolic lead discovery (Machine Learning): ILP symbolic constraints + LLM SMILES generator, JAK2/DRD2 SOTA-par, DBH from 5 inhibitors to clinical-level affinity; Molecule-GPT2 beats GPT-4o/Claude on sparse target; $10 API, open code. https://scienmag.com/ai-that-learns-the-rules-symbolic-neural-generators-design-new-drug-candidates/
 
-- **2026-09-11/12** — Apple SimpleDesign joint sequence-structure generator (via 9to5Mac): streamlined coupled design to fix mismatch; no params/benchmarks/wet-lab/code disclosed; big-tech biology entry signal. https://developmentstoday.com/ai-robotics/apple-simpledesign-ai-protein-design
-
 - **2026-09-12** — CAR binder grammar (Nat Biomed Eng 10.1038/s41551-026-01792-7): RFdiffusion/ProteinMPNN/BindCraft + full CAR funnel (expression/signalling/kill/in vivo); affinity/epitope/stability tunable; extends Chow 1,758-binder taxes. https://scienmag.com/ai-designed-protein-binders-reveal-rules-for-building-better-car-t-cells/
 
 - **2026-09-12** — LLM optimizer calibration standard (Nat Mach Intell 10.1038/s42256-026-01283-z): literature priors only help self-driving labs with ensembles/conformal error bars; offline benchmarks ≠ closed-loop regret. https://scienmag.com/ai-that-knows-when-it-doesnt-know-language-models-enter-the-lab-as-uncertainty-calibrated-discovery-engines/
-
-- **2026-09-12** — Rentosertib Phase III test framed: 71-pt/12-wk +98.4 mL secondary (n=18 top arm) → 320-pt/52-wk FVC-decline primary; 3–4 yrs to approval if holds; TNIK novelty ≠ lower bar. https://pharmadevicenews.com/can-insilico-medicines-rentosertib-slow-fvc-decline-in-phase-3-ipf-study/
