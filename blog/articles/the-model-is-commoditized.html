@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The model is commoditized. Validation is the moat. — Protein to Pill</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<nav>
+  <a href="../index.html">Protein to Pill</a>
+</nav>
+
+<article>
+  <header>
+    <h1>The model is commoditized. Validation is the moat.</h1>
+    <time datetime="2026-09-14">14 September 2026</time>
+  </header>
+
+  <p>Two stories this week say the same thing from opposite ends. A Seoul antibody company says the design model no longer matters — throughput of experimental validation does. A San Francisco lab shows a plain reasoning chatbot designing binders with no specialized protein software at all. If both are right, the scarce input in AI protein design is no longer intelligence. It is wet-lab capacity.</p>
+
+  <h2>Ten thousand antibodies a week</h2>
+  <p><a href="https://en.edaily.co.kr/news/eda202609145031/">Proteina's pitch for its SPID platform</a> is framed explicitly as a validation bottleneck play: 10,000 antibodies screened per week today, 100,000 per month by Q1 2027, a million per month in 2028. Binding, productivity, and stability are measured on one platform, compressing a claimed two-to-three-year cycle into three to six months. The training loop runs on 500,000 data points with Seoul National University feeding an AI model — and the thesis is stated outright: models commoditize, proprietary validation data does not.</p>
+
+  <p>That is the "release the model, keep the data" strategy taken to its physical conclusion. Open weights for antibody design already beat AlphaFold 3 on docking benchmarks; what cannot be downloaded is a million binding measurements a month. Proteina is betting the moat is the factory, not the formula.</p>
+
+  <h2>Binders from a chatbot</h2>
+  <p><a href="https://www.biorxiv.org/content/10.64898/2026.09.02.748987v1">A UCSF DeGrado-lab preprint</a> supplies the other half of the argument. Claude, ChatGPT, and Gemini were asked to reason their way to metal-binding and PFOA-binding proteins — no RFdiffusion, no ProteinMPNN, no specialized pipeline. Six to twelve designs per query, a 25% hit rate, with the rationale supplied alongside the sequences.</p>
+
+  <p>Set that against <a href="https://www.anthropic.com/research/Claude-accelerates-protein-design">Claude's autonomous protein-design campaigns in August</a>, which ran full toolchains to reach 22–35% hit rates across 15 targets. The DeGrado result is cruder and narrower — but it did not need the toolchain. Reasoning alone, pointed at chemistry the model already absorbed, produced binders at a rate the industry would have celebrated two years ago.</p>
+
+  <p><a href="https://arxiv.org/abs/2609.03377">Apple's SimpleDesign entry</a> sharpens the commoditization signal from the other direction: a single-stage joint sequence-structure codesigner with a Mixture-of-Transformer trained on 2M+ pairs — no wet-lab validation, no code disclosed. Big-tech biology entry, not yet a capability claim. The pattern is that everyone can now propose; almost no one can prove.</p>
+
+  <h2>Why throughput decides</h2>
+  <p><a href="https://towardsai.com/p/machine-learning/claudes-protein-design-hit-rate-was-26-8-one-target-returned-0-for-90">A reanalysis of Claude's headline 26.8% hit rate</a> shows why proposing is cheap and proving is dear. The pooled average masks per-target rates from 0% to 80%; the fitted median for a new target is 18.6%, with a 38% chance of falling below the 10% industry floor. A 30-design batch has a 20% chance of returning zero binders. Hit rates are portfolio statistics, not per-target promises — which means you need portfolio-scale testing to realize them.</p>
+
+  <p>That is exactly what Proteina is selling, and <a href="https://www.biospace.com/drug-delivery/samsung-biologics-inks-262m-manufacturing-deal-with-european-pharma-company">Samsung Biologics' $262M European manufacturing deal through 2033</a> shows the scarcity extends downstream. Songdo plus Rockville capacity totals near 845 kL, another 720 kL coming by 2032, utilization guided from the mid-70s to the low-80s percent through 2030 — still undersupplied. As design commoditizes, capacity stays scarce.</p>
+
+  <h2>What to watch</h2>
+  <p>The question is no longer which lab has the best generator. It is who can close the loop fastest: propose at machine speed, test at industrial scale, and convert the results into data no competitor has. DeGrado's chatbot binders lower the cost of the first step to near zero. Proteina's million-a-month target prices the second step as the business itself. If the variance math holds, the winners will be the ones who can afford to be wrong thirty times before being right — and can learn from every miss.</p>
+
+  <footer>
+    <p><a href="../index.html">&larr; Home</a></p>
+  </footer>
+</article>
+
+</body>
+</html>
