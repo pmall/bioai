@@ -16,6 +16,14 @@ traced back to the document it was extracted from.
 
 ## This month
 
+- **2026-09-14** — AISB Network pools 20,167 proprietary pharma structures to fine-tune OpenFold3: >50% high-accuracy on 1,056 held-out protein–ligand complexes vs ~33% public OpenFold3 vs ~40% Boltz-2; beats single-company siloed training; blog post, not peer-reviewed, model not public; UK OpenBind public counterpart. https://www.nature.com/articles/d41586-026-02882-x
+
+- **2026-09-14** — Inductive Bio launches Indy medicinal-chemistry agent: CRO parse + curve QC + SAR + FEP + slides, doubled team productivity claimed; 89% vs 39% GPT-5.6 Sol vs 48% Claude Opus 5 on 84 real dose-response curves; Anvia live use. https://www.prnewswire.com/news-releases/inductive-bio-launches-indy-an-ai-chemistry-assistant-to-double-the-capacity-of-every-medicinal-chemist-302877082.html
+
+- **2026-09-14** — MoleculeMind QuantaMind (Sci Adv): transition-state reactive MLFF, DFT accuracy, tens-of-ns MD on 10k atoms, 100k-atom step 0.25s; full enzyme-cycle claim; pH-sensitive antibody 62x dissociation shift pH 6.0/7.4. https://www.prnewswire.com/news-releases/ai-driven-reactive-modeling-platform-quantamind-research-published-in-science-advances-advancing-a-new-paradigm-in-ai-powered-molecular-rd-302877464.html
+
+- **2026-09-15** — LG EXAONE Discovery: 420k compounds/24h → Rhamsydil non-steroidal female hair-loss candidate for Dr. Groot; World Congress for Hair Research; on-premise field-ready expert AI. https://kr.ibtimes.com/lg-ai-screened-compounds-hair-loss-candidate-101590
+
 - **2026-09-14** — Electra $325M IPO terms: 21.7M shares $14–$16, ~$976M FD; pan-SIRP ipsoprubart in registrational Ph2/3 SURPASS sHLH (Ph1b 100% OS/ORR n=12), ELA822 SIRPγ Ph1 EU Aug 2026; prices Sep 17; late-stage antibody IPO window test. https://www.renaissancecapital.com/IPO-Center/News/121638/antibody-biotech-electra-therapeutics-sets-terms-for-325-million-ipo
 
 - **2026-09-14** — PDS Biotech $11.3M PIPE close (up to $22.3M), Nant-led, Soon-Shiong to board; milestone $11M on PDS0301 Ph3 protocol; NCI MSS mCRC signal 80% 24-mo survival n=22. https://www.streetinsider.com/Board+Changes/PDS+Biotech+closes+%2411.3M+PIPE+led+by+Nant+Capital%2C+adds+Soon-Shiong/27056825.html
@@ -43,13 +51,3 @@ traced back to the document it was extracted from.
 - **2026-09-10** — Rentosertib first patient dosed in GENESIS-IPF-3 Phase III (NCT07687459): 320 pts, 47 centers China, 52 wks QD, primary annual FVC decline. Peking Union + Shanghai Pulmonary day one; PI Xu: 3–4 yrs to approval if favorable; 9 PCCs in 9 months of 2026. https://www.prnewswire.com/news-releases/insilico-medicine-doses-first-patient-in-genesis-ipf-3-the-worlds-first-phase-iii-trial-of-a-generative-ai-driven-innovative-drug-302873749.html
 
 - **2026-09-10** — Rentosertib Phase III burden of proof: Phase IIa was 71 pts / 12 wks (60 mg QD +98.4 mL vs placebo −20.3 mL, secondary endpoint) vs 52-wk FVC-decline primary now. Faces nerandomilast (Oct 2025) + generic nintedanib (Apr 2026). H1 $106.3M rev, $35.5M profit, $584.8M cash + $305M converts Sep 3. https://business-news-today.com/insilico-medicines-ai-drug-enters-phase-iii-dosing-can-rentosertib-clear-the-real-test/
-
-- **2026-09-11** — CLSS (Haifa/Tel Aviv/ELSI Tokyo, PNAS): contrastive sequence-structure joint embedding reproduces ECOD/CATH untrained; fragments place with full proteins; for DB search / engineering / evolution. https://www.news-medical.net/news/20260911/New-AI-model-maps-billions-of-years-of-protein-evolution.aspx
-
-- **2026-09-11** — FDA: Mikhail/Davis/Koplow permanent (continuity signal); first-ever Deputy Commissioner for Technology and AI (Seehafer); follows Elsa + agentic rollout. https://www.biospace.com/fda/mikhail-davis-embody-the-fdas-stabilization-seehafer-signals-ai-revolution-is-coming
-
-- **2026-09-12** — SNG neurosymbolic lead discovery (Machine Learning): ILP symbolic constraints + LLM SMILES generator, JAK2/DRD2 SOTA-par, DBH from 5 inhibitors to clinical-level affinity; Molecule-GPT2 beats GPT-4o/Claude on sparse target; $10 API, open code. https://scienmag.com/ai-that-learns-the-rules-symbolic-neural-generators-design-new-drug-candidates/
-
-- **2026-09-12** — CAR binder grammar (Nat Biomed Eng 10.1038/s41551-026-01792-7): RFdiffusion/ProteinMPNN/BindCraft + full CAR funnel (expression/signalling/kill/in vivo); affinity/epitope/stability tunable; extends Chow 1,758-binder taxes. https://scienmag.com/ai-designed-protein-binders-reveal-rules-for-building-better-car-t-cells/
-
-- **2026-09-12** — LLM optimizer calibration standard (Nat Mach Intell 10.1038/s42256-026-01283-z): literature priors only help self-driving labs with ensembles/conformal error bars; offline benchmarks ≠ closed-loop regret. https://scienmag.com/ai-that-knows-when-it-doesnt-know-language-models-enter-the-lab-as-uncertainty-calibrated-discovery-engines/
