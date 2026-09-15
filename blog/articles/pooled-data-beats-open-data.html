@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Twenty thousand structures nobody would share — Protein to Pill</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<nav>
+  <a href="../index.html">Protein to Pill</a>
+</nav>
+
+<article>
+  <header>
+    <h1>Twenty thousand structures nobody would share</h1>
+    <time datetime="2026-09-15">15 September 2026</time>
+  </header>
+
+  <p>Five pharmaceutical companies pooled <a href="https://www.nature.com/articles/d41586-026-02882-x">20,167 proprietary protein–ligand structures they would never publish</a>, fine-tuned OpenFold3 on the combined set, and cleared 50% high-accuracy predictions on 1,056 held-out complexes — against roughly 33% for the public-data OpenFold3 and about 40% for Boltz-2. The pooled model also beat models trained on any single company's data alone. Competitors sharing what none would give away turns out to beat everyone training alone.</p>
+
+  <h2>Why the public database was never enough</h2>
+  <p>The Protein Data Bank holds <a href="https://www.nature.com/articles/d41586-026-02882-x">around 200,000 structures, but only about 10,000 drug-like protein–ligand examples</a>. That is the quiet constraint behind years of structure-prediction progress: the open world maps biology broadly and drug-like binding narrowly, while the dense, pharma-relevant complexes sit behind company walls. The AISB Network result — AbbVie, Astex, and three others contributing under privacy-preserving pooling — is the first hard number on what unlocking that private stock is worth: a jump from a third right to over half right, on held-out complexes, with the same base model.</p>
+
+  <p>It also answers a question the field has argued about in the abstract. <a href="https://boltz.bio/boltz2">Boltz-2, the open biomolecular foundation model used across the industry</a>, lands at ~40% on the same test — strong for public weights, but ten points short of the pooled private model. Open weights keep getting better; private data keeps being worth more. That is the same lesson as <a href="https://www.techtimes.com/articles/323933/20260811/aureka-open-sourced-antibody-ai-that-beats-alphafold-3-closes-100m-drug-discovery-round.htm">Aureka open-sourcing an antibody model that beats AlphaFold 3 while keeping its data flywheel private</a>: release the model, keep the measurements.</p>
+
+  <h2>Pooling beats hoarding</h2>
+  <p>The result that matters most is not pooled versus public — it is pooled versus siloed. No single company's slice matched the combination, which means the hoarding equilibrium was leaving accuracy on the table for everyone. Privacy-preserving pooling across direct competitors is a new institutional form for the field, somewhere between a consortium and a data trust — and it worked on the first serious try.</p>
+
+  <p>The open counterpart is already running: <a href="https://www.nature.com/articles/d41586-026-02882-x">the UK's £8M OpenBind project released hundreds of public structures last month</a>. So both strategies are now in motion at once — pool the private stock behind closed doors, and expand the public stock in the open. The interesting race is which one compounds faster.</p>
+
+  <h2>The caveats are real</h2>
+  <p>This is <a href="https://www.nature.com/articles/d41586-026-02882-x">a blog post, not a peer-reviewed paper, and the model is not public</a>. Nobody outside the network can check the held-out set, rerun the comparison, or build on the weights. For a field that just got its first blinded antibody benchmark and is learning to distrust self-reported numbers, that is a genuine discount — a press-release accuracy gap is not a CASP-style result.</p>
+
+  <p>Still, the direction is hard to dismiss, because it rhymes with everything else in the field right now: <a href="https://www.benchling.com/biotech-ai-report-2026">surveyed biotechs naming data quality the binding constraint on drug-design AI</a>, validation platforms selling throughput as the moat, pharma operating systems built to close the context gap between experiments. Intelligence is widely shared; measurements are not.</p>
+
+  <h2>What to watch</h2>
+  <p>Whether pooling becomes a template. If five pharmas can share 20,000 structures once, they can share assays, curves, and failures on an ongoing basis — and the next pooled model will not be a one-off fine-tune but a standing joint asset. The question is who governs it, who gets the weights, and whether the open side — OpenBind and its successors — can keep the public alternative within reach. The scarce input was never the model. Now there is a number on it.</p>
+
+  <footer>
+    <p><a href="../index.html">&larr; Home</a></p>
+  </footer>
+</article>
+
+</body>
+</html>
