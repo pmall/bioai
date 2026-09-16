@@ -16,7 +16,13 @@ traced back to the document it was extracted from.
 
 ## This month
 
-- **2026-09-15** — OpenAI Foundation Data for Public Health: $40M UNC cancer-vaccine data + OpenAdmet + $500k biotech-bankruptcy archive (1Day Sooner) for regulatory AI copilots; "data is biggest bottleneck" thesis; $1B grants aim. https://www.technologyreview.com/2026/09/15/1144129/ai-models-need-more-data-about-biology-and-openai-is-paying-to-create-it/
+- **2026-09-15** — Insilico Longevity Vaccines: circular-mRNA + targeted-LNP in vivo T-cell engineering to clear earliest age-related drivers (senescent lymphocytes first); PandaOmics/Chemistry42/inClinico + Virtual Aging Cell stack; extends rentosertib dual-purpose aging strategy; 9 candidates in 8 mo 2026. https://www.news-medical.net/news/20260915/Insilico-Medicine-launches-AI-initiative-to-develop-longevity-vaccines.aspx
+
+- **2026-09-15** — Mithrl $20M Series A (Obvious-led) for biopharma AI infrastructure: Mithrl-1 biomedical world model + agentic harness, forward-deployed, no model lock-in; 16x evidence/answer, 0.96 correctness, 45% fewer tokens, 6+ client patents claimed. https://investor.wedbush.com/wedbush/article/bizwire-2026-9-15-mithrl-raises-20m-to-bring-custom-ai-infrastructure-to-biopharma-grounded-in-its-biomedical-world-model
+
+- **2026-09-09** — Chow et al. Nature BME: 1,758 AI minibinders as CARs (BCMA/CD19/CD22); failure modes = tonic signalling (net charge r=0.65), CD81-patch epitope occlusion, off-target; CARPNN B5.I0 matches/beats clinical scFv + cilta-cel VHH at 1:10 burden. https://www.nature.com/articles/s41551-026-01790-9
+
+- **2026-09-15** — OpenAI Foundation Data for Public Health: $40M UNC cancer-vaccine data (Vincent/Rubinsteyn, 3 biobanks, TNBC formulation trials, open-access datasets) + OpenAdmet + $500k biotech-bankruptcy archive (1Day Sooner) for regulatory AI copilots; "data is biggest bottleneck" thesis; $1B grants aim. https://www.technologyreview.com/2026/09/15/1144129/ai-models-need-more-data-about-biology-and-openai-is-paying-to-create-it/ / https://news.unchealthcare.org/2026/09/unc-lineberger-secures-40m-from-openai-foundation-to-make-cancer-vaccines-more-effective/
 
 - **2026-09-15** — Enveda CASMI 2026 Kaggle (Sep 14–Dec 14, $50k): 400 unpublished molecules/2.5k spectra blind test, 2.5M train incl. Enveda-180; only 10% MS signals identifiable; feeds PRISM 1B+ spectra; ENV-308 Ph1 positive, ENV-294 85% Ph1b. https://au.finance.yahoo.com/news/enveda-launching-next-alphafold-contest-120700676.html
 
@@ -41,12 +47,6 @@ traced back to the document it was extracted from.
 - **2026-09-13** — Moonwalk $70M Series B (Alpha Wave/YK, Lilly/ARCH/Khosla) for adipose-targeted siRNA MW101, FIH late 2027, $127M total; preclinical fat-loss + lean-mass preservation, quarterly dosing hope — quality-weight-loss lane. https://business-news-today.com/moonwalk-biosciences-secures-70m-series-b-for-adipose-targeted-rnai/
 
 - **2026-09-13** — Novartis $12B Avidity thesis test: del-desiran HARBOR vHOT miss; 2 remaining AOC shots (del-zota FDA priority DMD-exon44, del-brax FSHD) must carry deal; −10.9% (~$32B) reprices growth-to-2030 + pelacarsen overhang; Dyne −18% readthrough but constructs differ. https://pharmadevicenews.com/novartis-paid-12bn-for-avidity-biosciences-what-does-del-desirans-phase-3-failure-do-to-the-deal-thesis/
-
-- **2026-09-11** — Novartis triple late-stage stumble, −13%: del-desiran Ph3 miss (myotonic dystrophy, $12B Avidity bet), pelacarsen Lp(a)-lowering without CV benefit, rap-cel CAR-T pause (3 deaths); drags Amgen/Lilly Lp(a) peers. https://www.biospace.com/business/novartis-drags-peers-down-with-trip-asset-stumble
-
-- **2026-09-11** — Frazier +$1.1B public small/mid-cap fund (now ~$2.8B); same week BrainChild $116M, Moonwalk $70M, Solstice $225M, Encoded $275M, Luma $410M Fund I — "selective recovery" into de-risked late-stage assets. https://www.biospace.com/business/frazier-adds-1-1b-to-small-and-mid-sized-biotech-fund
-
-- **2026-09-11** — Novartis M&A governance fallout: Artisan demands board shake-up + acquisition committee + pay reform; $12B Avidity del-desiran miss, pelacarsen no-future, $2.9B MorphoSys $800M impairment; offset remibrutinib MS win; cliff 2029-31 ~38% sales. https://www.biospace.com/business/novartis-board-faces-investor-scrutiny-after-m-a-misfires-and-r-d-flops
 
 - **2026-09-10** — Rentosertib first patient dosed in GENESIS-IPF-3 Phase III (NCT07687459): 320 pts, 47 centers China, 52 wks QD, primary annual FVC decline. Peking Union + Shanghai Pulmonary day one; PI Xu: 3–4 yrs to approval if favorable; 9 PCCs in 9 months of 2026. https://www.prnewswire.com/news-releases/insilico-medicine-doses-first-patient-in-genesis-ipf-3-the-worlds-first-phase-iii-trial-of-a-generative-ai-driven-innovative-drug-302873749.html
 
